@@ -1,7 +1,7 @@
 ---
 title: 'A misty morning'
-subtitle: 'f: 1.8, t: 1/468, l: 4.4mm, Pixel 2 XL'
-date: 2018-06-30 00:00:00
+subtitle: 'f: 1.8, t: 1/468s, l: 4.4mm, Pixel 2 XL'
+date: 2018-09-07 7:38:51
 featured_image: '/images/front-page/IMG_20180907_073851-1600x1200-camp-ahmek-bridge-bnw.jpg'
 ---
 

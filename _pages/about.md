@@ -1,33 +1,28 @@
 ---
-title: About Duet
-subtitle: Duet is a beautiful Jekyll portfolio theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website.
-description: Duet is a beautiful Jekyll portfolio theme.
-featured_image: /images/demo/demo-landscape.jpg
+title: About H.K.
+subtitle: In pursuit of capturing moments...
+description: Hossain Khan is passionate about photography specially capturing moments. His personal interest is mostly in macro, landscape and candid shots.
+featured_image: /images/about-hk/IMG_20180903_133520-hk-taking-snap-san-antonio-capitol-1200x1600.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/about-hk/IMG_20180903_133520-hk-taking-snap-san-antonio-capitol-1200x1600.jpg)
 
-## Features
+# About
+I am passionate about capturing moments.
 
-We've packed Duet full of powerful features to help showcase your work:
+## Current gears
+I have recently started getting into photography with professional gears.
 
-* Beautiful, minimal design
-* Two-column masonry grid layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+Here are my current gears:
+* Camera Body: Canon 6D Mark I
+* Lenses: 
+  * Canon EF 24-105mm f/4L IS
+  * Canon EF 50mm f/1.8 STM
+* Flash: Canon 600EX RT
 
-## Get Duet
+Besides main body, I like to take quick snaps with what I have with me, 
+and 90% of the time it's my smart phone.
+* Phone: Pixel 2 XL
 
-Duet is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $29.
-
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+Other than the phone, I sometime use pocket camera for light shoots or events.
+* Sony RX-100 Mark I
