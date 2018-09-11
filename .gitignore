@@ -1,0 +1,9 @@
+# Created by .ignore support plugin
+### Jekyll template
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+### IntelliJ IDEA
+.idea/
