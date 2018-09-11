@@ -2,11 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2018-09-11T17:57:09-04:00</lastmod>
+<lastmod>2018-09-11T18:34:49-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/demo-post</loc>
 <lastmod>2018-06-29T20:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/project/crand-canyon</loc>
+<lastmod>2016-04-25T09:58:31-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/project/camp-stars</loc>
