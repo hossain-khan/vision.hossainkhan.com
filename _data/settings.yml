@@ -155,7 +155,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  analytics_code: ""
+  analytics_code: "UA-1394009-15"
   custom_styles: ""
   header_js: ""
   footer_js: ""
