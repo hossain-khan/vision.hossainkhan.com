@@ -155,7 +155,17 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  analytics_code: "UA-1394009-15"
+  analytics_code: "
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-1394009-15\"></script>
+     <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+       gtag('config', 'UA-1394009-15');
+     </script>
+"
   custom_styles: ""
   header_js: ""
   footer_js: ""
