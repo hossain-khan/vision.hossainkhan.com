@@ -7,3 +7,4 @@ _site/
 
 ### IntelliJ IDEA
 .idea/
+*.iml
