@@ -8,7 +8,7 @@ featured_image: '/images/front-page/DSC_20160425_03953-grand-canyon-1600x1100.jp
 ![](/images/front-page/DSC_20160425_03953-grand-canyon-1600x1100.jpg)
 
 ## Grand View
-The wonder of the world.
+The wonder of the world - Grand Canyon 🏜.
 
 
 <div class="gallery" data-columns="3">
