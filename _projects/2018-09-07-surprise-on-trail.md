@@ -1,5 +1,5 @@
 ---
-title: 'Surprise on trail'
+title: 'Surprise on trail 🍄'
 subtitle: 'f: 7.1, t: 1s, l: 105mm, Canon 6D'
 date: 2018-09-07 10:10:27
 featured_image: '/images/front-page/IMG_20180907-mushroom-on-trail-1600x1100.jpg'
@@ -7,7 +7,7 @@ featured_image: '/images/front-page/IMG_20180907-mushroom-on-trail-1600x1100.jpg
 
 ![](/images/front-page/IMG_20180907-mushroom-on-trail-1600x1100.jpg)
 
-## Mushroom on trail
+## 🍄 Mushroom on trail
 A nice surprise on the hiking trail.
 
 
