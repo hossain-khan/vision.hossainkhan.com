@@ -18,7 +18,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: 📷 Vision though H.K. 👁️
+  footer_tagline: Vision though H.K.'s 👁️
 
 grid_settings:
   overlay_opacity: 0.8
@@ -50,7 +50,8 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/hossain/'
+  globe_url: 'https://hossainkhan.com/'
 
 color_settings:
   background_color: '#ffffff'
