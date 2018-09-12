@@ -7,5 +7,5 @@ featured_image: '/images/front-page/IMG_20180907_073851-1600x1200-camp-ahmek-bri
 
 ![](/images/front-page/IMG_20180907_073851-1600x1200-camp-ahmek-bridge-bnw.jpg)
 
-## Misty
+## Let's get lost...
 The morning was cold, but the water was warm creating a misty morning.

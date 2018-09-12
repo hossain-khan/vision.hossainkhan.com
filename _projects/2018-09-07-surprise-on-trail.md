@@ -7,8 +7,8 @@ featured_image: '/images/front-page/IMG_20180907-mushroom-on-trail-1600x1100.jpg
 
 ![](/images/front-page/IMG_20180907-mushroom-on-trail-1600x1100.jpg)
 
-## 🍄 Mushroom on trail
-A nice surprise on the hiking trail.
+## Nature Trail
+A nice surprise on the hiking trail 🍄.
 
 
 <div class="gallery" data-columns="3">

@@ -7,5 +7,5 @@ featured_image: '/images/front-page/IMG_20100905_1857-love-meter-montreal-landsc
 
 ![](/images/front-page/IMG_20100905_1857-love-meter-montreal-1100x1600.jpg)
 
-## Love ❤ meter
-Love is in the air! and in the meter! Feed me 💖
+## Feed me ❤
+Love is in the air! Feed me more 💖
