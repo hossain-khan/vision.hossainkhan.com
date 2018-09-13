@@ -8,10 +8,13 @@ featured_image: '/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-cam
 ![](/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-camera-850x600.jpg)
 
 # About
-I am passionate about capturing moments. 
+I am super passionate about capturing moments.
+
+I am software engineer by day, currently working on mobile application development and by night I am husband, son, brother and friend.
+I just 💖 taking snaps of events, people and any related things.  
 
 I'm a true believer of following quote and appreciate every moment I am living! 🙏 
-> “Yesterday is history, tomorrow is a mystery, **today** is a gift of God, which is why we call it the present.” - Bill Keane
+> “_Yesterday is history, tomorrow is a mystery, **today** is a gift of God, which is why we call it the present._” - Bill Keane
 
 ## Current gears
 I have recently started getting into photography with professional gears.
