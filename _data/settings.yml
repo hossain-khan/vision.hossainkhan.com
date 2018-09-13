@@ -8,10 +8,12 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Portfolio'
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Contact'
+      url: '/contact/'
     - title: 'About'
       url: '/about'
 
