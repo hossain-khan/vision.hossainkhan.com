@@ -13,7 +13,7 @@ I may forget many things, but I never* forget to take picture of my food.
 Here are some of the snapshots that I can find.
 
 
-You can also follow me on Google Maps, I am a `Level 7` local guide. 
+You can also [follow](https://www.google.com/maps/contrib/107431117693660399546/reviews/@36.6377836,-88.8707038,5z?hl=en-CA) me on Google Maps, I am `Level 7` local guide. 
 
 > “Food is life, life is food.”
 

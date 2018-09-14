@@ -9,3 +9,11 @@ featured_image: '/images/front-page/IMG_20170402_1213-japan-cherry-blossom-1700x
 
 ## 🌸 Cherry blossom 
 Small park with amazing cherry trees waiting to bloom during sakura event at 🇯🇵.
+
+
+<div class="gallery" data-columns="4">
+	<img src="/images/2017-03/IMG_20170325_0930-cherry-flower-close-up-900x1200.jpg">
+	<img src="/images/2017-03/IMG_20170327_1284-flowers-from-temple-900x1200.jpg">
+	<img src="/images/2017-03/IMG_20170329_1505-cherry-flower-close-up-900x1200.jpg">
+	<img src="/images/2017-03/IMG_20170330_1877-cherry-flower-close-up-900x1200.jpg">
+</div>
