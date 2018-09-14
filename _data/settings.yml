@@ -13,7 +13,7 @@ menu_settings:
     - title: 'Blog'
       url: '/blog/'
     - title: 'Contact'
-      url: '/contact/'
+      url: '/contact'
     - title: 'About'
       url: '/about'
 
