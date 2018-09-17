@@ -11,3 +11,10 @@ featured_image: '/images/front-page/IMG_20180826_8789-portrait-at-rumbellow-trai
 A quick walk with friends near Rumbellow Crescent, Ajax.
  
 > “Wherever you go, no matter what the weather, always bring your own sunshine.” - Anthony J. D'Angelo
+
+<div class="gallery" data-columns="4">
+	<img src="/images/2018-08/IMG_20180826_8762-trail-walk-portrait-couple-1300x900.jpg">
+	<img src="/images/2018-08/IMG_20180826_8785-trail-walk-portrait-2-1300x900.jpg">
+	<img src="/images/2018-08/IMG_20180826_8831-trail-walk-portrait-3-1300x900.jpg">
+	<img src="/images/2018-08/IMG_20180826_8879-trail-walk-path-1300x900.jpeg">
+</div>
