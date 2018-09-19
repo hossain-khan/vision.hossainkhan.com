@@ -13,4 +13,4 @@ I get excited with the the views it create, specially during sunset. Because, ev
 This is a random view from my balcony before the sunset.
 
 
-
+> “Clouds come floating into my life, no longer to carry rain or usher storm, but to add color to my sunset sky.” - Rabindranath Tagore
