@@ -12,6 +12,7 @@ It was a completely different feeling to stand in-front of the building that sto
 
 I hope we have learned from history and this never happens again.
 
+> “Wars are poor chisels for carving out peaceful tomorrows.” - Martin Luther King, Jr.
 
 <div class="gallery" data-columns="3">
 	<img src="/images/2017-03/IMG_20170330_1690-hiroshima-building-signboard-1200x1600.jpg">
