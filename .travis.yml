@@ -10,9 +10,9 @@ before_script:
 script: ./script/cibuild.sh
 
 # branch whitelist, only for GitHub Pages
-branches:
-  only:
-  - master  # test the master branch
+#branches:
+#  only:
+#  - master  # test the master branch
 
 env:
   global:
