@@ -1,5 +1,5 @@
 ---
-title: 'Another day'
+title: 'Another day to experiment 📸'
 date: 2018-06-07 00:00:00
 featured_image: '/images/about-hk/DSC_20180607_04859-hk-on-the-balcony-1200x800.jpg'
 ---
