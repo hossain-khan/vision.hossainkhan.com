@@ -123,19 +123,30 @@
 
 	.highlight {
 		display: block;
-		padding: 20px;
+		padding: 0;
 		line-height: 1.5;
+		font-size: $p-small*0.85;
+		line-height: $p-lineheight;
+		overflow: auto;
 
 		@include mq(tabletp) {
-			padding: 30px;
+			font-size: $p-medium*0.85;
 		}
 
 		@include mq(laptop) {
-			padding: 40px;
+			font-size: $p-large*0.85;
 		}
 
 		.highlight {
-			padding: 0;
+			padding: 20px;
+
+			@include mq(tabletp) {
+				padding: 30px;
+			}
+
+			@include mq(laptop) {
+				padding: 40px;
+			}
 		}
 	}
 }
