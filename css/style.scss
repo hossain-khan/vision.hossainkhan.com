@@ -28,7 +28,7 @@ $overlay-background-color: {{ site.data.settings.color_settings.overlay_backgrou
 $overlay-text-color: {{ site.data.settings.color_settings.overlay_text_color }};
 $overlay-accent-color: {{ site.data.settings.color_settings.overlay_accent_color }};
 
-$error-color: #D64541;
+$error-color: {{ site.data.settings.color_settings.error_color }};
 
 
 // Fonts
@@ -148,6 +148,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_socials";
 @import "_includes/_gallery";
 @import "_includes/_syntax";
+@import "_includes/_contact-form";
 
 
 

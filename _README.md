@@ -66,6 +66,17 @@ This allows you to set the links inside your menu. Add each one as a list item w
 `overlay_opacity` – this sets the opacity of the overlay when you hover over grid items (portfolio and blog posts). Use a decimal value here, e.g. `0.8` will give you 80% opacity on hover.
 `grid_spacing` – this sets the amount of spacing (in pixels) between each item in the grid layout.
 
+**Contact settings**
+
+The theme comes with a pre-made contact form that you can use with [Formspree](https://formspree.io/), which is free for up to 50 submissions per month. Please read through their website for instructions on how to set up your contact form. You could also easily adapt it to use another contact form service.
+
+`form_action` – this is the action attribute that you get from FormSpree, for example `https://formspree.io/your@email.com`
+`confirmation_url` – by default the user is shown a default Formspree thank you page. You can use this setting to provide an alternative URL for that page, for example `/thanks` – we have included a basic thank you page with the theme.
+`email_subject` – choose the subject of the email you receive from Formspree.
+`send_button_text` – change the text used on the form submit button.
+
+Hint: you can add the contact form to any page of your site using the include – `{% include contact-form.html %}` – for example if you wanted to have the contact form on your About page.
+
 **Social settings**
 
 Here you can add links to your profiles on social networks, and they'll be shown in the footer. Simply add your URL next to the ones you want to show.
