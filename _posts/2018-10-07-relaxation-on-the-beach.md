@@ -11,4 +11,5 @@ Sea beach is one of my favourite place to be on earth.
 There is something special about the waves! the sound, makes me calm and relaxing. 
 
 Now, go out there and find your "beach time", it could be spending time with family, playing soccer or anything you love to do and make your mind relaxed.
- 
+
+> “Sometimes the most productive thing you can do is relax.” - Mark Black 
