@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/about</loc>
-<lastmod>2018-10-17T18:10:03-04:00</lastmod>
+<lastmod>2018-10-28T22:36:25-04:00</lastmod>
 </url>
 <url>
 <loc>/contact</loc>
-<lastmod>2018-10-17T18:10:03-04:00</lastmod>
+<lastmod>2018-10-28T22:36:25-04:00</lastmod>
 </url>
 <url>
 <loc>/blog/nothing-ness-near-the-beach</loc>
@@ -75,6 +75,10 @@
 <url>
 <loc>/project/photoshoot-on-rouge-trail</loc>
 <lastmod>2018-09-29T10:04:12-04:00</lastmod>
+</url>
+<url>
+<loc>/project/fall-nature-walk</loc>
+<lastmod>2018-10-21T09:28:55-04:00</lastmod>
 </url>
 <url>
 <loc>/sample/2018-06-30-demo-post.html</loc>
