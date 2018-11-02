@@ -12,10 +12,10 @@ This is a engagement shootout at end of September when the leaves just started t
 
 
 <div class="gallery" data-columns="3">
-	<img src="/images/2018-09/IMG_20180929_1584-eshoot-at-vista-trail-1500x1000.jpg">
-	<img src="/images/2018-09/IMG_20180929_1501-eshoot-at-vista-trail-1500x1000.jpg">
-	<img src="/images/2018-09/IMG_20180929_1379-eshoot-at-vista-trail-1500x1000.jpg">
-	<img src="/images/2018-09/IMG_20180929_1304-eshoot-at-vista-trail-1500x1000.jpg">
-	<img src="/images/2018-09/IMG_20180929_1224-eshoot-at-vista-trail-1500x1000.jpg">
-	<img src="/images/2018-09/IMG_20180929_1471-eshoot-at-vista-trail-1500x1000.jpg">
+	<img src="/images/2018-09/IMG_20180929_1584-eshoot-at-vista-trail-1500x1000.jpg" />
+	<img src="/images/2018-09/IMG_20180929_1501-eshoot-at-vista-trail-1500x1000.jpg" />
+	<img src="/images/2018-09/IMG_20180929_1379-eshoot-at-vista-trail-1500x1000.jpg" />
+	<img src="/images/2018-09/IMG_20180929_1304-eshoot-at-vista-trail-1500x1000.jpg" />
+	<img src="/images/2018-09/IMG_20180929_1224-eshoot-at-vista-trail-1500x1000.jpg" />
+	<img src="/images/2018-09/IMG_20180929_1471-eshoot-at-vista-trail-1500x1000.jpg" />
 </div>
