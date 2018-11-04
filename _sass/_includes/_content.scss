@@ -101,7 +101,8 @@
 		margin-top: 10px;
 	}
 
-	.highlighter-rouge {
+	.highlighter-rouge,
+	table {
 		margin: 20px auto;
 		width: 100%;
 		max-width: 90%;
@@ -146,6 +147,44 @@
 
 			@include mq(laptop) {
 				padding: 40px;
+			}
+		}
+	}
+
+	table {
+		border: 2px solid $text-dark-color;
+
+		thead {
+			background: $text-dark-color;
+			color: $background-color;
+			text-align: left;
+			font-weight: $bold-weight;
+
+			th {
+				font-weight: $bold-weight;
+			}
+		}
+
+		th, td {
+			padding: 10px;
+			font-size: $p-small;
+			font-weight: $p-weight;
+
+			@include mq(tabletp) {
+				padding: 15px;
+				font-size: $p-medium;
+			}
+
+			@include mq(laptop) {
+				padding: 20px;
+				font-size: $p-large;
+			}
+		}
+		
+		tr {
+
+			&:nth-child(2n) {
+				background: $background-alt-color;
 			}
 		}
 	}
