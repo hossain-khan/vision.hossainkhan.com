@@ -27,7 +27,7 @@ grid_settings:
   grid_spacing: 10
 
 social_settings:
-  facebook_url: ''
+  facebook_url: 'https://www.facebook.com/HKPhotography.ca'
   twitter_url: 'https://twitter.com/hossainkhan'
   instagram_url: 'https://www.instagram.com/hossainkhan/'
   snapchat_url: ''
