@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/about</loc>
-<lastmod>2018-11-01T18:53:32-04:00</lastmod>
+<lastmod>2018-11-11T11:18:58-05:00</lastmod>
 </url>
 <url>
 <loc>/contact</loc>
-<lastmod>2018-11-01T18:53:32-04:00</lastmod>
+<lastmod>2018-11-11T11:18:58-05:00</lastmod>
 </url>
 <url>
 <loc>/blog/nothing-ness-near-the-beach</loc>
@@ -78,6 +78,10 @@
 </url>
 <url>
 <loc>/project/fall-nature-walk</loc>
+<lastmod>2018-10-21T13:56:58-04:00</lastmod>
+</url>
+<url>
+<loc>/project/winter-is-coming</loc>
 <lastmod>2018-10-21T13:56:58-04:00</lastmod>
 </url>
 <url>
