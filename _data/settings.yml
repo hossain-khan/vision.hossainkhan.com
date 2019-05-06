@@ -173,10 +173,6 @@ advanced_settings:
   custom_styles: ""
   header_js: "
      <meta name=\"google-site-verification\" content=\"0MAnQ6XFeN-Hah3EtN9_R725LzS_MQz_2RRwGdjr3EI\" />
-     <!-- Theme color for Safari, Chrome, Firefox OS and Opera -->
-     <meta name=\"theme-color\" content=\"#F2784B\">
-     <meta name=\"msapplication-navbutton-color\" content=\"#F2784B\">
-     <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
-     <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">
+     <meta name=\"theme-color\" content=\"#b93c0d\">
 "
   footer_js: ""
