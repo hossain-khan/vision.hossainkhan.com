@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/about</loc>
-<lastmod>2019-05-09T13:39:43-04:00</lastmod>
+<lastmod>2019-09-29T14:37:42-04:00</lastmod>
 </url>
 <url>
 <loc>/contact</loc>
-<lastmod>2019-05-09T13:39:43-04:00</lastmod>
+<lastmod>2019-09-29T14:37:42-04:00</lastmod>
 </url>
 <url>
 <loc>/blog/nothing-ness-near-the-beach</loc>
@@ -43,6 +43,10 @@
 <url>
 <loc>/blog/harder-than-it-seems</loc>
 <lastmod>2018-10-27T15:58:55-04:00</lastmod>
+</url>
+<url>
+<loc>/blog/playing-with-water</loc>
+<lastmod>2019-07-14T08:40:55-04:00</lastmod>
 </url>
 <url>
 <loc>/project/love-meter</loc>
@@ -95,6 +99,10 @@
 <url>
 <loc>/project/quiet-mosque-in-the-market</loc>
 <lastmod>2018-12-28T11:56:58-05:00</lastmod>
+</url>
+<url>
+<loc>/project/up-close-with-nature</loc>
+<lastmod>2019-05-31T09:28:46-04:00</lastmod>
 </url>
 <url>
 <loc>/sample/2018-06-30-demo-post.html</loc>
