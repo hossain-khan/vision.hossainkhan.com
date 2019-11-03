@@ -19,7 +19,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<!-- Page Info -->
-	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image }}">
+	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
 
@@ -27,12 +27,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
 	<meta name="twitter:description" content="{{ page.description }}">
-	<meta name="twitter:image:src" content="{{ site.url }}{{ page.featured_image }}">
+	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description }}" />
-	<meta property="og:image" content="{{ site.url }}{{ page.featured_image }}" />
+	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
@@ -41,7 +41,7 @@
 
 	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 	
 	<!-- Icons -->
 	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="loading" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
+<body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
 
 	{% include header.html %}
@@ -93,7 +93,7 @@
 
 	<!-- Javascript Assets -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="/js/duet-min.js"></script>
+	<script src="{{ '/js/duet-min.js' | relative_url }}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->

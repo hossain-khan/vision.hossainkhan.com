@@ -31,6 +31,12 @@ The main things you might need to change here are:
 
 `site: Duet Jekyll Theme` – change this to your website's name
 
+`url:` – the full URL that your site will be hosted at, e.g. https://your-domain.com
+
+`baseurl:` – add a base URL here if you will be publishing the site inside a folder, e.g. https://your-domain.com/project/ – or if you're hosting it as a 'project page' on GitHub Pages. Example: `baseurl: /project`
+
+When using baseurl, you should reference images in your post/project Frontmatter **without** the baseurl, e.g. `/images/image.jpg` but images inside the Markdown content **should include** the baseurl snippet, e.g. `{{site.baseurl}}/images/image.jpg`
+
 `paginate: 6` – change this to set the number of blog posts on each page
 
 You can also change more advanced things here like the path names, collections etc. You do not need to change any of these to achieve the same look as the demo, so best to leave everything else unless you are confident.
@@ -68,10 +74,10 @@ This allows you to set the links inside your menu. Add each one as a list item w
 
 **Contact settings**
 
-The theme comes with a pre-made contact form that you can use with [Formspree](https://formspree.io/), which is free for up to 50 submissions per month. Please read through their website for instructions on how to set up your contact form. You could also easily adapt it to use another contact form service.
+The theme comes with a pre-made contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes), which is free for up to 50 submissions per month. They also have two great paid plans that offer advanced features. Use the link above to set up your account and then paste the 'endpoint' integration code into the theme settings:
 
-`form_action` – this is the action attribute that you get from FormSpree, for example `https://formspree.io/your@email.com`
-`confirmation_url` – by default the user is shown a default Formspree thank you page. You can use this setting to provide an alternative URL for that page, for example `/thanks` – we have included a basic thank you page with the theme.
+`form_action` – this is the form endpoint attribute that you get from FormSpree, for example `https://formspree.io/abcdefgh`
+`confirmation_url` – by default the user is shown a default Formspree thank you page. If you have a premium plan, you can use this setting to provide an alternative URL for that page, for example `/thanks` – we have included a basic thank you page with the theme.
 `email_subject` – choose the subject of the email you receive from Formspree.
 `send_button_text` – change the text used on the form submit button.
 
@@ -104,6 +110,7 @@ Below these options, you'll see options for each typographical element used in t
 
 **Advanced options**
 
+`ajax_loading` – use `true` to enable Ajax loading throughout your site. Use `false` to disable it and load pages normally – this can be helpful if you're adding plugins or other javascript to your pages.
 `analytics_code` – use this option to add your Google Analytics code.
 `custom_styles` – use this option to add custom CSS styles to the theme.
 `header_js` – use this option to insert javascript into the header of the page.

@@ -76,7 +76,7 @@
 
 .menu__toggle {
 	position: absolute;
-	z-index: 100;
+	z-index: 10002;
 	top: 50%;
 	right: 30px;
 	@include translate(0,-50%);
@@ -147,7 +147,7 @@
 
 .menu__wrap {
 	position: fixed;
-	z-index: 90;
+	z-index: 1000;
 	top: 0;
 	right: 0;
 	bottom: 0;

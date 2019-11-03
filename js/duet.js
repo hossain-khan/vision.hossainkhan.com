@@ -49,9 +49,6 @@
 			// Find transition time
 			var transitionTime = 400;
 
-			// Get new body classes
-			var bodyClasses = $('.page-loader').find('#body-classes').attr('class');
-
 			// After current content fades out
 			setTimeout( function() {
 
@@ -71,9 +68,6 @@
 				docTitle = $('.page__content').attr('data-page-title');
 				document.title = docTitle;
 
-				// Set new body classes
-				$('body').removeClass().addClass(bodyClasses);
-
 				// Run page functions
 				pageFunctions();
 
@@ -86,72 +80,50 @@
 
 	// On clicking a link
 
-	$(document).on('click', 'a', function (event){
+	if ( $('body').hasClass('ajax-loading') ) {
 
-		// Don't follow link
-		event.preventDefault();
+		$(document).on('click', 'a', function (event){
 
-		// Get the link target
-		var thisTarget = $(this).attr('href');
+			// Don't follow link
+			event.preventDefault();
 
-		// If link is external
-		if ( thisTarget.indexOf('http') >= 0 ) {
+			// Get the link target
+			var thisTarget = $(this).attr('href');
 
-			// Go to the external link
-			window.open(thisTarget, '_blank');
+			// If we don't want to use ajax, or the link is an anchor/mailto/tel
+			if ( $(this).hasClass('js-no-ajax') || /^#/.test(thisTarget) || thisTarget.indexOf("mailto:") >= 0 || thisTarget.indexOf("tel:") >= 0 ) {
 
-		}
+				// Use the given link
+				window.location = thisTarget;
+			}
 
-		// If we don't want to use ajax
-		else if ( $(this).hasClass('js-no-ajax') ) {
+			// If link is handled by some JS action – e.g. fluidbox
+			else if ( $(this).is('.gallery__item__link') ) {
+				
+				// Let JS handle it
+			}
 
-			// Use the given link
-			window.location = thisTarget;
-		}
+			// If link is external
+			else if ( thisTarget.indexOf('http') >= 0 ) {
 
-		// if it's a contact modal
-		else if ( $(this).hasClass('js-contact') ) {
+				// Go to the external link
+				window.open(thisTarget, '_blank');
 
-			// Open contact modal
-			$('.modal--contact').addClass('modal--on');
-		}
+			}
 
-		else if ( $(this).hasClass('js-signup') ) {
-			// Open signup modal
-			$('.modal--signup').addClass('modal--on');
-		}
+			// If link is internal
+			else {
 
-		// If link is handled by some JS action – e.g. fluidbox
-		else if ( $(this).is('.gallery__item__link') ) {
-			
-			// Let JS handle it
-		}
+				// Change navTarget
+				navTarget = thisTarget;
+				
+				// Switch the URL via History
+				History.pushState(null, docTitle, thisTarget);
+			}
 
-		// If link is internal
-		else {
+		});
 
-			// Change navTarget
-			navTarget = thisTarget;
-			
-			// Switch the URL via History
-			History.pushState(null, docTitle, thisTarget);
-		}
-
-	});
-
-
-
-	// Modals
-
-	$(document).on('click', '.js-contact', function (event){
-		event.preventDefault();
-		$('.modal--contact').addClass('modal--on');
-	});
-
-	$(document).on('click', '.js-signup', function (event){
-		event.preventDefault();
-		$('.modal--signup').addClass('modal--on');
-	});
+	}
 
 
 
@@ -438,7 +410,7 @@
 			e.preventDefault();
 		}
 
-	});	
+	});
 	
 	
 	

@@ -159,6 +159,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
+  ajax_loading: true
   analytics_code: "
      <!-- Global site tag (gtag.js) - Google Analytics -->
      <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-1394009-15\"></script>

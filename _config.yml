@@ -1,5 +1,8 @@
 site: H.K. Vision
 
+url: https://vision.hossainkhan.com
+baseurl: 
+
 collections:
   pages:
     output: true
@@ -51,12 +54,4 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-
-gallery_types:
-  carousel: Carousel
-  grid: Grid
-grid_columns:
-  two: Two
-  three: Three
-  four: Four
   
