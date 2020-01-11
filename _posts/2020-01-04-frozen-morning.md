@@ -13,6 +13,4 @@ of ice sitting on everything you can see.
 This is not a typical snow day, it's just right amount of snow that makes things look beautiful.
 I knew this won't last long, so, I grabbed my camera and started snapping the moment.
 
-
-![](/images/2020-01/IMG_7135-frozen-morning-1600x1100.jpg)
-
+> “Imagination is the air of mind.” - Philip James Bailey
