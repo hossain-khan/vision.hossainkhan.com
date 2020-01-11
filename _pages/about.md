@@ -25,11 +25,11 @@ Here are my current gears:
   * Canon EF 24-105mm f/4 L IS USM
   * Canon EF 50mm f/1.8 STM
   * Canon EF 100mm f/2.8 Macro USM
-* 🔦 Flash: Canon Speedlite 600EX-RT
+* 🔦 Flash: Canon SpeedLite 600EX-RT
 
 Besides main body, I like to take quick snaps with what I have with me, 
 and 90% of the time it's my smart phone.
-* 📱 Phone: Pixel 2 XL
+* 📱 Phone: Google Pixel 4 XL
 
 Other than the phone, I sometime use pocket camera for light shoots or events.
-* 📸 Sony RX-100 Mark I
+* 📸 <del>Sony RX-100 Mark I</del> _UPDATE: Sold it as I now have upgraded to Pixel 4 XL_
