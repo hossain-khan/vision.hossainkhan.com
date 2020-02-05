@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://vision.hossainkhan.com/about</loc>
-<lastmod>2019-11-03T07:46:46-05:00</lastmod>
+<lastmod>2020-02-04T22:16:50-05:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/contact</loc>
-<lastmod>2019-11-03T07:46:46-05:00</lastmod>
+<lastmod>2020-02-04T22:16:50-05:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/blog/nothing-ness-near-the-beach</loc>
@@ -47,6 +47,14 @@
 <url>
 <loc>https://vision.hossainkhan.com/blog/playing-with-water</loc>
 <lastmod>2019-07-14T08:40:55-04:00</lastmod>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/blog/frozen-morning</loc>
+<lastmod>2020-01-04T04:48:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/blog/exploring-small-town</loc>
+<lastmod>2020-01-21T08:48:00-05:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/project/love-meter</loc>
@@ -103,6 +111,10 @@
 <url>
 <loc>https://vision.hossainkhan.com/project/up-close-with-nature</loc>
 <lastmod>2019-05-31T09:28:46-04:00</lastmod>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/project/wonders-of-the-world</loc>
+<lastmod>2020-01-20T04:30:33-05:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/sample/2018-06-30-demo-post.html</loc>
