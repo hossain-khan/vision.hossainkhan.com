@@ -1,0 +1,91 @@
+// - - - - - - - - - - Dark Mode
+
+/**
+ * Styles for dark mode ^_^
+ */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: #ddd;
+    }
+
+    .header__title {
+        color: rgb(199, 199, 199);
+    }
+
+
+    .menu__list__item__link {
+        color: #ddd;
+    }
+
+    .menu__list__item__link.active-link {
+        color: #ddd;
+        border-color: rgb(230, 137, 103);
+    }
+
+    .menu__list__item__link:hover {
+        color: #F2784B;
+    }
+
+    .menu__list__item__link:hover {
+        color: #F2784B;
+    }
+
+    a:hover {
+        color: #F2784B;
+    }
+
+    .menu__toggle__icon span,
+    .menu__toggle__icon span:before,
+    .menu__toggle__icon span:after {
+        background: rgb(243, 219, 200);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #eee;
+    }
+
+    .portfolio-item__content {
+        background: rgba(242, 120, 75, 0.6);
+    }
+
+    .socials__item__link {
+        background: rgb(112, 119, 119);
+    }
+
+    .button--light {
+        border-color: rgb(99, 109, 122);
+        color: rgb(154, 168, 189);
+    }
+
+    .highlight {
+        background: #222;
+    }
+
+    .single p a {
+        font-weight: 600;
+        border-bottom: 2px solid #F2784B;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(147, 161, 180);
+    }
+
+    blockquote {
+        color: rgba(255, 166, 0, 0.7);
+        border-left: 2px solid #F2784B;
+    }
+
+    .menu__wrap {
+        background: rgba(114, 54, 33, 0.95);
+    }
+    .fluidbox__overlay {
+        background-color: rgba(0,0,0,0.8);
+    }
+}
