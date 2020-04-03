@@ -12,6 +12,9 @@ This is based on Jekyll. Follow instruction from Jekyll to install it.
 Check out the project and run following command to test the site:
 
 ```
+# If 'bundle' is not installed on macOS, run the following
+gem install bundler jekyll
+
 # Preview site at http://127.0.0.1:4000/
 bundle exec jekyll serve
 
