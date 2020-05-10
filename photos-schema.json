@@ -78,6 +78,14 @@
   "definitions": {
     "photo_item": {
       "type": "object",
+      "required": [
+        "title",
+        "subtitle",
+        "date",
+        "web_uri",
+        "image_src",
+        "raw_src"
+      ],
       "properties": {
         "title": {
           "$id": "#/properties/featured_photos/items/anyOf/0/properties/title",
@@ -139,15 +147,7 @@
             "https://vision.hossainkhan.com/images/front-page/IMG_20100905_1857-love-meter-montreal-landscape-cropped.jpg"
           ]
         }
-      },
-      "required": [
-        "title",
-        "subtitle",
-        "date",
-        "web_uri",
-        "image_src",
-        "raw_src"
-      ]
+      }
     }
   }
 }
