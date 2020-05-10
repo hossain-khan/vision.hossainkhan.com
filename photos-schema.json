@@ -74,6 +74,14 @@
         {
           "$id": "#/properties/featured_photos/items",
           "type": "object",
+          "required": [
+            "title",
+            "subtitle",
+            "date",
+            "web_uri",
+            "image_src",
+            "raw_src"
+          ],
           "properties": {
             "title": {
               "$id": "#/properties/featured_photos/items/anyOf/0/properties/title",
