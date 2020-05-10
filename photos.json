@@ -88,9 +88,15 @@
     {
       "title": "Up close with nature",
       "subtitle": "f: 3.5, t: 1/250s, l: 100mm, Canon 6D",
-      "date": "2019-05-31 13:28:46"
+      "date": "2019-05-31 13:28:46",
+      "web_uri": "https://vision.hossainkhan.com/project/up-close-with-nature",
+      "image_src": "https://vision.hossainkhan.com/images/front-page/IMG_5087-nature-up-close-1600x1100.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/front-page/IMG_5087-nature-up-close.jpg"
     },
     {
+      "title": "True wonder of the world",
+      "subtitle": "f: 2.4, t: 1/705, l: 43mm, Pixel 4 XL",
+      "date": "2020-01-20 09:30:33",
       "web_uri": "https://vision.hossainkhan.com/project/wonders-of-the-world",
       "image_src": "https://vision.hossainkhan.com/images/front-page/IMG_20200120_093033_MP-machu-picchu-1600x1100.jpg",
       "raw_src": "https://vision.hossainkhan.com/images/front-page/IMG_20200120_093033_MP-machu-picchu.jpg"
