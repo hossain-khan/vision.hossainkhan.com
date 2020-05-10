@@ -2,8 +2,8 @@
   "source": "https://vision.hossainkhan.com/",
   "author": "Hossain Khan",
   "copyright": "All rights reserved.",
-  "ZZX-NOTE": "SINCE THESE IMAGES ARE EXPOSED TO PUBLIC, KEEP THE IMAGES TO ONLY SCENERY. NO PORTRAIT OF INDIVIDUAL PERSON.",
-  "ZZX-JSON-VALIDATOR": "https://jsonformatter.curiousconcept.com/",
+  "X-NOTE": "SINCE THESE IMAGES ARE EXPOSED TO PUBLIC, KEEP THE IMAGES TO ONLY SCENERY. NO PORTRAIT OF INDIVIDUAL PERSON.",
+  "X-JSON-VALIDATOR": "https://jsonformatter.curiousconcept.com/",
   "featured_photos": [
     {
       "title": "Love ❤ meter",
@@ -48,7 +48,6 @@
     {
       "title": "A misty morning",
       "subtitle": "f: 1.8, t: 1/468s, l: 4.4mm, Pixel 2 XL",
-      "date": "2018-09-07 7:38:51",
       "web_uri": "https://vision.hossainkhan.com/project/misty-morning",
       "image_src": "https://vision.hossainkhan.com/images/front-page/IMG_20180907_073851-1600x1200-camp-ahmek-bridge-bnw.jpg",
       "raw_src": "https://vision.hossainkhan.com/images/front-page/IMG_20180907_073851-camp-ahmek-bridge-bnw.jpg"
