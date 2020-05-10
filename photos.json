@@ -1,8 +1,9 @@
 {
   "source": "https://vision.hossainkhan.com/",
   "author": "Hossain Khan",
-  "X-NOTE": "SINCE THESE IMAGES ARE EXPOSED TO PUBLIC, KEEP THE IMAGES TO ONLY SCENERY. NO PORTRAIT OF INDIVIDUAL PERSON.",
-  "X-JSON-VALIDATOR": "https://jsonformatter.curiousconcept.com/",
+  "copyright": "All rights reserved.",
+  "ZZX-NOTE": "SINCE THESE IMAGES ARE EXPOSED TO PUBLIC, KEEP THE IMAGES TO ONLY SCENERY. NO PORTRAIT OF INDIVIDUAL PERSON.",
+  "ZZX-JSON-VALIDATOR": "https://jsonformatter.curiousconcept.com/",
   "featured_photos": [
     {
       "title": "Love ❤ meter",
