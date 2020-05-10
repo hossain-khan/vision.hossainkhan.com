@@ -1,6 +1,6 @@
 # This is a basic workflow to validate JSON file
 
-name: CI
+name: JSON API Validate
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -24,11 +24,12 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: CI VM Initialized
-      run: echo CI VM Initialized!
+      run: uname -a
 
     # Validates the static API JSON file
     - name: Validate External API Json
-      uses: OrRosenblatt/validate-json-action@0.1.0
-      with:
+      uses: docker://orrosenblatt/validate-json-action:latest
+      env:
         # One or more relative file paths under the repository (seperated by comma) of the JSON files to validate with the schema provided.
-        json: photos.json
+        INPUT_SCHEMA: ./photos.json
+        INPUT_JSONS: ./photos-schema.json
