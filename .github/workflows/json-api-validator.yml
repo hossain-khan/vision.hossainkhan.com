@@ -17,6 +17,10 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     container: docker://orrosenblatt/validate-json-action:latest
+      env:
+        # One or more relative file paths under the repository (seperated by comma) of the JSON files to validate with the schema provided.
+        INPUT_SCHEMA: photos.json
+        INPUT_JSONS: photos-schema.json
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -33,11 +37,3 @@ jobs:
 
     - name: Find Files
       run: ls -la *.json
-
-      # Validates the static API JSON file
-    - name: Validate External API Json
-      env:
-        # One or more relative file paths under the repository (seperated by comma) of the JSON files to validate with the schema provided.
-        INPUT_SCHEMA: photos.json
-        INPUT_JSONS: photos-schema.json
-      run: pwd
