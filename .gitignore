@@ -8,3 +8,5 @@ _site/
 ### IntelliJ IDEA
 .idea/
 *.iml
+justify-cli
+.DS_Store
