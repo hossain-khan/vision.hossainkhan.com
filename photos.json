@@ -101,5 +101,55 @@
       "image_src": "https://vision.hossainkhan.com/images/front-page/IMG_20200120_093033_MP-machu-picchu-1600x1100.jpg",
       "raw_src": "https://vision.hossainkhan.com/images/front-page/IMG_20200120_093033_MP-machu-picchu.jpg"
     }
+  ],
+  "blog_photos": [
+    {
+      "title": "Cusco City",
+      "subtitle": "",
+      "date": "2020-01-21 13:48:00",
+      "web_uri": "https://vision.hossainkhan.com/blog/exploring-small-town",
+      "image_src": "https://vision.hossainkhan.com/images/2020-01/IMG_20200121_163328-PANO-01-cusco-hdr-1600x1100.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/2020-01/IMG_20200121_163328-PANO-01-cusco-hdr.jpg"
+    },
+    {
+      "title": "Ease your mind 🙏",
+      "subtitle": "",
+      "date": "2018-10-07 18:08:55",
+      "web_uri": "https://vision.hossainkhan.com/blog/relaxation-on-the-beach",
+      "image_src": "https://vision.hossainkhan.com/images/2018-10/IMG_20181007_180855-relax-on-the-beach-1500x1000.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/2018-10/IMG_20181007_180855-relax-on-the-beach.jpg"
+    },
+    {
+      "title": "Fall Color",
+      "subtitle": "",
+      "date": "2018-09-29 14:19:00",
+      "web_uri": "https://vision.hossainkhan.com/blog/hiking-for-the-fall-color",
+      "image_src": "https://vision.hossainkhan.com/images/2018-09/IMG_20180929_1649-vista-trail-observatory-fall-color-begins-1500x1000.jpeg",
+      "raw_src": "https://vision.hossainkhan.com/images/2018-09/IMG_20180929_1649-vista-trail-observatory-fall-color-begins.jpeg"
+    },
+    {
+      "title": "🙌 Touching the clouds",
+      "subtitle": "",
+      "date": "2017-12-28 14:24:00",
+      "web_uri": "https://vision.hossainkhan.com/blog/driving-through-cloud",
+      "image_src": "https://vision.hossainkhan.com/images/2017-12/DSC_20171228_04009-jamaica-mountain-cloud-1700x1100.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/2017-12/DSC_20171228_04009-jamaica-mountain-cloud.jpg"
+    },
+    {
+      "title": "Sunset by the Golden Gate 🌉",
+      "subtitle": "",
+      "date": "2014-11-17 18:30:00",
+      "web_uri": "https://vision.hossainkhan.com/blog/nothing-ness-near-the-beach",
+      "image_src": "https://vision.hossainkhan.com/images/2014-11/IMG_20141117_163103-sunset-near-golden-gate-bridge-1600x1000.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/2014-11/IMG_20141117_163103-sunset-near-golden-gate-bridge.jpg"
+    },
+    {
+      "title": "Shape of water 🌊",
+      "subtitle": "",
+      "date": "2019-07-14 12:40:55",
+      "web_uri": "https://vision.hossainkhan.com/blog/playing-with-water",
+      "image_src": "https://vision.hossainkhan.com/images/2019-07/DSC05689-playing-with-the-water-1600x1000.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/2019-07/DSC05689-playing-with-the-water.jpg"
+    }
   ]
 }
