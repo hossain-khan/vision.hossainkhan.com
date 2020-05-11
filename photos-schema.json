@@ -73,6 +73,17 @@
       "items": {
         "$ref": "#/definitions/photo_item"
       }
+    },
+    "blog_photos": {
+      "$id": "#/properties/blog_photos",
+      "type": "array",
+      "title": "The blog_photos schema",
+      "description": "List of photos from blog posts.",
+      "default": [],
+      "additionalItems": true,
+      "items": {
+        "$ref": "#/definitions/photo_item"
+      }
     }
   },
   "definitions": {
