@@ -3,6 +3,12 @@
 * https://vision.hossainkhan.com/
 * https://hossainkhan.com/
 
+### Android Wallpaper Plugin
+Some of the vision's featured pictures are available via [Muzei](https://play.google.com/store/apps/details?id=net.nurik.roman.muzei) Android Live wallpaper app.
+
+[![](https://lh3.googleusercontent.com/qF9r3ZjtgG-qyHdmjecArtKiulz1gmwL_xl9R3_fzk6igSeoN0wYbJSKEX5d_fxJRwYZJpHbqcLB3i9atl-9dOfUl9an7U43TfZ9PtQ=s0)](https://play.google.com/store/apps/details?id=com.hossainkhan.vision)
+
+
 ### ⚠️ NOTE: Before you fork this repo/website
 This is a licensed site. You have to purchase a license from [jekyllthemes.io](https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme) before you can legally use this theme.
 
