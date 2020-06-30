@@ -11,7 +11,7 @@ Contact me for availability and pricing information.
 
 
 ```
-Email: hello@hossainkhan.com
+Email: hello@hossain.dev
 ```
 
 <i class="fab fa-facebook"></i> See current offering and services - <a href="https://www.facebook.com/pg/315040829300679/services/" title="H.K. Photography Services @ Facebook Page">Book Now <i class="fas fa-concierge-bell"></i></a> 
