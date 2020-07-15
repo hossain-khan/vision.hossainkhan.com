@@ -1,11 +1,11 @@
 ---
 title: 'Frozen Drops'
-subtitle: 'f: 4.5, t: 1/100s, l: 47mm, Canon 6D'
-date: 2019-02-06 14:20:56
-featured_image: '/images/front-page/IMG_4180-frozen-drops-1600x100.jpg'
+subtitle: 'f: 4.5, t: 1/100s, l: 93mm, Canon 6D'
+date: 2019-02-06 14:46:10
+featured_image: '/images/front-page/IMG_4180-frozen-drops-1600x1100.jpg'
 ---
 
-![](/images/front-page/IMG_4180-frozen-drops-1600x100.jpg)
+![](/images/front-page/IMG_4180-frozen-drops-1600x1100.jpg)
 
 ## Crystal Everywhere
 Freezing rain has caused a rare opportunity to capture frozen drops everywhere. It's simply beautiful.
