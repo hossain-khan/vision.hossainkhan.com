@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://vision.hossainkhan.com/about</loc>
-<lastmod>2020-07-16T21:07:36-04:00</lastmod>
+<lastmod>2020-10-03T10:57:10-04:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/contact</loc>
-<lastmod>2020-07-16T21:07:36-04:00</lastmod>
+<lastmod>2020-10-03T10:57:10-04:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/blog/nothing-ness-near-the-beach</loc>
@@ -55,6 +55,10 @@
 <url>
 <loc>https://vision.hossainkhan.com/blog/exploring-small-town</loc>
 <lastmod>2020-01-21T08:48:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/blog/walking-through-fire</loc>
+<lastmod>2020-09-27T12:49:00-04:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/project/love-meter</loc>
@@ -121,6 +125,10 @@
 <lastmod>2020-01-20T04:30:33-05:00</lastmod>
 </url>
 <url>
+<loc>https://vision.hossainkhan.com/project/trees-on-fire</loc>
+<lastmod>2020-09-27T14:14:33-04:00</lastmod>
+</url>
+<url>
 <loc>https://vision.hossainkhan.com/sample/2018-06-30-demo-post.html</loc>
 </url>
 <url>
@@ -131,5 +139,8 @@
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/blog/page2/</loc>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/blog/page3/</loc>
 </url>
 </urlset>
