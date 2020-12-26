@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "http://example.com/example.json",
+  "$id": "https://vision.hossainkhan.com/photos-schema.json",
   "type": "object",
   "title": "The root schema for HK Vision Photos object",
   "description": "Contains featured photos for HK Vision.",
@@ -69,7 +69,6 @@
       "title": "The featured_photos schema",
       "description": "List of featured photos.",
       "default": [],
-      "additionalItems": true,
       "items": {
         "$ref": "#/definitions/photo_item"
       }
@@ -80,7 +79,6 @@
       "title": "The blog_photos schema",
       "description": "List of photos from blog posts.",
       "default": [],
-      "additionalItems": true,
       "items": {
         "$ref": "#/definitions/photo_item"
       }
