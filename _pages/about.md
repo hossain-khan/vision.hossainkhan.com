@@ -20,11 +20,10 @@ I'm a true believer of following quote and appreciate every moment I am living! 
 I have recently started getting into photography with professional gears.
 
 Here are my current gears:
-* 📷 Camera Body: Canon 6D Mark I
+* 📷 Camera Body: Canon EOS RP Mirrorless dSLR 
 * ⭕ Lenses: 
-  * Canon EF 24-105mm f/4 L IS USM
-  * Canon EF 50mm f/1.8 STM
-  * Canon EF 100mm f/2.8 Macro USM
+  * Canon RF 24-105mm f/4-7.1 IS STM
+  * Canon RF 50mm f/1.8 STM
 * 🔦 Flash: Canon SpeedLite 600EX-RT
 
 Besides main body, I like to take quick snaps with what I have with me, 
