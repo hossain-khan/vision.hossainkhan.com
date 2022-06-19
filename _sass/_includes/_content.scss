@@ -101,6 +101,13 @@
 		margin-top: 10px;
 	}
 
+	ul, ol {
+		ul, ol {
+			max-width: 100%;
+			padding-left: 25px;
+		}
+	}
+
 	.highlighter-rouge,
 	table {
 		margin: 20px auto;
@@ -151,7 +158,32 @@
 		}
 	}
 
+	.table-wrap {
+		display: block;
+		width: 100%;
+		max-width: 90%;
+		margin: 0 auto;
+		overflow-x: auto;
+
+		table {
+			max-width: 100%;
+		}
+
+		@include mq(tabletp) {
+			max-width: 70%;
+		}
+
+		@include mq(tabletl) {
+			max-width: 65%;
+		}
+
+		@include mq(laptop) {
+			max-width: 60%;
+		}
+	}
+
 	table {
+		min-width: 600px;
 		border: 2px solid $text-dark-color;
 
 		thead {

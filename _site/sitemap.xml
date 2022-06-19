@@ -2,11 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://vision.hossainkhan.com/about</loc>
-<lastmod>2020-12-26T16:18:51-05:00</lastmod>
+<lastmod>2022-06-19T11:20:41-04:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/contact</loc>
-<lastmod>2020-12-26T16:18:51-05:00</lastmod>
+<lastmod>2022-06-19T11:20:41-04:00</lastmod>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/thanks</loc>
+<lastmod>2022-06-19T11:20:41-04:00</lastmod>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/blog/nothing-ness-near-the-beach</loc>
@@ -137,7 +141,18 @@
 <lastmod>2020-10-17T14:11:46-04:00</lastmod>
 </url>
 <url>
+<loc>https://vision.hossainkhan.com/project/tulip-yellow-blend</loc>
+<lastmod>2021-05-09T11:12:38-04:00</lastmod>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/project/spring-is-here-2021</loc>
+<lastmod>2021-05-09T11:55:01-04:00</lastmod>
+</url>
+<url>
 <loc>https://vision.hossainkhan.com/sample/2018-06-30-demo-post.html</loc>
+</url>
+<url>
+<loc>https://vision.hossainkhan.com/sample/2018-06-30-demo-project.html</loc>
 </url>
 <url>
 <loc>https://vision.hossainkhan.com/blog/</loc>
