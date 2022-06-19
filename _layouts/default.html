@@ -21,17 +21,17 @@
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
 	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
-	<meta name="description" content="{{ page.description }}">
+	<meta name="description" content="{{ page.description | strip_html | xml_escape }}">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
-	<meta name="twitter:description" content="{{ page.description }}">
+	<meta name="twitter:description" content="{{ page.description | strip_html | xml_escape }}">
 	<meta name="twitter:image:src" content="{{ page.featured_image | absolute_url }}">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
-	<meta property="og:description" content="{{ page.description }}" />
+	<meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
 	{% if site.data.settings.font_settings.font_embed %}
@@ -94,6 +94,7 @@
 
 	<!-- Javascript Assets -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
 	<script src="{{ '/js/duet-min.js' | relative_url }}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
