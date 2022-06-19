@@ -28,7 +28,4 @@ Here are my current gears:
 
 Besides main body, I like to take quick snaps with what I have with me, 
 and 90% of the time it's my smart phone.
-* 📱 Phone: Google Pixel 4 XL
-
-Other than the phone, I sometime use pocket camera for light shoots or events.
-* 📸 <del>Sony RX-100 Mark I</del> _UPDATE: Sold it as I now have upgraded to Pixel 4 XL_
+* 📱 Phone: Google Pixel 6 Pro
