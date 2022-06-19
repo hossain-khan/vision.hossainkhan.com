@@ -6,18 +6,6 @@
 
 
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Plugins
-
-// @codekit-prepend "/plugins/history.js"
-// @codekit-prepend "/plugins/imagesloaded.js"
-// @codekit-prepend "/plugins/masonry.js"
-// @codekit-prepend "/plugins/debounce.js"
-// @codekit-prepend "/plugins/fluidbox.js"
-// @codekit-prepend "/plugins/owl.js"
-// @codekit-prepend "/plugins/waypoints.js"
-
-
-
 (function ($) {
 	'use strict';
 
@@ -91,7 +79,7 @@
 			var thisTarget = $(this).attr('href');
 
 			// If we don't want to use ajax, or the link is an anchor/mailto/tel
-			if ( $(this).hasClass('js-no-ajax') || /^#/.test(thisTarget) || thisTarget.indexOf("mailto:") >= 0 || thisTarget.indexOf("tel:") >= 0 ) {
+			if ($(this).hasClass('js-no-ajax') || thisTarget.indexOf('#') >= 0 || thisTarget.indexOf('mailto:') >= 0 || thisTarget.indexOf('tel:') >= 0) {
 
 				// Use the given link
 				window.location = thisTarget;
@@ -336,6 +324,14 @@
 
 			}
 
+		});
+
+
+
+		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Tables
+
+		$('.single table').each(function () {
+			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
 
 	}
