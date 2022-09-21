@@ -25,6 +25,9 @@ jobs:
     # Runs a single command using the runners shell
     - name: CI VM Initialized
       run: uname -a
+      
+    - name: Run pull request stats
+      uses: flowwer-dev/pull-request-stats@master
 
     # Validates the static API JSON file
     - name: Validate External API Json
