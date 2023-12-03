@@ -15,3 +15,5 @@ The wonder of the world - Grand Canyon 🏜.
 	<img src="/images/2016-04/IMG_20160425_145642-grand-canyon-panorama-2200x1100.jpg">
 	<img src="/images/2016-04/IMG_20160425_151025-grand-canyon-focus-view-1600x1200.jpg">
 </div>
+
+> "The wonders of the Grand Canyon cannot be adequately represented in symbols of speech, nor by speech itself." - John Wesley Powell
