@@ -10,3 +10,5 @@ featured_image: '/images/front-page/PXL_20230428_020422703-mini-shrine-1600x1100
 
 ## Little things ⛩️
 A few little shrines in the middle of Fushimi Inari path. Sometimes it's worth stopping for little things.
+
+> "Appreciate every little beautiful moment in every day of your life. Give it a try, and you'll see the world from another perspective." - Thea Kristine May

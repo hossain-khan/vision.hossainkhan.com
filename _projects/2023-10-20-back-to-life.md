@@ -14,3 +14,5 @@ These trees are among the tallest and oldest living things on Earth.
 
 The trees were damaged by the 2020 CZU Lightning Complex fire. The fire burned 86,509 acres (35,000 ha) and destroyed 1,490 structures, including 925 homes.
 Now they are coming back to life. ✌️
+
+> "Nature does not hurry, yet everything is accomplished." - Lao Tzu
