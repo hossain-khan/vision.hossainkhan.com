@@ -17,3 +17,6 @@ Small park with amazing cherry trees waiting to bloom during sakura event at ðŸ‡
 	<img src="/images/2017-03/IMG_20170329_1505-cherry-flower-close-up-900x1200.jpg">
 	<img src="/images/2017-03/IMG_20170330_1877-cherry-flower-close-up-900x1200.jpg">
 </div>
+
+
+> "The cherry blossom represents the fragility and the beauty of life. It's a reminder that life is almost overwhelmingly beautiful but that it is also tragically short." - Homaro Cantu
