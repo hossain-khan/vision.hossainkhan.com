@@ -13,7 +13,7 @@ Some of the vision's featured pictures are available via [Muzei](https://play.go
 This is a licensed site. You have to purchase a license from [jekyllthemes.io](https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme) before you can legally use this theme.
 
 ### Demo
-![H.K. vision - experience the world through my eyes](https://user-images.githubusercontent.com/99822/45402270-d09ea000-b622-11e8-86d0-b3a784a8ba88.png)
+![H.K. vision - experience the world through my eyes](https://github.com/hossain-khan/vision.hossainkhan.com/assets/99822/c33200d6-f9c4-4c28-a5a8-580f51feda9d)
 
 ### Local Development
 
