@@ -10,7 +10,8 @@ featured_image: '/images/front-page/IMG_5087-nature-up-close-1600x1100.jpg'
 
 ## Up close with nature
 Had a little bit fun with the macro lens. Some of the snaps turned out great.
- 
+
+> "Gazing into the heart of the flower through a macro lens unravels a secret world of intricate patterns, delicate textures, and the subtle beauty that nature intricately weaves in every petal and filament." 
 
 <div class="gallery" data-columns="3">
 	<img src="/images/2019-05/IMG_5325-nature-up-close-dl-1600x1100.jpg">
