@@ -10,6 +10,7 @@ featured_image: '/images/front-page/IMG_20180907-mushroom-on-trail-1600x1100.jpg
 ## Nature Trail
 A nice surprise on the hiking trail 🍄.
 
+> "In the morning, everything is new—the dewdrops, the leaves, the day." - Marty Rubin
 
 <div class="gallery" data-columns="3">
 	<img src="/images/2018-09/IMG_20180907_0450-1600x1100-mushroom-on-trail.jpg">
