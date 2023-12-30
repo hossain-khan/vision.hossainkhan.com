@@ -10,6 +10,7 @@ featured_image: '/images/front-page/DSC_20171228_04001-jamaica-mountain-falls-16
 ## Calm and quiet
 A majestic falls over the top of mountain route to Kingston.
 
+> "Waterfalls wouldn't sound so melodious if there were no rocks in their way." - Rishabh Gautam
 
 <div class="gallery" data-columns="3">
 	<img src="/images/2017-12/DSC_20171228_04003-jamaica-mountain-falls-1600x1100.jpg">
