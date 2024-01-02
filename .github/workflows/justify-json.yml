@@ -21,7 +21,7 @@ jobs:
           java-version: 1.8
 
       - name: Download a file
-        uses: carlosperate/download-file-action@v1.0.3
+        uses: carlosperate/download-file-action@v1.1.2
         id: download-poetry
         with:
           file-url: 'https://github.com/leadpony/justify/releases/download/v3.0.0-RC1/justify-cli-3.0.0-RC1.zip'
