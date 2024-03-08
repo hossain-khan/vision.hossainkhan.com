@@ -278,6 +278,30 @@
       "web_uri": "https://vision.hossainkhan.com/project/back-to-life",
       "image_src": "https://vision.hossainkhan.com/images/front-page/PXL_20231020_220551135-1000x1500.jpg",
       "raw_src": "https://vision.hossainkhan.com/images/front-page/PXL_20231020_220551135-back-to-life.jpg"
+    },
+    {
+      "title": "Lets go up 🚊",
+      "subtitle": "f: 2.8, t: 1/89, l: 18mm, Pixel 8 Pro",
+      "date": "2024-01-30 08:06:24",
+      "web_uri": "https://vision.hossainkhan.com/project/lets-go-up",
+      "image_src": "https://vision.hossainkhan.com/images/front-page/PXL_20240130_160609683-lets-go-up-1200x1600.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/front-page/PXL_20240130_160609683-lets-go-up.jpg"
+    },
+    {
+      "title": "Misty overlook 🏔️",
+      "subtitle": "f: 1.7, t: 1/12, l: 7mm, Pixel 8 Pro",
+      "date": "2024-02-03 17:32:12",
+      "web_uri": "https://vision.hossainkhan.com/project/misty-overview",
+      "image_src": "https://vision.hossainkhan.com/images/front-page/PXL_20240203_013203498-misty-overview-1600x1200.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/front-page/PXL_20240203_013203498-misty-overview.jpg"
+    },
+    {
+      "title": "Tunnel View Edge 🪨",
+      "subtitle": "f: 2.8, t: 1/322, l: 18mm, Pixel 8 Pro",
+      "date": "2024-02-03 12:45:49",
+      "web_uri": "https://vision.hossainkhan.com/project/tunnel-view-edge",
+      "image_src": "https://vision.hossainkhan.com/images/front-page/PXL_20240203_204545548-tunnel-view-edge-1400x1800.jpg",
+      "raw_src": "https://vision.hossainkhan.com/images/front-page/PXL_20240203_204545548-tunnel-view-edge.jpg"
     }
   ]
 }
