@@ -16,4 +16,5 @@ Another snap from the Tunnel View vista point at the Yosemite Valley, California
 
 <div class="gallery" data-columns="3">
 	<img alt="Tunnel View vista point at the Yosemite Valley" src="/images/2024-02/PXL_20240203_180500317-grand-tunnel-view-2000x900.jpg">
+	<img alt="Edge view of Tunnel View vista point" src="/images/2024-02/PXL_20240203_175752817-edge2.jpg">
 </div>
