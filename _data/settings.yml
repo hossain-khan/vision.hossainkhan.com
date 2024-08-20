@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
+  logo_image: /images/hk_vision_app_site_logo_small.png
   logo_width: 200
 
 menu_settings:
@@ -18,7 +18,7 @@ menu_settings:
       url: '/about'
 
 footer_settings:
-  logo_image: 
+  logo_image: /images/hk_vision_app_site_logo_small.png
   logo_width: 200
   footer_tagline: Vision though H.K.'s 👁️
 
