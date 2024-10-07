@@ -29,4 +29,4 @@ Here are my current gears:
 
 Besides main body, I like to take quick snaps with what I have with me, 
 and 95% of the time it's my smart phone.
-* 📱 Phone: Google Pixel 8 Pro
+* 📱 Phone: Google Pixel 9 Pro XL
