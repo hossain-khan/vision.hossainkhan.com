@@ -43,7 +43,10 @@ sudo apt-get install ruby-full build-essential zlib1g-dev
 sudo gem install bundler jekyll
 
 # This command will install all the dependencies specified in the Gemfile of your Jekyll project.
-bundle install
+sudo bundle install
+
+# Build the static site locally
+bundle exec jekyll build
 
 # Preview site at http://127.0.0.1:4000/
 bundle exec jekyll serve
