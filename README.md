@@ -20,7 +20,9 @@ This is a licensed site. You have to purchase a license from [jekyllthemes.io](h
 This is based on Jekyll. Follow instruction from Jekyll to install it. 
 Check out the project and run following command to test the site:
 
-```
+#### macOS
+
+```sh
 # If 'bundle' is not installed on macOS, run the following
 gem install bundler jekyll
 
@@ -29,4 +31,20 @@ bundle exec jekyll serve
 
 # Build the static site locally
 bundle exec jekyll build
+```
+
+#### Ubuntu Linux
+```sh
+# Install Ruby and other dependencies
+sudo apt-get update
+sudo apt-get install ruby-full build-essential zlib1g-dev
+
+# Install Bundler and Jekyll
+sudo gem install bundler jekyll
+
+# This command will install all the dependencies specified in the Gemfile of your Jekyll project.
+bundle install
+
+# Preview site at http://127.0.0.1:4000/
+bundle exec jekyll serve
 ```
