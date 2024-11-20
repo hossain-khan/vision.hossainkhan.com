@@ -24,7 +24,8 @@ Check out the project and run following command to test the site:
 
 ```sh
 # If 'bundle' is not installed on macOS, run the following
-gem install bundler jekyll
+sudo gem install bundler -v 2.4.22
+sudo gem install jekyll
 
 # Preview site at http://127.0.0.1:4000/
 bundle exec jekyll serve
