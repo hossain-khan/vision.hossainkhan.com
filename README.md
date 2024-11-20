@@ -37,6 +37,44 @@ bundle exec jekyll serve
 bundle exec jekyll build
 ```
 
+Alternatively use ruby env to avoid version issues
+
+```sh
+# https://github.com/rbenv/rbenv
+brew update
+brew install rbenv
+
+# list latest stable versions:
+rbenv install -l
+
+# list all local versions:
+rbenv install -L
+
+# install a Ruby version:
+rbenv install 3.3.6
+
+# Setup ruby env path
+nano ~/.zshrc
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+rbenv global 3.3.6
+ruby -v
+
+# Now install the latest gems
+gem install bundler jekyll
+
+
+# Install this site's dependencies
+bundle install
+
+# Build the static site locally
+bundle exec jekyll build
+
+# Preview site at http://127.0.0.1:4000/
+bundle exec jekyll serve
+```
+
 #### Ubuntu Linux
 ```sh
 # Install Ruby and other dependencies
