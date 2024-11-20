@@ -25,6 +25,7 @@ Check out the project and run following command to test the site:
 ```sh
 # If 'bundle' is not installed on macOS, run the following
 sudo gem install bundler -v 2.4.22
+sudo gem install rouge -v 3.30.0
 sudo gem install jekyll
 
 # Preview site at http://127.0.0.1:4000/
