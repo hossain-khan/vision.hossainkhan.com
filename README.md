@@ -24,6 +24,8 @@ Check out the project and run following command to test the site:
 
 ```sh
 # If 'bundle' is not installed on macOS, run the following
+# ruby -v = ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin24]
+# gem -v = 3.0.3.1
 sudo gem install bundler -v 2.4.22
 sudo gem install rouge -v 3.30.0
 sudo gem install jekyll
