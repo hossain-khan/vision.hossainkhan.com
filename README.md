@@ -64,6 +64,10 @@ ruby -v
 # Now install the latest gems
 gem install bundler jekyll
 
+
+# Install this site's dependencies
+bundle install
+
 # Build the static site locally
 bundle exec jekyll build
 
