@@ -2,9 +2,9 @@ name: Jekyll site CI
 # https://github.com/actions/starter-workflows/blob/main/ci/jekyll.yml
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ main ]
   pull_request:
-    branches: [ $default-branch ]
+    branches: [ main ]
 
 jobs:
   build:
