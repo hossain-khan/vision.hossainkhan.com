@@ -37,7 +37,7 @@ bundle exec jekyll serve
 bundle exec jekyll build
 ```
 
-Alternatively use ruby env to avoid version issues
+Alternatively, use ruby env to avoid version issues
 
 ```sh
 # https://github.com/rbenv/rbenv
