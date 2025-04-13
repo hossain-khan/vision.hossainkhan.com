@@ -2,7 +2,7 @@
 title: 'Fukuoka Tower 🗼 and Sea Shore 🌊'
 subtitle: 'f: 4.5, t: 1/160, l: 50mm, Canon EOS RP'
 date: 2024-04-23 14:44:49
-featured_image: '/images/front-page/IMG_2229-fukuoka-shore-edited-1600x1100'
+featured_image: '/images/front-page/IMG_2229-fukuoka-shore-edited-1600x1100.jpg'
 ---
 
 
