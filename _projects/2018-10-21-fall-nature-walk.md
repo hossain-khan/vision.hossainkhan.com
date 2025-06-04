@@ -13,7 +13,7 @@ This shot is taken from the [Forks of the Credit](https://www.ontarioparks.com/p
 
 Would love to go back to the park for more hiking.
 
-> “If you truly love Nature, you will find beauty everywhere.” - Vincent Van Gogh
+> “If you truly love Nature, you will find beauty everywhere.” - Vincent van Gogh
 
 <div class="gallery" data-columns="3">
 	<img src="/images/2018-10/IMG_20181021_3221-fall-nature-wild-flower-1600x1100.jpg"

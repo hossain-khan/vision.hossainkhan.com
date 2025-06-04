@@ -7,5 +7,5 @@ featured_image: '/images/2023-11/PXL_20231114_174455442.PORTRAIT-life-as-good-as
 ![](/images/2023-11/PXL_20231114_174455442.PORTRAIT-life-as-good-as-it-gets.jpg)
 
 ## As good as life gets! 🙏
-Sipping on a cup of english tea, enjoying my existence and appreciating the little things in life.
+Sipping on a cup of English tea, enjoying my existence and appreciating the little things in life.
 What else can I ask for? 🤔 Of course, nothing else. 🙇‍♂️

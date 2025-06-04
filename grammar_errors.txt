@@ -1,0 +1,2033 @@
+1.) Line 8, column 59, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Muzak
+...ision's featured pictures are available via [Muzei](https://play.google.com/store/apps/details?...
+                                                ^^^^^
+
+2.) Line 32, column 18, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+...gem install rouge -v 3.30.0 sudo gem install jekyll  # Preview site at http://127.0.0.1:4000/ bu...
+                                                ^^^^^^
+
+3.) Line 35, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+...w site at http://127.0.0.1:4000/ bundle exec jekyll serve  # Build the static site locally bundl...
+                                                ^^^^^^
+
+4.) Line 38, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+... # Build the static site locally bundle exec jekyll build ```  Alternatively, use ruby env to av...
+                                                ^^^^^^
+
+5.) Line 46, column 14, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; rent; Rev; bend; bent
+...hub.com/rbenv/rbenv brew update brew install rbenv  # list latest stable versions: rbenv instal...
+                                                ^^^^^
+
+6.) Line 49, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; rent; Rev; bend; bent
+...nstall rbenv  # list latest stable versions: rbenv install -l  # list all local versions: rbenv...
+                                                ^^^^^
+
+7.) Line 52, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; rent; Rev; bend; bent
+...rbenv install -l  # list all local versions: rbenv install -L  # install a Ruby version: rbenv ...
+                                                ^^^^^
+
+8.) Line 55, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; rent; Rev; bend; bent
+... rbenv install -L  # install a Ruby version: rbenv install 3.3.6  # Setup ruby env path nano ~/...
+                                                ^^^^^
+
+9.) Line 58, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: NATO; Nana; ANO; Fano; Kano
+...: rbenv install 3.3.6  # Setup ruby env path nano ~/.zshrc export PATH="$HOME/.rbenv/bin:$PATH...
+                                                ^^^^
+
+10.) Line 58, column 9, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: SRC; CSRC; HRC; SHR; UNHRC
+...install 3.3.6  # Setup ruby env path nano ~/.zshrc export PATH="$HOME/.rbenv/bin:$PATH" eval "$...
+                                                ^^^^^
+
+11.) Line 59, column 21, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; rent; Rev; bend; bent
+...y env path nano ~/.zshrc export PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"  rbenv glo...
+                                                ^^^^^
+
+12.) Line 60, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: evil; oval; Evan; veal; Reval
+.../.zshrc export PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"  rbenv global 3.3.6 ruby -...
+                                                ^^^^
+
+13.) Line 60, column 9, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; rent; Rev; bend; bent
+...export PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"  rbenv global 3.3.6 ruby -v  # Now ...
+                                                ^^^^^
+
+14.) Line 60, column 15, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: unit; IIT; knit; Inuit; nit
+... PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"  rbenv global 3.3.6 ruby -v  # Now insta...
+                                                ^^^^
+
+15.) Line 62, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ben; Rent; Rev; Bend; Bent
+...ME/.rbenv/bin:$PATH" eval "$(rbenv init -)"  rbenv global 3.3.6 ruby -v  # Now install the late...
+                                                ^^^^^
+
+16.) Line 65, column 26, Rule ID: REPEATED_VERBS[1] premium: false prio=-1
+Message: You’ve repeated a verb. Did you mean to only write one of them?
+Suggestion: gems; gem
+...obal 3.3.6 ruby -v  # Now install the latest gems gem install bundler jekyll   # Install this site...
+                                                ^^^^^^^^
+
+17.) Line 66, column 21, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+... install the latest gems gem install bundler jekyll   # Install this site's dependencies bundle ...
+                                                ^^^^^^
+
+18.) Line 73, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+... # Build the static site locally bundle exec jekyll build  # Preview site at http://127.0.0.1:40...
+                                                ^^^^^^
+
+19.) Line 76, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+...w site at http://127.0.0.1:4000/ bundle exec jekyll serve ```  #### Ubuntu Linux ```sh # Install...
+                                                ^^^^^^
+
+20.) Line 86, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+... Bundler and Jekyll sudo gem install bundler jekyll  # This command will install all the depende...
+                                                ^^^^^^
+
+21.) Line 88, column 67, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Gem file
+...nstall all the dependencies specified in the Gemfile of your Jekyll project. sudo bundle install ...
+                                                ^^^^^^^
+
+22.) Line 89, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Sudo
+...ified in the Gemfile of your Jekyll project. sudo bundle install  # Build the static site loca...
+                                                ^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+23.) Line 92, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+... # Build the static site locally bundle exec jekyll build  # Preview site at http://127.0.0.1:40...
+                                                ^^^^^^
+
+24.) Line 95, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+...w site at http://127.0.0.1:4000/ bundle exec jekyll serve ```  [end of README.md]  [start of _LI...
+                                                ^^^^^^
+
+25.) Line 111, column 22, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘customised’ is British English.
+Suggestion: customized
+... distributed for Free.  The End Product is a customised implementation of the theme. For example: th...
+                                                ^^^^^^^^^^
+More info: https://languagetool.org/insights/post/ise-ize/#the-distinctions-between-%E2%80%9C-ise%E2%80%9D-%E2%80%9C-ize%E2%80%9D-and-%E2%80%9C-yse%E2%80%9D-%E2%80%9C-yze%E2%80%9D
+
+26.) Line 111, column 112, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘customised’ is British English.
+Suggestion: customized
+...xample: the end product is the final website customised with your content.  ---  ## What you CAN do ...
+                                                ^^^^^^^^^^
+More info: https://languagetool.org/insights/post/ise-ize/#the-distinctions-between-%E2%80%9C-ise%E2%80%9D-%E2%80%9C-ize%E2%80%9D-and-%E2%80%9C-yse%E2%80%9D-%E2%80%9C-yze%E2%80%9D
+
+27.) Line 121, column 41, Rule ID: ENGLISH_WORD_REPEAT_BEGINNING_RULE premium: false prio=-51
+Message: Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym.
+Suggestion: Furthermore, you; Likewise, you; Not only that, but you
+...ee.  You can modify or manipulate the theme. You can combine the theme with other works and m...
+                                                ^^^
+
+28.) Line 127, column 144, Rule ID: SEND_AN_EMAIL[1] premium: false prio=-50
+Message: Consider using “email”.
+Suggestion: email
+...Product, you will need an Extended License – send an email to hello@jekyllthemes.io to discuss this with u...
+                                                ^^^^^^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/wordiness/
+
+29.) Line 129, column 199, Rule ID: ENGLISH_WORD_REPEAT_BEGINNING_RULE premium: false prio=-51
+Message: Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym.
+Suggestion: Furthermore, you; Likewise, you; Not only that, but you
+...th others, and even if you modify the theme. You can’t re-distribute or make available the th...
+                                                ^^^
+
+30.) Line 133, column 68, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘customise’ is British English.
+Suggestion: customize
+...e in any application allowing an end user to customise a digital or physical product to their speci...
+                                                ^^^^^^^^^
+More info: https://languagetool.org/insights/post/ise-ize/#the-distinctions-between-%E2%80%9C-ise%E2%80%9D-%E2%80%9C-ize%E2%80%9D-and-%E2%80%9C-yse%E2%80%9D-%E2%80%9C-yze%E2%80%9D
+
+31.) Line 133, column 209, Rule ID: ENGLISH_WORD_REPEAT_BEGINNING_RULE premium: false prio=-51
+Message: Three successive sentences begin with the same word. Consider rewording the sentence or use a thesaurus to find a synonym.
+Suggestion: Furthermore, you; Likewise, you; Not only that, but you
+...o order” or “build it yourself” application. You can use the theme in this way only if you pu...
+                                                ^^^
+
+32.) Line 159, column 148, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Jekyll; Jewell; jell
+... install the theme's dependencies. Then run `jekyll serve` to start the Jekyll server.  ---  ## ...
+                                                ^^^^^^
+
+33.) Line 172, column 51, Rule ID: EN_WORD_COHERENCY premium: false
+Message: Do not mix variants of the same word (‘customize’ and ‘customise’) within a single text.
+Suggestion: customise
+...comes packed with lots of options to let you customize the theme.  ---  ### The `_config.yml` file ...
+                                                ^^^^^^^^^
+
+34.) Line 182, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: URL
+...heme` – change this to your website's name  `url:` – the full URL that your site will be host...
+                                                ^^^
+
+35.) Line 184, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Basel; baser
+...be hosted at, e.g. https://your-domain.com  `baseurl:` – add a base URL here if you will be publi...
+                                                ^^^^^^^
+
+36.) Line 184, column 197, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Basel; baser
+... a 'project page' on GitHub Pages. Example: `baseurl: /project`  When using baseurl, you should r...
+                                                ^^^^^^^
+
+37.) Line 186, column 12, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Basel; baser
+...es. Example: `baseurl: /project`  When using baseurl, you should reference images in your post/pr...
+                                                ^^^^^^^
+
+38.) Line 186, column 70, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Front matter
+...should reference images in your post/project Frontmatter **without** the baseurl, e.g. `/images/image...
+                                                ^^^^^^^^^^^
+
+39.) Line 186, column 98, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Basel; baser
+...our post/project Frontmatter **without** the baseurl, e.g. `/images/image.jpg` but images inside ...
+                                                ^^^^^^^
+
+40.) Line 186, column 194, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Basel; baser
+... the Markdown content **should include** the baseurl snippet, e.g. `{{site.baseurl}}/images/image...
+                                                ^^^^^^^
+
+41.) Line 186, column 224, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Basel; baser
+... include** the baseurl snippet, e.g. `{{site.baseurl}}/images/image.jpg`  `paginate: 6` – change ...
+                                                ^^^^^^^
+
+42.) Line 196, column 72, Rule ID: ALL_OF_THE[1] premium: false prio=-50
+Message: Consider removing “of” to be more concise
+Suggestion: all the
+...e `_data` folder – this is where you can set all of the theme options.  **Basic settings**  `site_ti...
+                                                ^^^^^^^^^^
+More info: https://languagetool.org/insights/post/wordiness/
+
+43.) Line 210, column 100, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: URL
+... each one as a list item with a `title` and `url`. When hosting on GitHub Pages, make sure yo...
+                                                ^^^
+
+44.) Line 216, column 39, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: displays; dismays
+...image. `footer_tagline` – sets the text that dispays underneath the site title/logo in the footer...
+                                                ^^^^^^^
+
+45.) Line 225, column 69, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Form spree
+...pre-made contact form that you can use with [Formspree](https://formspree.io/create/jekyllthemes), ...
+                                                ^^^^^^^^^
+
+46.) Line 227, column 71, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Form Spree
+...he form endpoint attribute that you get from FormSpree, for example `https://formspree.io/abcdefgh`...
+                                                ^^^^^^^^^
+
+47.) Line 228, column 15, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: URL
+...https://formspree.io/abcdefgh` `confirmation_url` – by default the user is shown a default Fo...
+                                                ^^^
+
+48.) Line 228, column 61, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Form spree
+...rl` – by default the user is shown a default Formspree thank you page. If you have a premium plan, ...
+                                                ^^^^^^^^^
+
+49.) Line 228, column 234, Rule ID: A_THANK_YOU[1] premium: false
+Message: It appears that ‘thank you’ is missing a hyphen or needs to be quoted.
+Suggestion: thank-you; “Thank You”
+...example `/thanks` – we have included a basic thank you page with the theme. `email_subject` – choos...
+                                                ^^^^^^^^^
+More info: https://languagetool.org/insights/post/word-choice-thank-you/
+
+50.) Line 229, column 68, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Form spree
+...se the subject of the email you receive from Formspree. `send_button_text` – change the text used o...
+                                                ^^^^^^^^^
+
+51.) Line 232, column 67, Rule ID: A_INFINITIVE[2] premium: false prio=-3
+Message: The verb ‘include’ does not usually follow articles like ‘the’. Check that ‘include’ is spelled correctly; using ‘include’ as a noun may be non-standard.
+Suggestion: to include; the included; they include
+... contact form to any page of your site using the include – `{% include contact-form.html %}` – for ex...
+                                                ^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/verbs-as-nouns/
+
+52.) Line 240, column 94, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: palette; Paulette; palmette
+...y the theme. Try them out and find the color pallette that works for you!  **Font settings**  `fon...
+                                                ^^^^^^^^
+
+53.) Line 244, column 118, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Type kit
+...ows you to use services like Google Fonts or Typekit. `title_font` – set the CSS name for the fon...
+                                                ^^^^^^^
+
+54.) Line 246, column 27, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: name; anime; Anne; ante; acme
+...nt used on titles. `body_font` – set the CSS anme for the font used for body text. `regular_we...
+                                                ^^^^
+
+55.) Line 254, column 62, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: larger; lagers; larders; larges; largess
+...he size (in pixels) used for this element on largers screens like laptops and desktops. `weight` ...
+                                                ^^^^^^^
+
+56.) Line 261, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ajax; AJAX; Ajay; ajar; AAX
+...s) for this element.  **Advanced options**  `ajax_loading` – use `true` to enable Ajax loading...
+                                                ^^^^
+
+57.) Line 261, column 180, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: JavaScript
+...be helpful if you're adding plugins or other javascript to your pages. `analytics_code` – use this o...
+                                                ^^^^^^^^^^
+
+58.) Line 264, column 41, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: JavaScript
+...eme. `header_js` – use this option to insert javascript into the header of the page. `footer_js` – u...
+                                                ^^^^^^^^^^
+
+59.) Line 265, column 41, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: JavaScript
+...age. `footer_js` – use this option to insert javascript at the end of the page.  ---  ### Images  In...
+                                                ^^^^^^^^^^
+
+60.) Line 297, column 117, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘customise’ is British English.
+Suggestion: customize
+... edit the same things as on the home page to customise it for your website.  ---  ## Projects, post...
+                                                ^^^^^^^^^
+More info: https://languagetool.org/insights/post/ise-ize/#the-distinctions-between-%E2%80%9C-ise%E2%80%9D-%E2%80%9C-ize%E2%80%9D-and-%E2%80%9C-yse%E2%80%9D-%E2%80%9C-yze%E2%80%9D
+
+61.) Line 320, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Description
+...subtitle: In pursuit of capturing moments... description: Hossain Khan is passionate about photograph...
+                                                ^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+62.) Line 321, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Featured
+...mostly in macro, landscape and candid shots. featured_image: '/images/about-hk/IMG_20180903_133529...
+                                                ^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+63.) Line 321, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: about
+...e and candid shots. featured_image: '/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-c...
+                                                ^^^^^^^^
+
+64.) Line 324, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: about
+...or-with-camera-850x600.jpg' ---  ![](/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-c...
+                                                ^^^^^^^^
+
+65.) Line 339, column 43, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DSLR; SLR; DLR; DSL; DSR
+...s: * 📷 Camera Body: Canon EOS RP Mirrorless dSLR  * ⭕ Lenses:    * Canon RF 24-105mm f/4-7.1 ...
+                                                ^^^^
+
+66.) Line 343, column 5, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Law; Low; Laws; Iowa; Lava
+...4-7.1 IS STM   * Canon RF 50mm f/1.8 STM   * Laowa 100mm f/2.8 2:1 Ultra Macro * 🔦 Flash: Cano...
+                                                ^^^^^
+
+67.) Line 344, column 19, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Speed Lite
+...00mm f/2.8 2:1 Ultra Macro * 🔦 Flash: Canon SpeedLite 600EX-RT  Besides main body, I like to take ...
+                                                ^^^^^^^^^
+
+68.) Line 347, column 29, Rule ID: RECOMMENDED_COMPOUNDS[1] premium: false prio=-50
+Message: Nowadays, it’s more common to write this as one word.
+Suggestion: smartphone
+...I have with me,  and 95% of the time it's my smart phone. * 📱 Phone: Google Pixel 9 Pro XL  [end of ...
+                                                ^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/compound-words/#compound-nouns
+
+69.) Line 356, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Description
+...K. subtitle: Consult for your event booking. description: H.K. is available for photo shoot of birthd...
+                                                ^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+70.) Line 356, column 93, Rule ID: EN_COMPOUNDS_NEW_BORN premium: false prio=2
+Message: This word is normally spelled as one.
+Suggestion: newborn
+...of birthday party, engagement shoot outdoor, new born baby shot, product shots, food shoots, or an...
+                                                ^^^^^^^^
+
+71.) Line 356, column 215, Rule ID: E_G[1] premium: false
+Message: The abbreviation “e.g.” (= for example) requires two periods.
+Suggestion: e.g.
+...e photoshoot even is preferred to be in GTA (eg. Toronto, Scarborough, North York, Ajax, Bram...
+                                                ^^^
+More info: https://languagetool.org/insights/post/e-g-versus-i-e/
+
+72.) Line 356, column 215, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: e.g.; EG; ex; leg; EU
+...e photoshoot even is preferred to be in GTA (eg. Toronto, Scarborough, North York, Ajax, Bra...
+                                                ^^
+
+73.) Line 356, column 269, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Mississauga
+...to, Scarborough, North York, Ajax, Brampton, Missisauga, Markham) region. However, I am open to trav...
+                                                ^^^^^^^^^^
+
+74.) Line 357, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: about
+... of the logistics.  featured_image: '/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-c...
+                                                ^^^^^^^^
+
+75.) Line 369, column 15, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Facebook
+... Email: hello@hossain.dev ```  <i class="fab fa-facebook"></i> See current offering and services - <a...
+                                                ^^^^^^^^^^^
+
+76.) Line 369, column 72, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: ref; pref; HEF; tref
+...></i> See current offering and services - <a href="https://www.facebook.com/pg/315040829300679...
+                                                ^^^^
+
+77.) Line 378, column 11, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: ref; pref; HEF; tref
+...g or party events._    ---------   <small><a href="https://docs.google.com/document/d/e/2PACX-...
+                                                ^^^^
+
+78.) Line 378, column 159, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘grey’ is British English.
+Suggestion: gray
+...n39G8MDMD_Osg0fSoHoUtHLLu4/pub" style="color:grey">H.K. PHOTOGRAPHY TERMS & CONDITIONS</a></sm...
+                                                ^^^^
+
+79.) Line 386, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Description
+...ubtitle: Your message was sent successfully. description: Duet is a beautiful Jekyll portfolio theme....
+                                                ^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+80.) Line 387, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Featured
+... Duet is a beautiful Jekyll portfolio theme. featured_image: /images/demo/demo-landscape.jpg ---  ...
+                                                ^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+81.) Line 409, column 25, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘favourite’ is British English.
+Suggestion: favorite
+...# A day to relax! 🍹 California is one of my favourite destinations. The key reason I love this pla...
+                                                ^^^^^^^^^
+More info: https://languagetool.org/insights/post/our-or/#colour-or-color%E2%80%94colourise-or-colorize
+
+82.) Line 409, column 82, Rule ID: REASON_IS_BECAUSE[1] premium: false prio=-50
+Message: The word “because” means “for the reason that” and thus introduces redundancy.
+Suggestion: is that
+...stinations. The key reason I love this place is because it has combination of all the things I like,...
+                                                ^^^^^^^^^^
+More info: https://onlinewritingtraining.com.au/the-reason-is-that-or-the-reason-is-because/
+
+83.) Line 450, column 15, Rule ID: THOUGH_THROUGH[1] premium: false
+Message: Did you mean “through”?
+Suggestion: through
+...mountain-cloud-1700x1100.jpg)  ## 🚗 Driving though clouds We took a road trip through Blue Moun...
+                                                ^^^^^^
+More info: https://languagetool.org/insights/post/though-thought-tough-through-thorough/#through-%CE%B8ru%CB%90
+
+84.) Line 452, column 17, Rule ID: THOUGH_THROUGH[1] premium: false
+Message: Did you mean “through”?
+Suggestion: through
+...rom the top of the mountain. We got to drive though clouds ⛅️, which was an amazing experience. ...
+                                                ^^^^^^
+More info: https://languagetool.org/insights/post/though-thought-tough-through-thorough/#through-%CE%B8ru%CB%90
+
+85.) Line 456, column 11, Rule ID: EN_COMPOUNDS_TIME_LAPSE premium: false prio=2
+Message: This word is normally spelled with a hyphen.
+Suggestion: time-lapse
+...rney, get the best out of it :-)”  Here is a time lapse I took while I was driving through Blue Moun...
+                                                ^^^^^^^^^^
+
+86.) Line 458, column 88, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...s://www.youtube.com/embed/hwpKiM99_GY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowf...
+                                                ^^^^^^^^^^^
+
+87.) Line 458, column 138, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...border="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> [end of _posts/2017-12-28-driving-...
+                                                ^^^^^^^^^^^^^^^
+
+88.) Line 465, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: about
+...2018-06-07 00:00:00 featured_image: '/images/about-hk/DSC_20180607_04859-hk-on-the-balcony-1200x80...
+                                                ^^^^^^^^
+
+89.) Line 468, column 13, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: about
+...n-the-balcony-1200x800.jpg' ---  ![](/images/about-hk/DSC_20180607_04859-hk-on-the-balcony-1200x80...
+                                                ^^^^^^^^
+
+90.) Line 478, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...e! Do what you love and love what you do!”  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+91.) Line 479, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...!”  <div class="gallery" data-columns="3">  <img src="/images/2018-07/DSC_20180707_04897-hami...
+                                                ^^^
+
+92.) Line 480, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...hamilton-falls-hk-portrait1-900x1300.jpg">  <img src="/images/2018-07/DSC_20180707_04929-hami...
+                                                ^^^
+
+93.) Line 481, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+..._04929-hamilton-falls-water-900x1300.jpg">  <img src="/images/2018-07/DSC_20180707_04963-hami...
+                                                ^^^
+
+94.) Line 485, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...rtrait2-900x1300.jpg"> </div>  ### Location <div class="image-wrap"> <iframe width="600" heig...
+                                                ^^^
+
+95.) Line 486, column 34, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...mage-wrap"> <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google...
+                                                ^^^^^^^^^^^
+
+96.) Line 486, column 199, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...key=AIzaSyDulWxMuu7o_7ijEnTY5gxmBtpEgXtlop4" allowfullscreen></iframe> <iframe width="600" height="450" f...
+                                                ^^^^^^^^^^^^^^^
+
+97.) Line 487, column 34, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...n></iframe> <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google...
+                                                ^^^^^^^^^^^
+
+98.) Line 487, column 199, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...key=AIzaSyDulWxMuu7o_7ijEnTY5gxmBtpEgXtlop4" allowfullscreen></iframe> </div> [end of _posts/2018-06-07-j...
+                                                ^^^^^^^^^^^^^^^
+
+99.) Line 501, column 4, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Photoshop; Photoshoot; Photos hot
+...rtrait-at-rumbellow-trail-1600x1100.jpg)  ## Photoshot at the trail A quick walk with friends near ...
+                                                ^^^^^^^^^
+
+100.) Line 502, column 32, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Rum bellow
+... at the trail A quick walk with friends near Rumbellow Crescent, Ajax.   > “Wherever you go, no mat...
+                                                ^^^^^^^^^
+
+101.) Line 506, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+... your own sunshine.” - Anthony J. D'Angelo  <div class="gallery" data-columns="4">  <img src=...
+                                                ^^^
+
+102.) Line 507, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...lo  <div class="gallery" data-columns="4">  <img src="/images/2018-08/IMG_20180826_8762-trail...
+                                                ^^^
+
+103.) Line 508, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...-trail-walk-portrait-couple-1300x900.jpg">  <img src="/images/2018-08/IMG_20180826_8785-trail...
+                                                ^^^
+
+104.) Line 509, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+..._8785-trail-walk-portrait-2-1300x900.jpg">  <img src="/images/2018-08/IMG_20180826_8831-trail...
+                                                ^^^
+
+105.) Line 510, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+..._8831-trail-walk-portrait-3-1300x900.jpg">  <img src="/images/2018-08/IMG_20180826_8879-trail...
+                                                ^^^
+
+106.) Line 521, column 25, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...1600x1100.jpeg' ---  ![Exposure Time: 1/250, FNumber: 10, Focal Length: 24](/images/2018-08/IMG_2...
+                                                ^^^^^^^
+
+107.) Line 524, column 1, Rule ID: EVERYDAY_EVERY_DAY[3] premium: false
+Message: ‘Everyday’ is an adjective. Did you mean “every day”?
+Suggestion: Every day
+...balcony-1600x1100.jpeg)  ## Mind is like sky Everyday gives us unique opportunity to view our surr...
+                                                ^^^^^^^^
+More info: https://languagetool.org/insights/post/word-choice-every-day-vs-everyday/
+
+108.) Line 525, column 20, Rule ID: ENGLISH_WORD_REPEAT_RULE premium: false prio=-1
+Message: Possible typo: you repeated a word.
+Suggestion: the
+...ons combination of views. I get excited with the the views it create, specially during sunset. Be...
+                                                ^^^^^^^
+
+109.) Line 525, column 37, Rule ID: IT_VBZ[1] premium: false prio=-12
+Message: After ‘it’, use the third-person verb form “creates”.
+Suggestion: creates
+...f views. I get excited with the the views it create, specially during sunset. Because, every sec...
+                                                ^^^^^^
+
+110.) Line 540, column 24, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...-1500x1000.jpeg' ---  ![Exposure Time: 1/60, FNumber: 20, Focal Length: 24mm, ISO: 200](/images/2...
+                                                ^^^^^^^
+
+111.) Line 544, column 21, Rule ID: DID_BASEFORM[1] premium: false
+Message: The auxiliary verb ‘do’ requires the base form of the verb.
+Suggestion: get
+...ouge Park's vista trail. Fortunately, we did got some fall colors on the trees 🌳. The day wa...
+                                                ^^^
+More info: https://languagetool.org/insights/post/grammar-forms-of-do/
+
+112.) Line 544, column 21, Rule ID: AUXILIARY_DO_WITH_INCORRECT_VERB_FORM[1] premium: false
+Message: After the auxiliary verb ‘do’, use the base form of a verb. Did you mean “get”?
+Suggestion: get
+...ouge Park's vista trail. Fortunately, we did got some fall colors on the trees 🌳. The day wa...
+                                                ^^^
+More info: https://grammar.collinsdictionary.com/easy-learning/how-do-you-use-the-verb-do-in-english
+
+113.) Line 549, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...again when all the trees are on fire!! 🔥   <div class="gallery" data-columns="2">  <img src=...
+                                                ^^^
+
+114.) Line 550, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...?   <div class="gallery" data-columns="2">  <img src="/images/2018-09/IMG_20180929_1631-fall-...
+                                                ^^^
+
+115.) Line 551, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...1631-fall-color-cliff-view-1500x1000.jpg">  <img src="/images/2018-09/IMG_20180929_1628-hossa...
+                                                ^^^
+
+116.) Line 556, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...olors-1500x1000.jpg"> </div>   ### Location <div class="image-wrap"> <iframe width="600" heig...
+                                                ^^^
+
+117.) Line 557, column 34, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...mage-wrap"> <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google...
+                                                ^^^^^^^^^^^
+
+118.) Line 557, column 199, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...key=AIzaSyDulWxMuu7o_7ijEnTY5gxmBtpEgXtlop4" allowfullscreen></iframe> </div> [end of _posts/2018-09-29-h...
+                                                ^^^^^^^^^^^^^^^
+
+119.) Line 569, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...1600x1100.jpg' ---  ![Exposure Time: 1/4000, FNumber: 1.8, Focal Length: 50](/images/front-page/I...
+                                                ^^^^^^^
+
+120.) Line 572, column 9, Rule ID: EN_A_VS_AN premium: false prio=-1
+Message: Use “an” instead of ‘a’ if the following word starts with a vowel sound, e.g. ‘an article’, ‘an hour’.
+Suggestion: an
+....jpg)  ## 📸 Making people smile ^_^ This is a engagement shootout at end of September when...
+                                                ^
+More info: https://languagetool.org/insights/post/indefinite-articles/
+
+121.) Line 575, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+... just started to show fall colors 🍁🍁🍁.   <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+122.) Line 576, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+....   <div class="gallery" data-columns="3">  <img src="/images/2018-09/IMG_20180929_1584-eshoo...
+                                                ^^^
+
+123.) Line 577, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...84-eshoot-at-vista-trail-1500x1000.jpg" />  <img src="/images/2018-09/IMG_20180929_1501-eshoo...
+                                                ^^^
+
+124.) Line 578, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...01-eshoot-at-vista-trail-1500x1000.jpg" />  <img src="/images/2018-09/IMG_20180929_1379-eshoo...
+                                                ^^^
+
+125.) Line 579, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...79-eshoot-at-vista-trail-1500x1000.jpg" />  <img src="/images/2018-09/IMG_20180929_1304-eshoo...
+                                                ^^^
+
+126.) Line 580, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...04-eshoot-at-vista-trail-1500x1000.jpg" />  <img src="/images/2018-09/IMG_20180929_1224-eshoo...
+                                                ^^^
+
+127.) Line 581, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...24-eshoot-at-vista-trail-1500x1000.jpg" />  <img src="/images/2018-09/IMG_20180929_1471-eshoo...
+                                                ^^^
+
+128.) Line 593, column 46, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...![Aperture Value: 1.7, Exposure Time: 1/731, FNumber: 1.8, Focal Length: 4.459, Focal Length In 3...
+                                                ^^^^^^^
+
+129.) Line 596, column 24, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘favourite’ is British English.
+Suggestion: favorite
+...  ## 🌊 Beach time 🏖 Sea beach is one of my favourite place to be on earth.  There is something sp...
+                                                ^^^^^^^^^
+More info: https://languagetool.org/insights/post/our-or/#colour-or-color%E2%80%94colourise-or-colorize
+
+130.) Line 597, column 45, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: The
+... There is something special about the waves! the sound, makes me calm and relaxing.   Now, go...
+                                                ^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+131.) Line 611, column 48, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...Aperture Value: 5.375, Exposure Time: 1/200, FNumber: 6.3, Focal Length: 50](/images/2018-10/IMG_...
+                                                ^^^^^^^
+
+132.) Line 627, column 45, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+... ![Aperture Value: 1.7, Exposure Time: 1/60, FNumber: 1.8, Focal Length: 4.459, Focal Length In 3...
+                                                ^^^^^^^
+
+133.) Line 646, column 46, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...![Aperture Value: 5.6, Exposure Time: 1/200, FNumber: 5.6, Focal Length: 4, Focal Length In 35mm ...
+                                                ^^^^^^^
+
+134.) Line 648, column 21, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...he-water-1600x1000.jpg)  ## A short visit in Tobermory Recently I visited Tobermory and Flowerpot i...
+                                                ^^^^^^^^^
+
+135.) Line 649, column 20, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+... short visit in Tobermory Recently I visited Tobermory and Flowerpot island after almost a decade. ...
+                                                ^^^^^^^^^
+
+136.) Line 653, column 21, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: MV IMG
+...ce this unique beauty.   ![](/images/2019-07/MVIMG_20190713_180424-playing-with-the-water2-1000...
+                                                ^^^^^
+
+137.) Line 665, column 46, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...![Aperture Value: 4.5, Exposure Time: 1/200, FNumber: 4.5, Focal Length: 4, Focal Length: 100mm, ...
+                                                ^^^^^^^
+
+138.) Line 668, column 52, Rule ID: COMMA_COMPOUND_SENTENCE[1] premium: false prio=-1
+Message: Use a comma before ‘and’ if it connects two independent clauses (unless they are closely connected and short).
+Suggestion: , and
+... got up on Saturday morning, I looked outside and I was stuneed by the view of thin layer of i...
+                                                ^^^^
+More info: https://languagetool.org/insights/post/types-of-sentences/#compound-sentence
+
+139.) Line 668, column 63, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: stunned; stunted
+...Saturday morning, I looked outside and I was stuneed by the view of thin layer of ice sitting on ...
+                                                ^^^^^^^
+
+140.) Line 686, column 25, Rule ID: ENGLISH_WORD_REPEAT_RULE premium: false prio=-1
+Message: Possible typo: you repeated a word.
+Suggestion: Cusco
+...-hdr-1600x1100.jpg)  ## Exploring old city - Cusco Cusco is a city in Peru where you stop by to visit...
+                                                ^^^^^^^^^^^
+
+141.) Line 688, column 89, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ceviche
+...alking around. This is where I also had best Cheviche in Peru.   You can easily spend weeks if not...
+                                                ^^^^^^^^
+
+142.) Line 694, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...arby attractions.  > “Live, Laugh & Love.”  <div class="gallery" data-columns="2">  <img src=...
+                                                ^^^
+
+143.) Line 695, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+....”  <div class="gallery" data-columns="2">  <img src="/images/2020-01/IMG_20200121_155323-cus...
+                                                ^^^
+
+144.) Line 696, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+.../IMG_20200121_155323-cusco-1600x1200.jpg">  <img src="/images/2020-01/IMG_20200121_171535-01-...
+                                                ^^^
+
+145.) Line 697, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...0121_171535-01-cusco-allay-1200x1600.jpg">  <img src="/images/2020-01/IMG_20200121_172846-PAN...
+                                                ^^^
+
+146.) Line 711, column 8, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: hair; pair; fair; Fair; lair
+...each-2000x1200.jpeg)  ## Fall of 2020 What a yeear we had, however, the nature kept healing its...
+                                                ^^^^^
+
+147.) Line 719, column 21, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Niagara; Niagaras; Niigata; Viagra; NAGPRA
+...dge-over-niagara.md] --- title: 'Bridge over niagara 🌈' date: 2020-10-25 17:16:00 featured_image...
+                                                ^^^^^^^
+
+148.) Line 727, column 59, Rule ID: DETERMINER_GEOGRAPHICAL_WORD[1] premium: false
+Message: A determiner may be missing.
+Suggestion: with the USA
+...st popular bridge that connects us Canadians with USA. A must-visit place at [any time](https://ww...
+                                                ^^^^^^^^
+More info: https://www.engvid.com/english-resource/the-with-country-names-lakes-rivers/
+
+149.) Line 729, column 52, Rule ID: I_LOWERCASE[1] premium: false
+Message: The personal pronoun “I” should be uppercase.
+Suggestion: I
+...time I go there I find different places that i haven't explored except the falls itself.   ...
+                                                ^
+
+150.) Line 732, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...aven't explored except the falls itself.    <div class="gallery" data-columns="2">  <img src=...
+                                                ^^^
+
+151.) Line 733, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...    <div class="gallery" data-columns="2">  <img src="/images/2020-10/PXL_20201018_192037626-...
+                                                ^^^
+
+152.) Line 734, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...6-rainbow-bridge-maple-wait-1600x100.jpg">  <img src="/images/2020-10/IMG_2095-rainbow-bridge...
+                                                ^^^
+
+153.) Line 735, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+..._2095-rainbow-bridge-under-1600x1000.jpg">  <img src="/images/2020-10/PXL_20201018_192528079-...
+                                                ^^^
+
+154.) Line 740, column 1, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...1600.jpg"> </div>  <!-- Exposure Time: 1/125 FNumber: 5 Focal Length: 50 Photographic Sensitivity...
+                                                ^^^^^^^
+
+155.) Line 786, column 48, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Pro; Prove; Prop; Prom; Pros
+...other hike around the cabin at the Arrowhead Prov Park.   <div class="gallery" data-columns="2...
+                                                ^^^^
+
+156.) Line 788, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...und the cabin at the Arrowhead Prov Park.   <div class="gallery" data-columns="2">  <img src=...
+                                                ^^^
+
+157.) Line 789, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+....   <div class="gallery" data-columns="2">  <img src="/images/2022-09/IMG_7397-1800x1200.jpg"...
+                                                ^^^
+
+158.) Line 790, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...="/images/2022-09/IMG_7397-1800x1200.jpg">  <img src="/images/2022-09/IMG_7418-1800x1200.jpg"...
+                                                ^^^
+
+159.) Line 806, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...t walking around and enjoying the view. 🚶  <div class="gallery" data-columns="3">  <img alt=...
+                                                ^^^
+
+160.) Line 807, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...🚶  <div class="gallery" data-columns="3">  <img alt="Japan street photo" src="/images/2023-0...
+                                                ^^^
+
+161.) Line 808, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...-04/IMG_9041-japan-street3-1800x1200.jpg">  <img alt="Japan street photo" src="/images/2023-0...
+                                                ^^^
+
+162.) Line 809, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...-04/IMG_9078-japan-street2-1800x1200.jpg">  <img alt="Japan street photo of toys" src="/image...
+                                                ^^^
+
+163.) Line 827, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...ifornia. Outstanding food and the view. ☀️  <div class="gallery" data-columns="2">  <img src=...
+                                                ^^^
+
+164.) Line 828, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...☀️  <div class="gallery" data-columns="2">  <img src="/images/2023-10/PXL_20231022_012742092-...
+                                                ^^^
+
+165.) Line 829, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...XL_20231022_012742092-rustic-present.jpg">  <img src="/images/2023-10/PXL_20231022_012818430....
+                                                ^^^
+
+166.) Line 843, column 6, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: There
+...3-hk-sunset.jpg)  ## Timeless Selfie 🤳 Yes! there are some white spots, does that make me old?...
+                                                ^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+167.) Line 857, column 21, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: English
+...As good as life gets! 🙏 Sipping on a cup of english tea, enjoying my existence and appreciating ...
+                                                ^^^^^^^
+
+168.) Line 905, column 23, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Amos; Damon; Samoa; Ramon; Ramos
+...mbracing the Giant 🌳  Giant Camphor Tree of Kamoh Shrine, Fukuoka, Japan. This tree is estimat...
+                                                ^^^^^
+
+169.) Line 918, column 52, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: CTI; DTI; ATI; BTI; FTI
+...le: 'f: 5.6, t: 1/320s, l: 47mm, Canon REBEL XTi' date: 2010-09-05 14:20:56 featured_image: '...
+                                                ^^^
+
+170.) Line 945, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...he wonder of the world - Grand Canyon 🏜.   <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+171.) Line 946, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+....   <div class="gallery" data-columns="3">  <img src="/images/2016-04/IMG_20160425_145642-gra...
+                                                ^^^
+
+172.) Line 947, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...5642-grand-canyon-panorama-2200x1100.jpg">  <img src="/images/2016-04/IMG_20160425_151025-gra...
+                                                ^^^
+
+173.) Line 956, column 48, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Power Shot; PowerS hot
+...btitle: 'f: 4.0, t: 1/1000s, l: 5.2mm, Canon PowerShot S110' date: 2017-03-30 10:53:03 featured_ima...
+                                                ^^^^^^^^^
+
+174.) Line 964, column 94, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Hiroshima; Hiroshi; Hiroshige; Kirishima
+...n-front of the building that stood after the hiroshima atom bomb attack.  I hope we have learned fr...
+                                                ^^^^^^^^^
+
+175.) Line 970, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...eful tomorrows.” - Martin Luther King, Jr.  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+176.) Line 971, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...r.  <div class="gallery" data-columns="3">  <img src="/images/2017-03/IMG_20170330_1690-hiros...
+                                                ^^^
+
+177.) Line 972, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...roshima-building-signboard-1200x1600.jpg">  <img src="/images/2017-03/IMG_20170330_1713-hiros...
+                                                ^^^
+
+178.) Line 979, column 47, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Power Shot; PowerS hot
+...ubtitle: 'f: 4.0, t: 1/400s, l: 5.2mm, Canon PowerShot S110' date: 2017-03-27 11:57:03 featured_ima...
+                                                ^^^^^^^^^
+
+179.) Line 987, column 62, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Sakura; Laura; samurai; seizure; Sahara
+...amazing cherry trees waiting to bloom during sakura event at 🇯🇵.   <div class="gallery" data-c...
+                                                ^^^^^^
+
+180.) Line 990, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...ing to bloom during sakura event at 🇯🇵.   <div class="gallery" data-columns="4">  <img src=...
+                                                ^^^
+
+181.) Line 991, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+....   <div class="gallery" data-columns="4">  <img src="/images/2017-03/IMG_20170325_0930-cherr...
+                                                ^^^
+
+182.) Line 992, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...0930-cherry-flower-close-up-900x1200.jpg">  <img src="/images/2017-03/IMG_20170327_1284-flowe...
+                                                ^^^
+
+183.) Line 993, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...27_1284-flowers-from-temple-900x1200.jpg">  <img src="/images/2017-03/IMG_20170329_1505-cherr...
+                                                ^^^
+
+184.) Line 994, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...1505-cherry-flower-close-up-900x1200.jpg">  <img src="/images/2017-03/IMG_20170330_1877-cherr...
+                                                ^^^
+
+185.) Line 998, column 174, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Howard; Homage; Tomato; Hobart; Homer
+...ful but that it is also tragically short." - Homaro Cantu [end of _projects/2017-04-02-japan-che...
+                                                ^^^^^^
+
+186.) Line 1016, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...e no rocks in their way." - Rishabh Gautam  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+187.) Line 1017, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...am  <div class="gallery" data-columns="3">  <img src="/images/2017-12/DSC_20171228_04003-jama...
+                                                ^^^
+
+188.) Line 1033, column 44, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ahmed; Ahmet
+...? A perfect night with clear sky at the Camp Ahmek site.  [end of _projects/2018-09-06-camp-sta...
+                                                ^^^^^
+
+189.) Line 1050, column 104, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Shashank; Shaw shank
+...s thing. Hope can drive a man insane.” - The Shawshank Redemption  [end of _projects/2018-09-07-mis...
+                                                ^^^^^^^^^
+
+190.) Line 1068, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...drops, the leaves, the day." - Marty Rubin  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+191.) Line 1069, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...in  <div class="gallery" data-columns="3">  <img src="/images/2018-09/IMG_20180907_0450-1600x...
+                                                ^^^
+
+192.) Line 1070, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...907_0450-1600x1100-mushroom-on-trail.jpg">  <img src="/images/2018-09/IMG_20180907_102615-160...
+                                                ^^^
+
+193.) Line 1084, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...blooming.jpeg' ---  ![Exposure Time: 1/4000, FNumber: 1.8, Focal Length: 50, ISO: 200](/images/fr...
+                                                ^^^^^^^
+
+194.) Line 1092, column 66, Rule ID: EN_SPECIFIC_CASE premium: false
+Message: If the term is a proper noun, use the suggested capitalization.
+Suggestion: Vincent van Gogh
+... Nature, you will find beauty everywhere.” - Vincent Van Gogh  <div class="gallery" data-columns="3">  <im...
+                                                ^^^^^^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+195.) Line 1094, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...ind beauty everywhere.” - Vincent Van Gogh  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+196.) Line 1095, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...gh  <div class="gallery" data-columns="3">  <img src="/images/2018-10/IMG_20181021_3221-fall-...
+                                                ^^^
+
+197.) Line 1096, column 36, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...1100.jpg"         alt="Exposure Time: 1/320, FNumber: 8, Focal Length: 50, ISO: 200"         titl...
+                                                ^^^^^^^
+
+198.) Line 1097, column 38, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...O: 200"         title="Exposure Time: 1/320, FNumber: 8, Focal Length: 50, ISO: 200" />  <img src...
+                                                ^^^^^^^
+
+199.) Line 1098, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...FNumber: 8, Focal Length: 50, ISO: 200" />  <img src="/images/2018-10/IMG_20181021_3459-fall-...
+                                                ^^^
+
+200.) Line 1099, column 34, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...x1000.jpeg"      alt="Exposure Time: 1/1250, FNumber: 1.8, Focal Length: 50, ISO: 200"      title...
+                                                ^^^^^^^
+
+201.) Line 1100, column 36, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...ISO: 200"      title="Exposure Time: 1/1250, FNumber: 1.8, Focal Length: 50, ISO: 200" /> </div> ...
+                                                ^^^^^^^
+
+202.) Line 1105, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...gth: 50, ISO: 200" /> </div>   ### Location <div class="image-wrap">     <iframe width="600" ...
+                                                ^^^
+
+203.) Line 1106, column 38, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...-wrap">     <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google...
+                                                ^^^^^^^^^^^
+
+204.) Line 1106, column 197, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...key=AIzaSyDulWxMuu7o_7ijEnTY5gxmBtpEgXtlop4" allowfullscreen></iframe> </div>  [end of _projects/2018-10-...
+                                                ^^^^^^^^^^^^^^^
+
+205.) Line 1119, column 25, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...-1600x1000.jpg' ---  ![Exposure Time: 1/125, FNumber: 7.1, Focal Length: 100, ISO: 200](/images/f...
+                                                ^^^^^^^
+
+206.) Line 1126, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...ing be far behind?” - Percy Bysshe Shelley  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+207.) Line 1127, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...ey  <div class="gallery" data-columns="3">  <img src="/images/2018-11/IMG_20181111_3596-froze...
+                                                ^^^
+
+208.) Line 1128, column 36, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...1000.jpg"         alt="Exposure Time: 1/500, FNumber: 1.8, Focal Length: 50, ISO: 200"         ti...
+                                                ^^^^^^^
+
+209.) Line 1129, column 38, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...O: 200"         title="Exposure Time: 1/500, FNumber: 1.8, Focal Length: 50, ISO: 200" />  <img s...
+                                                ^^^^^^^
+
+210.) Line 1130, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...umber: 1.8, Focal Length: 50, ISO: 200" />  <img src="/images/2018-11/IMG_20181111_3619-froze...
+                                                ^^^
+
+211.) Line 1131, column 33, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...00x1000.jpg"      alt="Exposure Time: 1/320, FNumber: 3.2, Focal Length: 50, ISO: 200"      title...
+                                                ^^^^^^^
+
+212.) Line 1132, column 35, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+... ISO: 200"      title="Exposure Time: 1/320, FNumber: 3.2, Focal Length: 50, ISO: 200" /> </div> ...
+                                                ^^^^^^^
+
+213.) Line 1145, column 46, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Number; FN umber
+...![Aperture Value: 1.7, Exposure Time: 1/130, FNumber: 1.8, Focal Length: 4.459, Focal Length In 3...
+                                                ^^^^^^^
+
+214.) Line 1148, column 19, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Sarah; Farah; Farrah; Makkah; Wagram
+...  ## 🕌 In search of peace I was visiting Al Wakrah Souq in Qatar and it was time to say prayer....
+                                                ^^^^^^
+
+215.) Line 1148, column 26, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Soul; Soup; Sour; Sous; Sou
+... In search of peace I was visiting Al Wakrah Souq in Qatar and it was time to say prayer.  The...
+                                                ^^^^
+
+216.) Line 1148, column 39, Rule ID: COMMA_COMPOUND_SENTENCE[1] premium: false prio=-1
+Message: Use a comma before ‘and’ if it connects two independent clauses (unless they are closely connected and short).
+Suggestion: , and
+... peace I was visiting Al Wakrah Souq in Qatar and it was time to say prayer.  There were multi...
+                                                ^^^^
+More info: https://languagetool.org/insights/post/types-of-sentences/#compound-sentence
+
+217.) Line 1149, column 21, Rule ID: THERE_RE_MANY[3] premium: false
+Message: Possible agreement error. Did you mean “mosques”?
+Suggestion: mosques
+...was time to say prayer.  There were multiple mosque in the market, and this was one of them - ju...
+                                                ^^^^^^
+
+218.) Line 1168, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...n drops everywhere. It's simply beautiful.  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+219.) Line 1169, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...l.  <div class="gallery" data-columns="3">  <img src="/images/2019-02/IMG_4262-frozen-drops-o...
+                                                ^^^
+
+220.) Line 1170, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+..._4262-frozen-drops-on-tree-1700x1100.jpg">  <img src="/images/2019-02/IMG_4286-frozen-drops-n...
+                                                ^^^
+
+221.) Line 1190, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...tely weaves in every petal and filament."   <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+222.) Line 1191, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+..."   <div class="gallery" data-columns="3">  <img src="/images/2019-05/IMG_5325-nature-up-clos...
+                                                ^^^
+
+223.) Line 1209, column 72, Rule ID: EN_COMPOUNDS_BREATH_TAKING premium: false prio=2
+Message: This word is normally spelled as one.
+Suggestion: breathtaking
+...Peru I visited Machu Picchu. It really was a breath taking place to be. The Inka Civilization's use of ...
+                                                ^^^^^^^^^^^^^
+
+224.) Line 1210, column 5, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ink; Inks; Inca; Ina; Inky
+... really was a breath taking place to be. The Inka Civilization's use of stone in high up in th...
+                                                ^^^^
+
+225.) Line 1210, column 75, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘mesmerising’ is British English.
+Suggestion: mesmerizing
+...f stone in high up in the mountain is really mesmerising.    <div class="gallery" data-columns="2">  ...
+                                                ^^^^^^^^^^^
+More info: https://languagetool.org/insights/post/ise-ize/#the-distinctions-between-%E2%80%9C-ise%E2%80%9D-%E2%80%9C-ize%E2%80%9D-and-%E2%80%9C-yse%E2%80%9D-%E2%80%9C-yze%E2%80%9D
+
+226.) Line 1213, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...p in the mountain is really mesmerising.    <div class="gallery" data-columns="2">  <img src=...
+                                                ^^^
+
+227.) Line 1214, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...    <div class="gallery" data-columns="2">  <img src="/images/2020-01/IMG_20200120_100811-mac...
+                                                ^^^
+
+228.) Line 1215, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...200120_100811-machu-picchu-1600x1200.jpg">  <img src="/images/2020-01/IMG_20200120_111816-mac...
+                                                ^^^
+
+229.) Line 1216, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...200120_111816-machu-picchu-1200x1600.jpg">  <img src="/images/2020-01/IMG_20200120_141941-mac...
+                                                ^^^
+
+230.) Line 1252, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...iew was stunning when the sun was setting.  <div class="image-wrap">     <iframe src="https:/...
+                                                ^^^
+
+231.) Line 1253, column 305, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...5061!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" ari...
+                                                ^^^^^^^^^^^
+
+232.) Line 1253, column 339, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...ight="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe...
+                                                ^^^^^^^^^^^^^^^
+
+233.) Line 1253, column 378, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: tab index
+...r:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>   #### What is Badlands...
+                                                ^^^^^^^^
+
+234.) Line 1278, column 62, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Boland; Orland; Bolland; Bowland; Norland
+...ts forever; no spring skips its turn." - Hal Borland [end of _projects/2021-05-09-spring-is-here-...
+                                                ^^^^^^^
+
+235.) Line 1293, column 46, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Ony
+...Love how the yellow tulip blends with green! ony of my favourite color. [end of _projects/202...
+                                                ^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+236.) Line 1293, column 46, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: On; Any; One; Only; Tony
+...Love how the yellow tulip blends with green! ony of my favourite color. [end of _projects/202...
+                                                ^^^
+
+237.) Line 1293, column 56, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake. ‘favourite’ is British English.
+Suggestion: favorite
+...he yellow tulip blends with green! ony of my favourite color. [end of _projects/2021-05-09-tulip-ye...
+                                                ^^^^^^^^^
+More info: https://languagetool.org/insights/post/our-or/#colour-or-color%E2%80%94colourise-or-colorize
+
+238.) Line 1342, column 39, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Sashimi; Fushih
+...ngs ⛩️ A few little shrines in the middle of Fushimi Inari path. Sometimes it's worth stopping fo...
+                                                ^^^^^^^
+
+239.) Line 1342, column 47, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: INRI; INAMI
+... few little shrines in the middle of Fushimi Inari path. Sometimes it's worth stopping for litt...
+                                                ^^^^^
+
+240.) Line 1365, column 66, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: TCU; Tau; BZU; CZU; TEU
+...urry, yet everything is accomplished." - Lao Tzu [end of _projects/2023-10-20-back-to-life.md...
+                                                ^^^
+
+241.) Line 1419, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...difice of stone and space." - Ansel Adams   <div class="gallery" data-columns="3">  <img alt=...
+                                                ^^^
+
+242.) Line 1420, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s   <div class="gallery" data-columns="3">  <img alt="Tunnel View vista point at the Yosemite...
+                                                ^^^
+
+243.) Line 1421, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...180500317-grand-tunnel-view-2000x900.jpg">  <img alt="Edge view of Tunnel View vista point" s...
+                                                ^^^
+
+244.) Line 1461, column 161, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: Ingram; Ingres; Gingham; Gingers; Ginghams
+...n by the tides, and follow the sun." – Sandy Gingras   [end of _projects/2024-04-24-bleeding-suns...
+                                                ^^^^^^^
+
+245.) Line 1510, column 4, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: included
+... can do inside portfolio and blog posts.  We'veincluded everything you need to create engaging posts...
+                                                ^^^^^^^^^^
+
+246.) Line 1512, column 12, Rule ID: COMMA_PARENTHESIS_WHITESPACE premium: false
+Message: Put a space after the comma.
+Suggestion: , *
+...case studies in a beautiful way.  **Obviously,** we’ve styled up *all the basic* text format...
+                                                ^^
+
+247.) Line 1512, column 86, Rule ID: MARKDOWN_NNP[1] premium: false
+Message: Did you mean the formatting language “Markdown” (= proper noun)?
+Suggestion: Markdown
+...basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wik...
+                                                ^^^^^^^^
+More info: https://en.wikipedia.org/wiki/Markdown
+
+248.) Line 1538, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+... neat custom feature we added – galleries:  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+249.) Line 1539, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s:  <div class="gallery" data-columns="3">  <img src="/images/demo/demo-portrait.jpg">  <img ...
+                                                ^^^
+
+250.) Line 1540, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...<img src="/images/demo/demo-portrait.jpg">  <img src="/images/demo/demo-landscape.jpg">  <img...
+                                                ^^^
+
+251.) Line 1541, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/demo-landscape.jpg">  <img src="/images/demo/demo-square.jpg">  <img sr...
+                                                ^^^
+
+252.) Line 1542, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...  <img src="/images/demo/demo-square.jpg">  <img src="/images/demo/demo-landscape-2.jpg"> </d...
+                                                ^^^
+
+253.) Line 1547, column 4, Rule ID: FILE_EXTENSIONS_CASE[1] premium: false
+Message: File types are normally capitalized.
+Suggestion: HTML
+...t to create a masonry grid image layout:  ```html <div class="gallery" data-columns="3">     <...
+                                                ^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+254.) Line 1548, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...reate a masonry grid image layout:  ```html <div class="gallery" data-columns="3">     <img s...
+                                                ^^^
+
+255.) Line 1549, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <div class="gallery" data-columns="3">     <img src="/images/demo/demo-portrait.jpg">     <i...
+                                                ^^^
+
+256.) Line 1550, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...g src="/images/demo/demo-portrait.jpg">     <img src="/images/demo/demo-landscape.jpg">     <...
+                                                ^^^
+
+257.) Line 1551, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... src="/images/demo/demo-landscape.jpg">     <img src="/images/demo/demo-square.jpg">     <img...
+                                                ^^^
+
+258.) Line 1552, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/demo-square.jpg">     <img src="/images/demo/demo-landscape-2.jpg"> </d...
+                                                ^^^
+
+259.) Line 1566, column 117, Rule ID: WAY_COMPOUNDS[2] premium: false
+Message: The adjective or adverb “halfway” is spelled as one word.
+Suggestion: halfway
+...o your visitors won't scroll down to find it half way through your images.  <div class="gallery" d...
+                                                ^^^^^^^^
+More info: https://www.lexico.com/definition/halfway
+
+260.) Line 1568, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...n to find it half way through your images.  <div class="gallery" data-columns="1">  <img src=...
+                                                ^^^
+
+261.) Line 1569, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s.  <div class="gallery" data-columns="1">  <img src="/images/demo/demo-landscape.jpg">  <img...
+                                                ^^^
+
+262.) Line 1570, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/demo-landscape.jpg">  <img src="/images/demo/demo-landscape-2.jpg"> </d...
+                                                ^^^
+
+263.) Line 1577, column 81, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...om/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>  ---  ## Prett...
+                                                ^^^^^^^^^^^
+
+264.) Line 1577, column 97, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...89" width="640" height="360" frameborder="0" allowfullscreen></iframe>  ---  ## Pretty cool, huh?  We've ...
+                                                ^^^^^^^^^^^^^^^
+
+265.) Line 1587, column 4, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: ref; pref; HEF; tref
+...t put them to use on your new portfolio?  <a href="https://jekyllthemes.io/theme/duet-portfoli...
+                                                ^^^^
+
+266.) Line 1596, column 1, Rule ID: UPPERCASE_SENTENCE_START premium: false prio=-11
+Message: This sentence does not start with an uppercase letter.
+Suggestion: Featured
+... you can do inside portfolio and blog posts. featured_image: '/images/demo/demo-square.jpg' ---  !...
+                                                ^^^^^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+267.) Line 1607, column 12, Rule ID: COMMA_PARENTHESIS_WHITESPACE premium: false
+Message: Put a space after the comma.
+Suggestion: , *
+...case studies in a beautiful way.  **Obviously,** we’ve styled up *all the basic* text format...
+                                                ^^
+
+268.) Line 1607, column 86, Rule ID: MARKDOWN_NNP[1] premium: false
+Message: Did you mean the formatting language “Markdown” (= proper noun)?
+Suggestion: Markdown
+...basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wik...
+                                                ^^^^^^^^
+More info: https://en.wikipedia.org/wiki/Markdown
+
+269.) Line 1625, column 25, Rule ID: MARKDOWN_NNP[3] premium: false
+Message: Did you mean the formatting language “Markdown” (= proper noun)?
+Suggestion: Markdown
+...an move mountains.”  The theme also supports markdown tables:  | Item                 | Author    ...
+                                                ^^^^^^^^
+More info: https://en.wikipedia.org/wiki/Markdown
+
+270.) Line 1627, column 7, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... theme also supports markdown tables:  | Item                 | Author        | Supports tables? | Price | ...
+                                                ^^^^^^^^^^^^^^^^^
+
+271.) Line 1627, column 32, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...down tables:  | Item                 | Author        | Supports tables? | Price | |---------------...
+                                                ^^^^^^^^
+
+272.) Line 1629, column 20, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...----------------|-------| | Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   | ...
+                                                ^^^^
+
+273.) Line 1629, column 45, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... | Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   | | Index Jekyll Theme   | Jekyll The...
+                                                ^^^^^^^^^^^^^^
+
+274.) Line 1629, column 64, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...e    | Jekyll Themes | Yes              | $49   | | Index Jekyll Theme   | Jekyll Themes | Ye...
+                                                ^^^
+
+275.) Line 1630, column 21, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...s              | $49   | | Index Jekyll Theme   | Jekyll Themes | Yes              | $49   | ...
+                                                ^^^
+
+276.) Line 1630, column 45, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... | Index Jekyll Theme   | Jekyll Themes | Yes              | $49   | | Journal Jekyll Theme | Jekyll The...
+                                                ^^^^^^^^^^^^^^
+
+277.) Line 1630, column 64, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...me   | Jekyll Themes | Yes              | $49   | | Journal Jekyll Theme | Jekyll Themes | Ye...
+                                                ^^^
+
+278.) Line 1631, column 45, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... | Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |  And footnotes[^1], which link to e...
+                                                ^^^^^^^^^^^^^^
+
+279.) Line 1631, column 64, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...heme | Jekyll Themes | Yes              | $49   |  And footnotes[^1], which link to explanati...
+                                                ^^^
+
+280.) Line 1647, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+... neat custom feature we added – galleries:  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+281.) Line 1648, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s:  <div class="gallery" data-columns="3">  <img src="/images/demo/demo-portrait.jpg">  <img ...
+                                                ^^^
+
+282.) Line 1649, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...<img src="/images/demo/demo-portrait.jpg">  <img src="/images/demo/demo-landscape.jpg">  <img...
+                                                ^^^
+
+283.) Line 1650, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/demo-landscape.jpg">  <img src="/images/demo/demo-square.jpg">  <img sr...
+                                                ^^^
+
+284.) Line 1651, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...  <img src="/images/demo/demo-square.jpg">  <img src="/images/demo/demo-landscape-2.jpg"> </d...
+                                                ^^^
+
+285.) Line 1656, column 4, Rule ID: FILE_EXTENSIONS_CASE[1] premium: false
+Message: File types are normally capitalized.
+Suggestion: HTML
+...t to create a masonry grid image layout:  ```html <div class="gallery" data-columns="3">     <...
+                                                ^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+286.) Line 1657, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...reate a masonry grid image layout:  ```html <div class="gallery" data-columns="3">     <img s...
+                                                ^^^
+
+287.) Line 1658, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <div class="gallery" data-columns="3">     <img src="/images/demo/demo-portrait.jpg">     <i...
+                                                ^^^
+
+288.) Line 1659, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...g src="/images/demo/demo-portrait.jpg">     <img src="/images/demo/demo-landscape.jpg">     <...
+                                                ^^^
+
+289.) Line 1660, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... src="/images/demo/demo-landscape.jpg">     <img src="/images/demo/demo-square.jpg">     <img...
+                                                ^^^
+
+290.) Line 1661, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/demo-square.jpg">     <img src="/images/demo/demo-landscape-2.jpg"> </d...
+                                                ^^^
+
+291.) Line 1675, column 117, Rule ID: WAY_COMPOUNDS[2] premium: false
+Message: The adjective or adverb “halfway” is spelled as one word.
+Suggestion: halfway
+...o your visitors won't scroll down to find it half way through your images.  <div class="gallery" d...
+                                                ^^^^^^^^
+More info: https://www.lexico.com/definition/halfway
+
+292.) Line 1677, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...n to find it half way through your images.  <div class="gallery" data-columns="1">  <img src=...
+                                                ^^^
+
+293.) Line 1678, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s.  <div class="gallery" data-columns="1">  <img src="/images/demo/demo-landscape.jpg">  <img...
+                                                ^^^
+
+294.) Line 1679, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/demo-landscape.jpg">  <img src="/images/demo/demo-landscape-2.jpg"> </d...
+                                                ^^^
+
+295.) Line 1686, column 81, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...om/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>  ---  ## Prett...
+                                                ^^^^^^^^^^^
+
+296.) Line 1686, column 97, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...89" width="640" height="360" frameborder="0" allowfullscreen></iframe>  ---  ## Pretty cool, huh?  We've ...
+                                                ^^^^^^^^^^^^^^^
+
+297.) Line 1696, column 4, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: ref; pref; HEF; tref
+...t put them to use on your new portfolio?  <a href="https://jekyllthemes.io/theme/duet-portfoli...
+                                                ^^^^
+
+298.) Line 1708, column 12, Rule ID: COMMA_PARENTHESIS_WHITESPACE premium: false
+Message: Put a space after the comma.
+Suggestion: , *
+...case studies in a beautiful way.  **Obviously,** we’ve styled up *all the basic* text format...
+                                                ^^
+
+299.) Line 1708, column 86, Rule ID: MARKDOWN_NNP[1] premium: false
+Message: Did you mean the formatting language “Markdown” (= proper noun)?
+Suggestion: Markdown
+...basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wik...
+                                                ^^^^^^^^
+More info: https://en.wikipedia.org/wiki/Markdown
+
+300.) Line 1726, column 25, Rule ID: MARKDOWN_NNP[3] premium: false
+Message: Did you mean the formatting language “Markdown” (= proper noun)?
+Suggestion: Markdown
+...an move mountains.”  The theme also supports markdown tables:  | Item                 | Author    ...
+                                                ^^^^^^^^
+More info: https://en.wikipedia.org/wiki/Markdown
+
+301.) Line 1728, column 7, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... theme also supports markdown tables:  | Item                 | Author        | Supports tables? | Price | ...
+                                                ^^^^^^^^^^^^^^^^^
+
+302.) Line 1728, column 32, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...down tables:  | Item                 | Author        | Supports tables? | Price | |---------------...
+                                                ^^^^^^^^
+
+303.) Line 1730, column 20, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...----------------|-------| | Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   | ...
+                                                ^^^^
+
+304.) Line 1730, column 45, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... | Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   | | Index Jekyll Theme   | Jekyll The...
+                                                ^^^^^^^^^^^^^^
+
+305.) Line 1730, column 64, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...e    | Jekyll Themes | Yes              | $49   | | Index Jekyll Theme   | Jekyll Themes | Ye...
+                                                ^^^
+
+306.) Line 1731, column 21, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...s              | $49   | | Index Jekyll Theme   | Jekyll Themes | Yes              | $49   | ...
+                                                ^^^
+
+307.) Line 1731, column 45, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... | Index Jekyll Theme   | Jekyll Themes | Yes              | $49   | | Journal Jekyll Theme | Jekyll The...
+                                                ^^^^^^^^^^^^^^
+
+308.) Line 1731, column 64, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...me   | Jekyll Themes | Yes              | $49   | | Journal Jekyll Theme | Jekyll Themes | Ye...
+                                                ^^^
+
+309.) Line 1732, column 45, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+... | Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |  And footnotes[^1], which link to e...
+                                                ^^^^^^^^^^^^^^
+
+310.) Line 1732, column 64, Rule ID: WHITESPACE_RULE premium: false
+Message: Possible typo: you repeated a whitespace
+Suggestion:
+...heme | Jekyll Themes | Yes              | $49   |  And footnotes[^1], which link to explanati...
+                                                ^^^
+
+311.) Line 1748, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+... neat custom feature we added – galleries:  <div class="gallery" data-columns="3">  <img src=...
+                                                ^^^
+
+312.) Line 1749, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s:  <div class="gallery" data-columns="3">  <img src="/images/demo/square-01.jpg">  <img src=...
+                                                ^^^
+
+313.) Line 1750, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...">  <img src="/images/demo/square-01.jpg">  <img src="/images/demo/portrait-02.jpg">  <img sr...
+                                                ^^^
+
+314.) Line 1751, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...  <img src="/images/demo/portrait-02.jpg">  <img src="/images/demo/square-04.jpg">  <img src=...
+                                                ^^^
+
+315.) Line 1752, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...">  <img src="/images/demo/square-04.jpg">  <img src="/images/demo/square-03.jpg">  <img src=...
+                                                ^^^
+
+316.) Line 1753, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...">  <img src="/images/demo/square-03.jpg">  <img src="/images/demo/square-05.jpg">  <img src=...
+                                                ^^^
+
+317.) Line 1754, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...">  <img src="/images/demo/square-05.jpg">  <img src="/images/demo/landscape-05.jpg"> </div> ...
+                                                ^^^
+
+318.) Line 1759, column 4, Rule ID: FILE_EXTENSIONS_CASE[1] premium: false
+Message: File types are normally capitalized.
+Suggestion: HTML
+...t to create a masonry grid image layout:  ```html <div class="gallery" data-columns="3">     <...
+                                                ^^^^
+More info: https://languagetool.org/insights/post/spelling-capital-letters/
+
+319.) Line 1760, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...reate a masonry grid image layout:  ```html <div class="gallery" data-columns="3">     <img s...
+                                                ^^^
+
+320.) Line 1761, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <div class="gallery" data-columns="3">     <img src="/images/demo/square-01.jpg">     <img s...
+                                                ^^^
+
+321.) Line 1762, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <img src="/images/demo/square-01.jpg">     <img src="/images/demo/portrait-02.jpg">     <img...
+                                                ^^^
+
+322.) Line 1763, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...img src="/images/demo/portrait-02.jpg">     <img src="/images/demo/square-04.jpg">     <img s...
+                                                ^^^
+
+323.) Line 1764, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <img src="/images/demo/square-04.jpg">     <img src="/images/demo/square-03.jpg">     <img s...
+                                                ^^^
+
+324.) Line 1765, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <img src="/images/demo/square-03.jpg">     <img src="/images/demo/square-05.jpg">     <img s...
+                                                ^^^
+
+325.) Line 1766, column 6, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <img src="/images/demo/square-05.jpg">     <img src="/images/demo/landscape-05.jpg"> </div> ...
+                                                ^^^
+
+326.) Line 1780, column 117, Rule ID: WAY_COMPOUNDS[2] premium: false
+Message: The adjective or adverb “halfway” is spelled as one word.
+Suggestion: halfway
+...o your visitors won't scroll down to find it half way through your images.  <div class="gallery" d...
+                                                ^^^^^^^^
+More info: https://www.lexico.com/definition/halfway
+
+327.) Line 1782, column 2, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: DIV; did; die; dive; dig
+...n to find it half way through your images.  <div class="gallery" data-columns="1">  <img src=...
+                                                ^^^
+
+328.) Line 1783, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+...s.  <div class="gallery" data-columns="1">  <img src="/images/demo/landscape-02.jpg">  <img s...
+                                                ^^^
+
+329.) Line 1784, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <img src="/images/demo/landscape-02.jpg">  <img src="/images/demo/landscape-03.jpg">  <img s...
+                                                ^^^
+
+330.) Line 1785, column 3, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: IMG; BMG; IMF; CMG; IG
+... <img src="/images/demo/landscape-03.jpg">  <img src="/images/demo/landscape-04.jpg"> </div> ...
+                                                ^^^
+
+331.) Line 1792, column 81, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: frame border
+...om/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>  ---  ## Prett...
+                                                ^^^^^^^^^^^
+
+332.) Line 1792, column 97, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+...89" width="640" height="360" frameborder="0" allowfullscreen></iframe>  ---  ## Pretty cool, huh?  We've ...
+                                                ^^^^^^^^^^^^^^^
+
+333.) Line 1802, column 4, Rule ID: MORFOLOGIK_RULE_EN_US premium: false prio=-10
+Message: Possible spelling mistake found.
+Suggestion: ref; pref; HEF; tref
+...t put them to use on your new portfolio?  <a href="https://jekyllthemes.io/theme/duet-portfoli...
+                                                ^^^^
+Time: 23255ms for 758 sentences (32.6 sentences/sec)
