@@ -8,7 +8,7 @@ featured_image: '/images/2020-01/IMG_20200121_163328-PANO-01-cusco-hdr-1600x1100
 
 ## Exploring old city - Cusco
 Cusco is a city in Peru where you stop by to visit Machu Picchu. Not knowing much about it made things even more exciting for me.
-I have explored parts of this old city by walking around. This is where I also had best Cheviche in Peru. 
+I have explored parts of this old city by walking around. This is where I also had best Ceviche in Peru.
 
 You can easily spend weeks if not months exploring the city and nearby attractions.
 

@@ -8,7 +8,7 @@ featured_image: '/images/front-page/IMG_20170330_1702-hiroshima-last-building-st
 ![](/images/front-page/IMG_20170330_1702-hiroshima-last-building-standing-1600x800.jpg)
 
 ## 💥 History made
-It was a completely different feeling to stand in-front of the building that stood after the hiroshima atom bomb attack.
+It was a completely different feeling to stand in-front of the building that stood after the Hiroshima atom bomb attack.
 
 I hope we have learned from history and this never happens again.
 

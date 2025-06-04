@@ -9,4 +9,4 @@ featured_image: '/images/front-page/IMG_3754-yellow-blend-tulip-1600x1100.jpg'
 ![](/images/front-page/IMG_3754-yellow-blend-tulip-1600x1100.jpg)
 
 ## It's yellow! 🌷
-Love how the yellow tulip blends with green! ony of my favourite color.
+Love how the yellow tulip blends with green! Only of my favorite color.
