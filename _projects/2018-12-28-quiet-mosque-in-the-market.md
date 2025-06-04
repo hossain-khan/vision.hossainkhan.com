@@ -10,5 +10,5 @@ featured_image: '/images/front-page/IMG_20181228_165519-mosque-in-the-market-150
 ## 🕌 In search of peace
 I was visiting Al Wakrah Souq in Qatar and it was time to say prayer. 
 There were multiple mosques in the market, and this was one of them - just small, plain and simple.
-Brings peace automatically! 🙏
+Brings peace automagically! 🙏
 
