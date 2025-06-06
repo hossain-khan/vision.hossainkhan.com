@@ -9,4 +9,4 @@ featured_image: '/images/front-page/PXL_20240424_085014810e-peeking-through-1600
 ![](/images/front-page/PXL_20240424_085014810e-peeking-through.jpg)
 
 ## Peeking through...⛰️
-A unique view of the hole made through the rocks! Hard to capture without true dynamic range.
+A unique view of a hole made through the rocks! It's hard to capture without true dynamic range.

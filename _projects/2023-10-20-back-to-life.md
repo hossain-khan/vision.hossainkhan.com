@@ -9,7 +9,7 @@ featured_image: '/images/front-page/PXL_20231020_220551135-1000x1500.jpg'
 ![](/images/front-page/PXL_20231020_220551135-back-to-life.jpg)
 
 ## Back to life 🌳
-A road trip to the big basin redwood state park, California. The park is home to the largest continuous stand of ancient coast redwoods south of San Francisco. 
+A road trip to the Big Basin Redwoods State Park, California. The park is home to the largest continuous stand of ancient coast redwoods south of San Francisco.
 These trees are among the tallest and oldest living things on Earth.
 
 The trees were damaged by the 2020 CZU Lightning Complex fire. The fire burned 86,509 acres (35,000 ha) and destroyed 1,490 structures, including 925 homes.

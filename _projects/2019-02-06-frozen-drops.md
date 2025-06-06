@@ -8,7 +8,7 @@ featured_image: '/images/front-page/IMG_4180-frozen-drops-1600x1100.jpg'
 ![](/images/front-page/IMG_4180-frozen-drops-1600x1100.jpg)
 
 ## Crystal Everywhere
-Freezing rain has caused a rare opportunity to capture frozen drops everywhere. It's simply beautiful.
+Freezing rain created a rare opportunity to capture frozen drops everywhere. It's simply beautiful.
 
 <div class="gallery" data-columns="3">
 	<img src="/images/2019-02/IMG_4262-frozen-drops-on-tree-1700x1100.jpg">

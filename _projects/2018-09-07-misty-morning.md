@@ -8,6 +8,6 @@ featured_image: '/images/front-page/IMG_20180907_073851-1600x1200-camp-ahmek-bri
 ![](/images/front-page/IMG_20180907_073851-1600x1200-camp-ahmek-bridge-bnw.jpg)
 
 ## Let's get lost...
-The morning was cold, but the water was warm creating a misty morning.
+The morning was cold, but the water was warm, creating a misty atmosphere.
 
 > “Let me tell you something my friend. Hope is a dangerous thing. Hope can drive a man insane.” - The Shawshank Redemption 

@@ -9,9 +9,8 @@ featured_image: '/images/front-page/IMG_2229-fukuoka-shore-edited-1600x1100.jpg'
 ![](/images/front-page/IMG_2229-fukuoka-shore-edited.jpg)
 
 ## Fukuoka Tower 🗼 and Sea Shore 🌊
-Fukuoka, capital of Fukuoka Prefecture, sits on the northern shore of Japan’s Kyushu Island. It’s known for ancient temples, beaches and modern shopping malls, including Canal City.
+Fukuoka, capital of Fukuoka Prefecture, sits on the northern shore of Japan’s Kyushu Island. It’s known for ancient temples, beaches, and modern shopping malls, including Canal City.
 
-📸 Shot is from the Fukuoka Tower facing the sea shore. The tower is 234 meters tall and is the tallest seaside tower in Japan. It was completed in 1989 and has a unique design that resembles a sail.
+📸 The shot is from the Fukuoka Tower, facing the seashore. The tower is 234 meters tall and is the tallest seaside tower in Japan. It was completed in 1989 and has a unique design that resembles a sail.
 
 > "The sea and the horizon – endless, open, and full of possibility."
-

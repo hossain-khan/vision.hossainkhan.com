@@ -8,6 +8,6 @@ featured_image: '/images/2024-04/PXL_20240426_060328125e-embracing-the-giant-120
 
 ## Embracing the Giant 🌳
 
-Giant Camphor Tree of Kamoh Shrine, Fukuoka, Japan. This tree is estimated to be over 1,000 years old and is a symbol of strength and endurance.
+The Giant Camphor Tree of Kamoh Shrine, Fukuoka, Japan. This tree is estimated to be over 1,000 years old and is a symbol of strength and endurance.
 
 > "Look deep into nature, and then you will understand everything better." – Albert Einstein

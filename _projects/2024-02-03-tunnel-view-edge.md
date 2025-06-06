@@ -9,7 +9,7 @@ featured_image: '/images/front-page/PXL_20240203_204545548-tunnel-view-edge-1400
 ![](/images/front-page/PXL_20240203_204545548-tunnel-view-edge.jpg)
 
 ## Tunnel View Edge 🪨
-Another snap from the Tunnel View vista point at the Yosemite Valley, California, USA.
+Another snap from the Tunnel View vista point at Yosemite Valley, California, USA.
 
 > "Yosemite Valley, to me, is always a sunrise, a glitter of green and golden wonder in a vast edifice of stone and space." - Ansel Adams
 

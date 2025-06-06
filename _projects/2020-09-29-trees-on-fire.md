@@ -9,6 +9,6 @@ featured_image: '/images/front-page/IMG_0794-HDR-arrowhead-park-fall-tree-1700x1
 ![](/images/front-page/IMG_0794-HDR-arrowhead-park-fall-tree-1700x1300.jpeg)
 
 ## Fall colors at Arrowhead Park
-Nature does not stop even in pandemic. It was a stunning view at the Arrowhead Provincial Park.
+Nature does not stop, even in a pandemic. It was a stunning view at the Arrowhead Provincial Park.
 
 > "Autumn is a second spring when every leaf is a flower." - Albert Camus
