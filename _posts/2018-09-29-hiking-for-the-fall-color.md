@@ -7,10 +7,10 @@ featured_image: '/images/2018-09/IMG_20180929_1649-vista-trail-observatory-fall-
 ![Exposure Time: 1/60, FNumber: 20, Focal Length: 24mm, ISO: 200](/images/2018-09/IMG_20180929_1649-vista-trail-observatory-fall-color-begins-1500x1000.jpeg)
 
 ## Hiking on vista trail
-Its almost October, a perfect time to capture the natural transition. We went to Rouge Park's vista trail.
+It's almost October, a perfect time to capture the natural transition. We went to Rouge Park's Vista Trail.
 Fortunately, we did get some fall colors on the trees 🌳. The day was perfect for hiking too.
 
-I will surely come back again when all the trees are on fire!! 🔥
+I will surely come back again when all the trees are on fire! 🔥
 
 
 <div class="gallery" data-columns="2">

@@ -8,8 +8,8 @@ featured_image: '/images/front-page/IMG_20181021_3476x-fall-nature-wild-flower-b
 ![Exposure Time: 1/4000, FNumber: 1.8, Focal Length: 50, ISO: 200](/images/front-page/IMG_20181021_3476x-fall-nature-wild-flower-blooming.jpeg)
 
 ## Beauty is in the eye of the beholder
-The nature is full of beauty, you just have to stop of focus on them.
-This shot is taken from the [Forks of the Credit](https://www.ontarioparks.com/park/forksofthecredit) Provincial Park during end of fall season.
+Nature is full of beauty; you just have to stop to focus on it.
+This shot was taken at the [Forks of the Credit](https://www.ontarioparks.com/park/forksofthecredit) Provincial Park towards the end of the fall season.
 
 Would love to go back to the park for more hiking.
 

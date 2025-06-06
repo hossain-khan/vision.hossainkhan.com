@@ -7,9 +7,9 @@ featured_image: '/images/2020-10/IMG_2075-rainbow-bridge.jpg'
 ![](/images/2020-10/IMG_2075-rainbow-bridge.jpg)
 
 ## Bridge that connects! 🇨🇦🇺🇸
-One of the most popular bridge that connects us Canadians with the USA. A must-visit place at [any time](https://www.google.com/maps/contrib/107431117693660399546/place/ChIJ6XotQQdD04kRW-OcaB4dvik/@41.8695956,-88.7620744,6z/data=!4m6!1m5!8m4!1e1!2s107431117693660399546!3m1!1e1).
+One of the most popular bridges that connect us Canadians with the USA. It's a must-visit place at [any time](https://www.google.com/maps/contrib/107431117693660399546/place/ChIJ6XotQQdD04kRW-OcaB4dvik/@41.8695956,-88.7620744,6z/data=!4m6!1m5!8m4!1e1!2s107431117693660399546!3m1!1e1).
 
-Every time I go there I find different places that I haven't explored except the falls itself.
+Every time I go there, I find different places that I haven't explored, besides the falls themselves.
 
 
 <div class="gallery" data-columns="2">

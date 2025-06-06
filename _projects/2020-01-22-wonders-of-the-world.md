@@ -9,8 +9,8 @@ featured_image: '/images/front-page/IMG_20200120_093033_MP-machu-picchu-1600x110
 ![](/images/2020-01/IMG_20200120_094038-PANO-machu-picchu-1600x1000.jpg)
 
 ## Machu Picchu
-During my recent visit to Peru I visited Machu Picchu. It really was a breathtaking place to be.
-The Inca Civilization's use of stone in high up in the mountain is really mesmerizing.
+During my recent visit to Peru, I visited Machu Picchu. It really was a breathtaking place to be.
+The Inca civilization's use of stone high up in the mountains is truly mesmerizing.
  
 
 <div class="gallery" data-columns="2">

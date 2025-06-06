@@ -9,6 +9,6 @@ featured_image: '/images/front-page/PXL_20230122_231655985.MOTION-1800x1100.jpg'
 ![](/images/front-page/PXL_20230122_231655985.MOTION-1800x1100.jpg)
 
 ## End of the road ❄️
-Took a walk to end of the road on a snowy night! 🌨️
+I took a walk to the end of the road on a snowy night! 🌨️
 
 > "Remember, the end of the road is not the end of the journey. If you get to the end of your rope, tie a knot and hang on." - Franklin D. Roosevelt

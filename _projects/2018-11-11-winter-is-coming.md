@@ -8,7 +8,7 @@ featured_image: '/images/front-page/IMG_20181111_3644-frozen-leaf-1600x1000.jpg'
 ![Exposure Time: 1/125, FNumber: 7.1, Focal Length: 100, ISO: 200](/images/front-page/IMG_20181111_3644-frozen-leaf-1600x1000.jpg)
 
 ## Frozen leaf 🍁
-Winter is coming, it's time trees to go into hibernation.
+Winter is coming; it's time for trees to go into hibernation.
 
 > “If Winter comes, can Spring be far behind?” - Percy Bysshe Shelley
 

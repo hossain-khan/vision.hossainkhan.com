@@ -9,7 +9,6 @@ featured_image: '/images/front-page/PXL_20240424_083357538-EDIT-bleeding-sun-135
 ![](/images/front-page/PXL_20240424_083357538-EDIT-bleeding-sun.jpg)
 
 ## Bleeding Sun by the Sea 🌊
-The sun was setting down the horizon behind the rock. The sun was bleeding, and the sea was the witness.
+The sun was setting below the horizon behind the rock. The sun was bleeding, and the sea was the witness.
 
 > "At the beach, life is different. Time doesn’t move hour to hour but mood to moment. We live by the currents, plan by the tides, and follow the sun." – Sandy Gingras
-

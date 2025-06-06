@@ -9,6 +9,6 @@ featured_image: '/images/front-page/PXL_20240203_013203498-misty-overview-1600x1
 ![](/images/front-page/PXL_20240203_013203498-misty-overview.jpg)
 
 ## Misty overlook 🏔️
-A snap taken on the way to the Yosemite Valley, California, USA. The valley is known for its stunning waterfalls, giant sequoias, and the iconic El Capitan and Half Dome granite cliffs.
+A snap taken on the way to Yosemite Valley, California, USA. The valley is known for its stunning waterfalls, giant sequoias, and the iconic El Capitan and Half Dome granite cliffs.
 
 > "It is by far the grandest of all the special temples of Nature I was ever permitted to enter." - John Muir

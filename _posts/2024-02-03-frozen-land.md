@@ -7,4 +7,4 @@ featured_image: '/images/2024-02/PXL_20240203_182404199-PANO-frozen-park-2000x10
 ![](/images/2024-02/PXL_20240203_182404199-PANO-frozen-park.jpg)
 
 ## Frozen Land ❄️
-A panoramic view of the frozen park in the Yosemite Valley, California, USA.
+A panoramic view of a frozen park in Yosemite Valley, California, USA.
