@@ -2,6 +2,7 @@
 title: 'Sunset by the Golden Gate 🌉'
 date: 2014-11-17 18:30:00
 featured_image: '/images/2014-11/IMG_20141117_163103-sunset-near-golden-gate-bridge-1600x1000.jpg'
+title_override: 'Nothingness Near the Beach' # Corrected typo
 ---
 
 ![](/images/2014-11/IMG_20141117_163103-sunset-near-golden-gate-bridge-1600x1000.jpg)
