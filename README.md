@@ -93,3 +93,31 @@ bundle exec jekyll build
 # Preview site at http://127.0.0.1:4000/
 bundle exec jekyll serve
 ```
+
+#### GitHub Codespaces
+If you're running this in GitHub Codespaces, the environment comes with RVM (Ruby Version Manager) pre-installed with Ruby 3.4+. Follow these steps:
+
+```sh
+# Check your Ruby version (should be 3.4+)
+ruby -v
+
+# DO NOT use 'sudo' with gem/bundle commands in Codespaces
+# This will use the correct RVM Ruby installation
+
+# Install Bundler and Jekyll (without sudo)
+gem install bundler jekyll
+
+# If you get permission errors, fix RVM ownership:
+sudo chown -R codespace:rvm /usr/local/rvm/gems/ruby-3.4.1
+
+# Install project dependencies
+bundle install
+
+# Build the static site locally
+bundle exec jekyll build
+
+# Preview site (use --host 0.0.0.0 for Codespaces port forwarding)
+bundle exec jekyll serve --host 0.0.0.0
+```
+
+**Note**: The Gemfile already includes Ruby 3.4+ compatibility gems (`base64`, `logger`, `csv`, `bigdecimal`). If you encounter OpenSSL errors with `sudo gem install`, it's because `sudo` uses a different Ruby installation without OpenSSL support. Always use RVM's Ruby (without `sudo`) in Codespaces.
