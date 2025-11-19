@@ -164,14 +164,14 @@ font_settings:
 advanced_settings:
   ajax_loading: true
   analytics_code: "
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-     <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-1394009-15\"></script>
+     <!-- Google tag (gtag.js) -->
+     <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HZTL0PFZRR\"></script>
      <script>
        window.dataLayer = window.dataLayer || [];
        function gtag(){dataLayer.push(arguments);}
        gtag('js', new Date());
 
-       gtag('config', 'UA-1394009-15');
+       gtag('config', 'G-HZTL0PFZRR');
      </script>
 "
   custom_styles: ""
