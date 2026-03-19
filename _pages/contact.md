@@ -5,18 +5,18 @@ description: H.K. is available for photo shoot of birthday party, engagement sho
 featured_image: '/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-camera-850x600.jpg'
 ---
 
-### Book for events
-I am open to cover any small/medium size events like birthdays, anniversary, product shoot, food shoot and so on.
-Contact me for availability and pricing information. 
+### Welcome!
+Thanks for visiting my photography portfolio. I'm passionate about capturing beautiful moments and preserving memories through my lens. 
 
+Feel free to explore my work and projects to see if any of my photography resonates with you. I'd love to hear what you think!
+
+For any inquiries or just to say hello:
 
 ```
-Email: hello@hossain.dev
+Email: photo@hossain.dev
 ```
 
-<i class="fab fa-facebook"></i> See current offering and services - <a href="https://www.facebook.com/pg/315040829300679/services/" title="H.K. Photography Services @ Facebook Page">Book Now <i class="fas fa-concierge-bell"></i></a> 
-
-_p.s. I am also available if you need second photographer for your weeding or party events._
+You can also connect with me on social media to see behind-the-scenes moments and updates!
 
 
 
