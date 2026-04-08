@@ -26,8 +26,15 @@ grid_settings:
   overlay_opacity: 0.8
   grid_spacing: 10
 
-# Search supported icons in https://fontawesome.com/icons?d=gallery
-# For "<i class="fas fa-address-book"></i>" the link key should be "address-book_url"
+# Font Awesome Free 5.1.1 icons are supported by default.
+# Search supported icons in https://fontawesome.com/v5/search
+# For each social link, add a URL key and optional icon style:
+# - URL key format: {icon-name}_url (e.g., 'facebook_url', 'linkedin_url')
+# - Icon style key: {icon-name}_icon_style (optional, defaults to 'fab' for brands)
+# Examples:
+#   facebook_url: 'https://...'  # Uses fab (FontAwesome Brands) by default
+#   play_url: 'https://...'
+#   play_icon_style: 'fas'  # Uses fas (FontAwesome Solid) instead
 social_settings:
   facebook_url: 'https://www.facebook.com/HKPhotography.ca'
   twitter_url: 'https://twitter.com/hossainkhan'
@@ -36,11 +43,13 @@ social_settings:
   youtube_url: ''
   google-plus_url: ''
   google-play_url: 'https://play.google.com/store/apps/details?id=com.hossainkhan.vision'
-  play_url: 'https://hossain-khan.github.io/hk-vision-slideshow/'
+  play-circle_url: 'https://hossain-khan.github.io/hk-vision-slideshow/'
+  play-circle_icon_style: 'far'
   vimeo_url: ''
   pinterest_url: ''
   medium_url: ''
   pen-nib_url: 'https://hossain.dev/'
+  pen-nib_icon_style: 'fas'
   quora_url: ''
   amazon_url: ''
   apple_url: ''
