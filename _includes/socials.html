@@ -2,8 +2,15 @@
 	{% for url in site.data.settings.social_settings %}
 	{% if url[1] != '' %}
 	<li class="socials__item">
+		{% assign icon_style = 'fab' %}
+		{% assign icon_key = url[0] | remove: '_url' %}
+		{% assign style_key = icon_key | append: '_icon_style' %}
+		<!-- Check if custom style is defined -->
+		{% if site.data.settings.social_settings[style_key] %}
+			{% assign icon_style = site.data.settings.social_settings[style_key] %}
+		{% endif %}
 		<a href="{{ url[1] }}" target="_blank" rel="noopener noreferrer" class="socials__item__link" title="{{ url[0] | remove: '_url' | replace: '-', ' ' | capitalize }}">
-			<i class="fab fa-{{ url[0] | replace: 'facebook', 'facebook-f' | remove: '_url' }}" aria-hidden="true"></i>
+			<i class="{{ icon_style }} fa-{{ url[0] | replace: 'facebook', 'facebook-f' | remove: '_url' }}" aria-hidden="true"></i>
 		</a>
 	</li>
 	{% endif %}
