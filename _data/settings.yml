@@ -26,7 +26,8 @@ grid_settings:
   overlay_opacity: 0.8
   grid_spacing: 10
 
-# Search supported icons in https://fontawesome.com/icons?d=gallery
+# Font Awesome Free 5.1.1 icons are supported by default.
+# Search supported icons in https://fontawesome.com/v5/search
 # For each social link, add a URL key and optional icon style:
 # - URL key format: {icon-name}_url (e.g., 'facebook_url', 'linkedin_url')
 # - Icon style key: {icon-name}_icon_style (optional, defaults to 'fab' for brands)
