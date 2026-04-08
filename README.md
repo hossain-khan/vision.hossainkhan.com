@@ -1,7 +1,6 @@
 ## HK Vision
 
 * https://vision.hossainkhan.com/
-* https://hossainkhan.com/
 
 ### Android Wallpaper Plugin
 Some of the vision's featured pictures are available via [Muzei](https://play.google.com/store/apps/details?id=net.nurik.roman.muzei) Android Live wallpaper app.
