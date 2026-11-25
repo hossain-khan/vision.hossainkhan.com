@@ -249,24 +249,23 @@
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
 
-	$(document).on('click', '.js-menu-toggle', function (){
+	function setMenuOpen(isOpen) {
+		$('body').toggleClass('menu--open', isOpen);
+		$('.js-menu-toggle').attr('aria-expanded', isOpen ? 'true' : 'false');
+	}
 
-		// If already open
-		if ( $('body').hasClass('menu--open') ) {
-			$('body').removeClass('menu--open');
-		}
-
-		// If not open
-		else {
-			$('body').addClass('menu--open');
-		}
+	$(document).on('click', '.js-menu-toggle', function () {
+		setMenuOpen(!$('body').hasClass('menu--open'));
 	});
 
-	$(document).on('click', '.menu__list__item__link', function (){
+	$(document).on('click', '.menu__list__item__link', function () {
+		setMenuOpen(false);
+	});
 
-		// If menu is open when you click a link on mobile
-		if ( $('.menu').hasClass('menu--open') ) {
-			$('.menu').removeClass('menu--open');
+	$(document).on('keydown', function (event) {
+		if (event.key === 'Escape' && $('body').hasClass('menu--open')) {
+			setMenuOpen(false);
+			$('.js-menu-toggle').trigger('focus');
 		}
 	});
 
