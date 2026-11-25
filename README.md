@@ -9,7 +9,9 @@ Some of the vision's featured pictures are available via [Muzei](https://play.go
 
 
 ### ⚠️ NOTE: Before you fork this repo/website
-This is a licensed site. You have to purchase a license from [jekyllthemes.io](https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme) before you can legally use this theme.
+
+> [!CAUTION]
+> This is a licensed site. You have to purchase a license from [jekyllthemes.io](https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme) before you can legally use this theme.
 
 ### Demo
 ![H.K. vision - experience the world through my eyes](https://github.com/hossain-khan/vision.hossainkhan.com/assets/99822/c33200d6-f9c4-4c28-a5a8-580f51feda9d)
