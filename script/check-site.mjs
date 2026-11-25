@@ -46,8 +46,8 @@ const htmlFiles = walkHtml(SITE_DIR);
 const errors = [];
 let checkedRefs = 0;
 
-// Match href="..." or src="..." (double or single quoted)
-const ATTR_RE = /\b(href|src)\s*=\s*(?:"([^"]*)"|'([^']*)')/gi;
+// Match href="...", src="...", or srcset="..." (double or single quoted)
+const ATTR_RE = /\b(href|src|srcset)\s*=\s*(?:"([^"]*)"|'([^']*)')/gi;
 
 for (const file of htmlFiles) {
   const relFile = path.relative(SITE_DIR, file);
@@ -55,36 +55,47 @@ for (const file of htmlFiles) {
   let match;
   while ((match = ATTR_RE.exec(content)) !== null) {
     const attr = match[1].toLowerCase();
-    const raw = (match[2] ?? match[3] ?? '').trim();
-    if (!raw) continue;
-    if (
-      raw.startsWith('#') ||
-      raw.startsWith('mailto:') ||
-      raw.startsWith('tel:') ||
-      raw.startsWith('javascript:') ||
-      raw.startsWith('data:') ||
-      raw.startsWith('//')
-    ) {
-      continue;
-    }
+    const rawAttr = (match[2] ?? match[3] ?? '').trim();
+    if (!rawAttr) continue;
 
-    let checkPath = null;
-    if (raw.startsWith('/')) {
-      checkPath = raw;
-    } else if (raw.startsWith(SITE_ORIGIN)) {
-      checkPath = raw.slice(SITE_ORIGIN.length) || '/';
-    } else if (/^https?:\/\//i.test(raw)) {
-      // Skip external URLs to keep CI deterministic and fast
-      continue;
-    } else {
-      // Relative path against current file's directory
-      const baseDir = '/' + path.relative(SITE_DIR, path.dirname(file));
-      checkPath = path.posix.resolve(baseDir, raw);
-    }
+    const rawValues =
+      attr === 'srcset'
+        ? rawAttr
+            .split(',')
+            .map((part) => part.trim().split(/\s+/)[0])
+            .filter(Boolean)
+        : [rawAttr];
 
-    checkedRefs++;
-    if (!resolveInSite(checkPath)) {
-      errors.push(`${relFile}: broken ${attr}="${raw}" (resolved: ${checkPath})`);
+    for (const raw of rawValues) {
+      if (
+        raw.startsWith('#') ||
+        raw.startsWith('mailto:') ||
+        raw.startsWith('tel:') ||
+        raw.startsWith('javascript:') ||
+        raw.startsWith('data:') ||
+        raw.startsWith('//')
+      ) {
+        continue;
+      }
+
+      let checkPath = null;
+      if (raw.startsWith('/')) {
+        checkPath = raw;
+      } else if (raw.startsWith(SITE_ORIGIN)) {
+        checkPath = raw.slice(SITE_ORIGIN.length) || '/';
+      } else if (/^https?:\/\//i.test(raw)) {
+        // Skip external URLs to keep CI deterministic and fast
+        continue;
+      } else {
+        // Relative path against current file's directory
+        const baseDir = '/' + path.relative(SITE_DIR, path.dirname(file));
+        checkPath = path.posix.resolve(baseDir, raw);
+      }
+
+      checkedRefs++;
+      if (!resolveInSite(checkPath)) {
+        errors.push(`${relFile}: broken ${attr}="${raw}" (resolved: ${checkPath})`);
+      }
     }
   }
 }
