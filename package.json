@@ -1,0 +1,15 @@
+{
+  "name": "vision-hossainkhan-com-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Regression test suite for vision.hossainkhan.com",
+  "scripts": {
+    "check:site": "node script/check-site.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run check:site && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.51.1"
+  }
+}

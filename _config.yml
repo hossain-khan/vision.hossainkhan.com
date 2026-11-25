@@ -54,4 +54,25 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
+
+exclude:
+  - AGENTS.md
+  - README.md
+  - _README.md
+  - _LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - playwright.config.mjs
+  - node_modules
+  - tests
+  - test-results
+  - playwright-report
+  - blob-report
+  - sample
+  - script
+  - photos-schema.json
+  - renovate.json
+  - firebase.json
   

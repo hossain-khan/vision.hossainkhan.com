@@ -1,10 +1,10 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: Duet is a beautiful Jekyll portfolio theme.
-featured_image: /images/demo/demo-landscape.jpg
+description: Thank you for reaching out to H.K. Vision.
+featured_image: '/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-camera-850x600.jpg'
 ---
 
-![](/images/demo/about.jpg)
+![Hossain Khan with camera](/images/about-hk/IMG_20180903_133529-hk-austin-capitor-with-camera-850x600.jpg)
 
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+Thank you for getting in touch! I appreciate your message and will get back to you as soon as possible.
