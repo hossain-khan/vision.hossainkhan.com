@@ -104,6 +104,50 @@ test.describe('Color schemes & gallery interaction', () => {
   });
 });
 
+test.describe('Performance & image priority (#191)', () => {
+  test('Homepage paints without initial loading gate and applies fetchpriority/lazy loading', async ({ page }) => {
+    // Check raw HTML does not ship <body class="loading ...">
+    const res = await page.request.get('/');
+    const html = await res.text();
+    expect(html).not.toMatch(/<body[^>]*\bclass="(?:[^"]*\s)?loading(?:\s|")/);
+
+    await page.goto('/', { waitUntil: 'domcontentloaded' });
+    await expect(page.locator('.page')).toBeVisible();
+
+    const imgs = page.locator('.portfolio-item__image img');
+    const count = await imgs.count();
+    expect(count).toBeGreaterThan(2);
+
+    // First 2 above-the-fold images: fetchpriority="high", never loading="lazy"
+    for (let i = 0; i < 2; i++) {
+      await expect(imgs.nth(i)).toHaveAttribute('fetchpriority', 'high');
+      await expect(imgs.nth(i)).not.toHaveAttribute('loading', 'lazy');
+    }
+
+    // Remaining below-the-fold images: loading="lazy" + decoding="async", no fetchpriority="low"
+    for (let i = 2; i < Math.min(count, 6); i++) {
+      await expect(imgs.nth(i)).toHaveAttribute('loading', 'lazy');
+      await expect(imgs.nth(i)).toHaveAttribute('decoding', 'async');
+      await expect(imgs.nth(i)).not.toHaveAttribute('fetchpriority', 'low');
+    }
+
+    // Footer logo uses lazy loading
+    await expect(page.locator('.footer__logo__img')).toHaveAttribute('loading', 'lazy');
+  });
+
+  test('Blog index applies fetchpriority to first 2 posts and lazy loading to the rest', async ({ page }) => {
+    await page.goto('/blog/', { waitUntil: 'domcontentloaded' });
+    const imgs = page.locator('.blog-post__image img');
+    const count = await imgs.count();
+    expect(count).toBeGreaterThan(2);
+
+    await expect(imgs.nth(0)).toHaveAttribute('fetchpriority', 'high');
+    await expect(imgs.nth(1)).toHaveAttribute('fetchpriority', 'high');
+    await expect(imgs.nth(2)).toHaveAttribute('loading', 'lazy');
+    await expect(imgs.nth(2)).toHaveAttribute('decoding', 'async');
+  });
+});
+
 test.describe('Accessibility baseline', () => {
   test('Homepage has no critical accessibility violations', async ({ page }) => {
     await page.goto('/', { waitUntil: 'load' });

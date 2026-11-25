@@ -122,31 +122,35 @@
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
-		// Wait until first image has loaded
-		$('.page__content').find('img:first').imagesLoaded( function() {
-	
-			// Portfolio grid layout
-			$('.portfolio-wrap').imagesLoaded( function() {
-				$('.portfolio-wrap').masonry({
-					itemSelector: '.portfolio-item',
-					transitionDuration: 0
-				});
+		function initMasonryGrid(selector, itemSelector) {
+			var $grid = $(selector);
+			if ( !$grid.length ) return;
+
+			$grid.masonry({
+				itemSelector: itemSelector,
+				transitionDuration: 0
 			});
 
-			// Blog grid layout
-			$('.blog-wrap').imagesLoaded( function() {
-				$('.blog-wrap').masonry({
-					itemSelector: '.blog-post',
-					transitionDuration: 0
-				});
+			$grid.find('img').each( function() {
+				if ( this.complete && this.naturalWidth > 0 ) {
+					$grid.masonry('layout');
+				} else {
+					$(this).one('load error', function() {
+						$grid.masonry('layout');
+					});
+				}
 			});
+		}
 
-			// Show the content
-			$('body').removeClass('loading');
+		// Initialize grids immediately and relayout as lazy images load
+		initMasonryGrid('.portfolio-wrap', '.portfolio-item');
+		initMasonryGrid('.blog-wrap', '.blog-post');
 
-			// Hide the menu
-			$('body').removeClass('menu--open');
-		});
+		// Show the content (clears loading class after AJAX navigation)
+		$('body').removeClass('loading');
+
+		// Hide the menu
+		$('body').removeClass('menu--open');
 
 
 
