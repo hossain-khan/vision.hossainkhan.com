@@ -3,7 +3,7 @@
 ## Overview
 Jekyll 3.10.0 photography portfolio using the licensed Duet theme. Site: https://vision.hossainkhan.com/
 
-**Tech Stack:** Ruby 3.2+, Jekyll 3.10.0, Liquid, SCSS (modern CSS `color-scheme`, `light-dark()`, View Transitions), JavaScript (jQuery 3.2.1), Node.js 22+ (Playwright/axe-core tests & `cwebp` WebP script), JSON with schema validation
+**Tech Stack:** Ruby 3.2+, Jekyll 3.10.0, Liquid, SCSS (modern CSS `color-scheme`, `light-dark()`, View Transitions, Scroll-Snap, Scroll-Driven Animations), vanilla ES module JavaScript (`js/site.js`, zero jQuery), Node.js 22+ (Playwright/axe-core tests & `cwebp` WebP script), JSON with schema validation
 
 **Critical:** Never commit `_site/` directory (build artifact already in .gitignore)
 
@@ -63,7 +63,7 @@ ajv validate -s photos-schema.json -d photos.json
 - `_projects/` - Project pages (format: YYYY-MM-DD-title.md)
 - `_sass/` - SCSS partials (_basic.scss, _darkmode.scss, _mixins.scss, _plugins.scss, _reset.scss)
 - `css/` - Main stylesheets (`style.scss`, `style-dark.scss`)
-- `js/` - Scripts (`duet.js`, `jquery-3.2.1.min.js`, `plugins/`)
+- `js/` - Vanilla ES module script (`site.js`)
 - `images/` - Static images (`front-page/`, `YYYY-MM/`, and generated `webp/` derivatives)
 - `_site/` - **BUILD ARTIFACT - DO NOT COMMIT**
 

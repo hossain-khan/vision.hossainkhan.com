@@ -7,7 +7,19 @@ layout: default
 	<div class="wrap">
 
 		<h1>{{ page.title }}</h1>
+		{% if page.subtitle and page.subtitle contains ',' %}
+		{% assign exif_parts = page.subtitle | split: ',' %}
+		<ul class="exif-list" aria-label="Camera settings">
+			{% for part in exif_parts %}
+			{% assign trimmed = part | strip %}
+			{% if trimmed != '' %}
+			<li class="exif-pill">{{ trimmed }}</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+		{% elsif page.subtitle %}
 		<p>{{ page.subtitle }}</p>
+		{% endif %}
 
 	</div>
 
@@ -18,3 +30,41 @@ layout: default
 	{{ page.content }}
 
 </section>
+
+{% assign projects_ordered = site.projects | reverse %}
+{% assign prev_project = nil %}
+{% assign next_project = nil %}
+{% for item in projects_ordered %}
+	{% if item.url == page.url %}
+		{% assign idx = forloop.index0 %}
+		{% if idx > 0 %}
+			{% assign prev_idx = idx | minus: 1 %}
+			{% assign prev_project = projects_ordered[prev_idx] %}
+		{% endif %}
+		{% assign next_idx = idx | plus: 1 %}
+		{% if next_idx < projects_ordered.size %}
+			{% assign next_project = projects_ordered[next_idx] %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+
+{% if prev_project or next_project %}
+<nav class="project-nav" aria-label="More projects">
+	<div class="wrap project-nav__inner">
+		{% if prev_project %}
+		<a class="project-nav__link project-nav__link--prev" href="{{ prev_project.url | relative_url }}">
+			<span class="project-nav__label">&larr; Newer Project</span>
+			<span class="project-nav__title">{{ prev_project.title }}</span>
+		</a>
+		{% else %}
+		<span></span>
+		{% endif %}
+		{% if next_project %}
+		<a class="project-nav__link project-nav__link--next" href="{{ next_project.url | relative_url }}">
+			<span class="project-nav__label">Older Project &rarr;</span>
+			<span class="project-nav__title">{{ next_project.title }}</span>
+		</a>
+		{% endif %}
+	</div>
+</nav>
+{% endif %}

@@ -1,17 +1,30 @@
 // - - - - - - - - - - - - - - - - - -
 
-// Gallery
+// Gallery, Lightbox, EXIF & Project Navigation
 
 // - - - - - - - - - - - - - - - - - -
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
 .gallery {
-	visibility: hidden;
 	position: relative;
-	max-width: 90%;
+	max-width: 92%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {
 		margin: 30px auto;
+		max-width: 1400px;
+		width: 92%;
 	}
 
 	@include mq(laptop) {
@@ -23,160 +36,331 @@
 	}
 }
 
-.gallery--on {
-	visibility: visible;
-}
-
 .gallery__item {
 	position: relative;
 
 	img {
+		display: block;
 		width: 100%;
+		height: auto;
+		border-radius: 4px;
 	}
 }
 
+.lightbox-trigger {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	cursor: zoom-in;
+	text-align: left;
 
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Carousel
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid Gallery
+
+.gallery--grid {
+	.gallery__wrap {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: $grid-spacing;
+		align-items: start;
+	}
+
+	&[data-columns="3"] .gallery__wrap {
+		@include mq(tabletp) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	&[data-columns="4"] .gallery__wrap {
+		@include mq(tabletp) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+
+	&[data-columns="5"] .gallery__wrap {
+		@include mq(tabletp) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+		@include mq(tabletl) {
+			grid-template-columns: repeat(5, 1fr);
+		}
+	}
+
+	&[data-columns="6"] .gallery__wrap {
+		@include mq(tabletp) {
+			grid-template-columns: repeat(4, 1fr);
+		}
+		@include mq(laptop) {
+			grid-template-columns: repeat(6, 1fr);
+		}
+	}
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Native Scroll-Snap Carousel
 
 .gallery--carousel {
+	position: relative;
 
-	.gallery__wrap {
+	.carousel-track {
+		display: flex;
+		gap: $grid-spacing;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		overscroll-behavior-x: contain;
+		touch-action: manipulation;
+		border-radius: 6px;
 
+		@media (prefers-reduced-motion: no-preference) {
+			scroll-behavior: smooth;
+		}
 	}
-	
-	.gallery__item {
 
+	.carousel-slide {
+		flex: 0 0 100%;
+		scroll-snap-align: center;
 	}
 
-	.gallery__item__link {
-		display: block;
+	.carousel-controls {
+		position: absolute;
+		z-index: 2;
+		top: 50%;
+		left: 12px;
+		right: 12px;
+		transform: translateY(-50%);
+		display: flex;
+		justify-content: space-between;
 		pointer-events: none;
 	}
 
-	.gallery__item__image {
+	.carousel-btn {
+		pointer-events: auto;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 36px;
+		min-height: 36px;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		border-radius: 999px;
+		background: rgba(14, 15, 17, 0.72);
+		color: #ffffff;
+		font-size: 16px;
+		cursor: pointer;
+		touch-action: manipulation;
 
+		&:hover {
+			background: $accent-color;
+			border-color: $accent-color;
+		}
 	}
 
-	.owl-nav {
-		display: none;
+	.carousel-markers {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		margin-top: 16px;
 	}
 
-	.owl-dots {
-		margin-top: 20px;
-		text-align: center;
+	.carousel-marker {
+		width: 24px;
+		height: 24px;
+		padding: 6px;
+		border: 0;
+		background: transparent;
+		cursor: pointer;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 
-		.owl-dot {
-			display: inline-block;
-			margin: 0 3px;
-			width: 12px;
-			height: 12px;
-			border: 0;
-			border-radius: 100%;
+		&::before {
+			content: '';
+			display: block;
+			width: 8px;
+			height: 8px;
+			border-radius: 999px;
 			background: $text-light-color;
-			@include transition(all 0.2s ease-in-out);
-			cursor: pointer;
-			outline: none;
+			transition: width 0.2s ease, background-color 0.2s ease;
+		}
 
-			&.active {
-				background: $accent-color;
-			}
+		&[aria-current="true"]::before {
+			width: 20px;
+			background: $accent-color;
 		}
 	}
 }
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Native <dialog> Lightbox
 
+dialog.lightbox {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	max-width: min(94vw, 1500px);
+	max-height: 94vh;
+	margin: auto;
+	overflow: visible;
+}
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
+dialog.lightbox[open] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-.gallery--grid {
+dialog.lightbox:modal {
+	overscroll-behavior: contain;
+}
 
-	.gallery__wrap {
-		margin-left: -$grid-spacing/2;
-		margin-right: -$grid-spacing/2;
-	}
-	
-	.gallery__item {
-		float: left;
-		width: 50%;
-		padding: $grid-spacing/2;
-	}
+dialog.lightbox::backdrop {
+	background: rgba(10, 12, 16, 0.92);
+	backdrop-filter: blur(6px);
+	overflow: hidden;
+	overscroll-behavior: contain;
+}
 
-	.gallery__item__link {
-		display: block;
-		cursor: zoom-in;
-	}
+.lightbox__stage {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+}
 
-	&[data-columns="3"] {
+.lightbox__figure {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+}
 
-		.gallery__item {
-			width: 33.33%;
-		}
-	}
+.lightbox__img {
+	display: block;
+	max-width: min(86vw, 1360px);
+	max-height: 82vh;
+	width: auto;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+}
 
-	&[data-columns="4"] {
+.lightbox__bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+	margin-top: 12px;
+	color: #e8ecf2;
+	font-size: 14px;
+}
 
-		.gallery__item {
-			width: 33.33%;
-		}
+.lightbox__counter {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.72);
+	white-space: nowrap;
+}
 
-		@include mq(tabletp) {
+.lightbox__close,
+.lightbox__nav {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 999px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	background: rgba(18, 20, 26, 0.8);
+	color: #ffffff;
+	cursor: pointer;
 
-			.gallery__item {
-				width: 25%;
-			}
-		}
-	}
-
-	&[data-columns="5"] {
-
-		.gallery__item {
-			width: 33.33%;
-		}
-
-		@include mq(tabletp) {
-
-			.gallery__item {
-				width: 25%;
-			}
-		}
-
-		@include mq(tabletl) {
-
-			.gallery__item {
-				width: 20%;
-			}
-		}
-	}
-
-	&[data-columns="6"] {
-
-		.gallery__item {
-			width: 33.33%;
-		}
-
-		@include mq(tabletp) {
-
-			.gallery__item {
-				width: 25%;
-			}
-		}
-
-		@include mq(tabletl) {
-
-			.gallery__item {
-				width: 20%;
-			}
-		}
-
-		@include mq(laptop) {
-
-			.gallery__item {
-				width: 16.66%;
-			}
-		}
+	&:hover {
+		background: $accent-color;
+		border-color: $accent-color;
 	}
 }
 
+.lightbox__close {
+	position: fixed;
+	top: 18px;
+	right: 18px;
+	z-index: 3;
+}
 
+.lightbox__nav[hidden] {
+	display: none;
+}
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - EXIF Pills & Project Nav
+
+.exif-list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 14px 0 0;
+	padding: 0;
+}
+
+.exif-pill {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+	font-size: 12px;
+	line-height: 1.3;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: var(--color-surface, $background-alt-color);
+	border: 1px solid var(--color-border, $border-color);
+	color: var(--color-text, $text-medium-color);
+}
+
+.project-nav {
+	margin-top: 60px;
+	padding-top: 32px;
+	border-top: 1px solid var(--color-border, $border-color);
+}
+
+.project-nav__inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.project-nav__link {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	max-width: 46%;
+
+	&--next {
+		text-align: right;
+		margin-left: auto;
+	}
+}
+
+.project-nav__label {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: var(--color-text, $text-medium-color);
+	font-weight: $regular-weight;
+}
+
+.project-nav__title {
+	font-size: 18px;
+	font-weight: $bold-weight;
+	color: var(--color-heading, $text-dark-color);
+}
+
+.project-nav__link:hover .project-nav__title {
+	color: var(--color-accent, $accent-color);
+}

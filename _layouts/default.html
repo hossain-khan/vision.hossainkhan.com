@@ -87,11 +87,29 @@
 
 	{% include footer.html %}
 
+	<dialog id="photo-lightbox" class="lightbox" closedby="any" aria-label="Photo viewer">
+		<div class="lightbox__stage">
+			<button type="button" class="lightbox__close" aria-label="Close photo viewer">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+			</button>
+			<button type="button" class="lightbox__nav lightbox__nav--prev" aria-label="Previous photo">
+				<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+			</button>
+			<figure class="lightbox__figure">
+				<img class="lightbox__img" alt="">
+				<figcaption class="lightbox__bar">
+					<span class="lightbox__caption"></span>
+					<span class="lightbox__counter" aria-live="polite"></span>
+				</figcaption>
+			</figure>
+			<button type="button" class="lightbox__nav lightbox__nav--next" aria-label="Next photo">
+				<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+			</button>
+		</div>
+	</dialog>
 
 	<!-- Javascript Assets -->
-	<script src="/js/jquery-3.2.1.min.js"></script>
-	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
-	<script src="{{ '/js/duet.js' | relative_url }}"></script>
+	<script type="module" src="{{ '/js/site.js' | relative_url }}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
