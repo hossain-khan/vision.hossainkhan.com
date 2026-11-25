@@ -66,6 +66,8 @@ exclude:
   - package-lock.json
   - playwright.config.mjs
   - node_modules
+  - vendor
+  - .bundle
   - tests
   - test-results
   - playwright-report
