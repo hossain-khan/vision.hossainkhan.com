@@ -27,7 +27,15 @@ featured_image: /images/about-hk/DSC_20180607_04859-hk-on-the-balcony-1200x800.j
 			<a class="blog-post__link" href="{{ post.url | relative_url }}">
 
 				<div class="blog-post__image">
+					{% assign variant = site.data.image_variants[post.featured_image] %}
+					{% if variant %}
+					<picture>
+						<source type="image/webp" srcset="{{ variant.webp_800 | relative_url }} 800w, {{ variant.webp_1600 | relative_url }} 1600w" sizes="(max-width: 767px) 96vw, (max-width: 1419px) 48vw, 31vw">
+						<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}"{% if variant.width and variant.height %} width="{{ variant.width }}" height="{{ variant.height }}"{% endif %}{% if forloop.index <= 2 %} fetchpriority="high"{% else %} loading="lazy" decoding="async"{% endif %}>
+					</picture>
+					{% else %}
 					<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}"{% if forloop.index <= 2 %} fetchpriority="high"{% else %} loading="lazy" decoding="async"{% endif %}>
+					{% endif %}
 				</div>
 
 				<div class="blog-post__content">

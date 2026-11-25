@@ -203,6 +203,18 @@ test.describe('Performance & image priority (#191)', () => {
     await expect(page.locator('.footer__logo__img')).toHaveAttribute('loading', 'lazy');
   });
 
+  test('Serves responsive WebP <picture> sources with explicit width/height (#196)', async ({ page }) => {
+    await page.goto('/', { waitUntil: 'load' });
+    const firstSource = page.locator('.portfolio-item__image picture source[type="image/webp"]').first();
+    await expect(firstSource).toHaveAttribute('srcset', /800w.*1600w/);
+
+    const firstImg = page.locator('.portfolio-item__image img').first();
+    await expect(firstImg).toHaveAttribute('width', /\d+/);
+    await expect(firstImg).toHaveAttribute('height', /\d+/);
+    const currentSrc = await firstImg.evaluate((img) => img.currentSrc);
+    expect(currentSrc).toMatch(/\.webp$/);
+  });
+
   test('Blog index applies fetchpriority to first 2 posts and lazy loading to the rest', async ({ page }) => {
     await page.goto('/blog/', { waitUntil: 'domcontentloaded' });
     const imgs = page.locator('.blog-post__image img');

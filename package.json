@@ -4,6 +4,7 @@
   "private": true,
   "description": "Regression test suite for vision.hossainkhan.com",
   "scripts": {
+    "optimize:images": "node script/optimize-images.mjs",
     "check:site": "node script/check-site.mjs",
     "test:e2e": "playwright test",
     "test": "npm run check:site && npm run test:e2e"
