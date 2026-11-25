@@ -75,12 +75,42 @@ test.describe('Responsive layout & navigation', () => {
     );
     expect(overflow).toBeLessThanOrEqual(1);
 
+    // Mobile cards should be single-column with visible titles (#193)
+    const firstCard = page.locator('.portfolio-item').first();
+    const cardBox = await firstCard.boundingBox();
+    expect(cardBox.width).toBeGreaterThan(340);
+    await expect(firstCard.locator('.portfolio-item__title')).toBeVisible();
+
     const toggle = page.locator('.js-menu-toggle');
     await expect(toggle).toBeVisible();
     await toggle.click();
     await expect(page.locator('body')).toHaveClass(/menu--open/);
     await toggle.click();
     await expect(page.locator('body')).not.toHaveClass(/menu--open/);
+  });
+
+  test('Responsive grid adapts across tablet (2 cols) and wide desktop (3 cols) with gradient scrim (#193)', async ({ page }) => {
+    await page.setViewportSize({ width: 1024, height: 800 });
+    await page.goto('/', { waitUntil: 'load' });
+    const wrap1024 = await page.locator('.portfolio-wrap').boundingBox();
+    const card1024 = await page.locator('.portfolio-item').first().boundingBox();
+    expect(card1024.width / wrap1024.width).toBeCloseTo(0.5, 1);
+
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/', { waitUntil: 'load' });
+    const wrap1440 = await page.locator('.portfolio-wrap').boundingBox();
+    const card1440 = await page.locator('.portfolio-item').first().boundingBox();
+    expect(card1440.width / wrap1440.width).toBeCloseTo(1 / 3, 1);
+
+    const bg = await page.locator('.portfolio-item__content').first().evaluate(
+      (el) => getComputedStyle(el).backgroundImage
+    );
+    expect(bg).toContain('linear-gradient');
+
+    // Blog index keeps titles & dates visible without hovering
+    await page.goto('/blog/', { waitUntil: 'load' });
+    await expect(page.locator('.blog-post__title').first()).toBeVisible();
+    await expect(page.locator('.blog-post__subtitle').first()).toBeVisible();
   });
 });
 

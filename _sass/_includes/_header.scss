@@ -20,7 +20,14 @@
 	}
 
 	@include mq(laptop) {
-		margin-top: 80px;
+		margin-top: 72px;
+	}
+
+	.wrap {
+		@include mq(tabletp) {
+			max-width: 1400px;
+			width: 92%;
+		}
 	}
 }
 

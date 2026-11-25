@@ -16,27 +16,57 @@
 	position: relative;
 	padding: $grid-spacing/2;
 	float: left;
-	width: 50%;
+	width: 100%;
+
+	@include mq(tabletp) {
+		width: 50%;
+	}
+
+	@include mq(desktop) {
+		width: 33.3333%;
+	}
 }
 
 .portfolio-item__link {
 	position: relative;
 	display: block;
+	overflow: hidden;
+	border-radius: 6px;
 
-	@include mq(tabletl) {
+	&:hover,
+	&:focus-visible {
+		.portfolio-item__content {
+			opacity: 1;
+			visibility: visible;
+		}
 
-		&:hover {
+		.portfolio-item__info {
+			transform: translateY(0);
+		}
+	}
 
-			.portfolio-item__content {
-				opacity: 1;
-				visibility: visible;
-			}
+	@media (prefers-reduced-motion: no-preference) {
+		&:hover .portfolio-item__image img,
+		&:focus-visible .portfolio-item__image img {
+			transform: scale(1.03);
 		}
 	}
 }
 
 .portfolio-item__image {
 	width: 100%;
+	overflow: hidden;
+
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+
+		@media (prefers-reduced-motion: reduce) {
+			transition: none;
+		}
+	}
 }
 
 .portfolio-item__content {
@@ -46,46 +76,70 @@
 	bottom: 0;
 	left: 0;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: rgba($overlay-background-color, $overlay-opacity);
+	align-items: flex-end;
+	justify-content: flex-start;
+	padding: 16px 18px;
+	background: linear-gradient(
+		to top,
+		rgba(10, 12, 16, 0.84) 0%,
+		rgba(10, 12, 16, 0.36) 42%,
+		rgba(10, 12, 16, 0) 75%
+	);
 
-	opacity: 0;
-	visibility: hidden;
-	@include transition(all 0.2s ease-in-out);
+	// Always visible on mobile/touch viewports so titles and EXIF are readable
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.25s ease-in-out, visibility 0.25s ease-in-out;
+
+	@media (hover: hover) and (min-width: 1024px) {
+		opacity: 0;
+		visibility: hidden;
+		padding: 22px 24px;
+	}
 }
 
 .portfolio-item__info {
-	text-align: center;
+	text-align: left;
+	width: 100%;
+	transition: transform 0.25s ease-out;
+
+	@media (hover: hover) and (min-width: 1024px) {
+		transform: translateY(6px);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		transition: none;
+		transform: none;
+	}
 }
 
 .portfolio-item__title {
-	color: $overlay-text-color;
-	font-size: $grid-item-title-small;
+	color: #ffffff;
+	font-size: 18px;
 	font-weight: $grid-item-title-weight;
 	letter-spacing: $grid-item-title-spacing;
+	line-height: 1.25;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
 
 	@include mq(tabletp) {
-		font-size: $grid-item-title-medium;
+		font-size: 22px;
 	}
 
 	@include mq(laptop) {
-		font-size: $grid-item-title-large;
+		font-size: 24px;
 	}
 }
 
 .portfolio-item__subtitle {
-	margin-top: 5px;
-	color: rgba($overlay-text-color, 0.7);
-	font-size: $grid-item-subtitle-small;
+	margin-top: 4px;
+	color: rgba(255, 255, 255, 0.84);
+	font-size: 13px;
 	font-weight: $grid-item-subtitle-weight;
 	letter-spacing: $grid-item-subtitle-spacing;
+	line-height: 1.4;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 
 	@include mq(tabletp) {
-		font-size: $grid-item-subtitle-medium;
-	}
-
-	@include mq(laptop) {
-		font-size: $grid-item-subtitle-large;
+		font-size: 14px;
 	}
 }
