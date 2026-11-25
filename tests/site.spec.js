@@ -85,6 +85,24 @@ test.describe('Responsive layout & navigation', () => {
 });
 
 test.describe('Color schemes & gallery interaction', () => {
+  test('Declares color-scheme: light dark and applies obsidian dark palette (#192)', async ({ page }) => {
+    await page.emulateMedia({ colorScheme: 'dark' });
+    await page.goto('/', { waitUntil: 'load' });
+
+    await expect(page.locator('meta[name="color-scheme"]')).toHaveAttribute('content', 'light dark');
+
+    const darkStyles = await page.evaluate(() => ({
+      colorScheme: getComputedStyle(document.documentElement).colorScheme,
+      bodyBg: getComputedStyle(document.body).backgroundColor,
+    }));
+    expect(darkStyles.colorScheme).toContain('light dark');
+    expect(darkStyles.bodyBg).toBe('rgb(14, 15, 17)');
+
+    await page.emulateMedia({ colorScheme: 'light' });
+    const lightBg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+    expect(lightBg).toBe('rgb(255, 255, 255)');
+  });
+
   for (const scheme of ['light', 'dark']) {
     test(`Homepage renders cleanly in ${scheme} mode`, async ({ page }) => {
       const { pageErrors } = collectRuntimeErrors(page);
