@@ -1,98 +1,210 @@
-// - - - - - - - - - - Dark Mode
+// - - - - - - - - - - Theme & Dark Mode Tokens
 
-/**
- * Styles for dark mode ^_^
- */
+:root {
+	color-scheme: light dark;
+
+	// Raw light & obsidian dark palette tokens
+	--bg-light: #ffffff;
+	--bg-dark: #0e0f11;
+
+	--surface-light: #f4f5f6;
+	--surface-dark: #16181c;
+
+	--text-light: #6c7a89;
+	--text-dark: #d8dde4;
+
+	--heading-light: #2a2f36;
+	--heading-dark: #f4f5f7;
+
+	--link-light: #2a2f36;
+	--link-dark: #a8b9cf;
+
+	--accent-light: #f2784b;
+	--accent-dark: #f2784b;
+
+	--border-light: #dddddd;
+	--border-dark: #2a2e37;
+
+	--blockquote-text-light: #5c6773;
+	--blockquote-text-dark: #b6c4d4;
+
+	--blockquote-border-light: #2a2f36;
+	--blockquote-border-dark: #c97a5b;
+
+	--menu-icon-light: #2a2f36;
+	--menu-icon-dark: #f0dfd0;
+
+	--menu-mobile-bg-light: rgba(242, 120, 75, 0.95);
+	--menu-mobile-bg-dark: rgba(20, 22, 27, 0.97);
+
+	--overlay-bg-light: rgba(242, 120, 75, 0.8);
+	--overlay-bg-dark: rgba(242, 120, 75, 0.65);
+
+	--social-bg-light: #2a2f36;
+	--social-bg-dark: #2a2f38;
+
+	--button-light-border-light: #2a2f36;
+	--button-light-border-dark: #5c6678;
+
+	--button-light-text-light: #2a2f36;
+	--button-light-text-dark: #c9d2df;
+
+	--fluidbox-overlay-light: rgba(255, 255, 255, 0.9);
+	--fluidbox-overlay-dark: rgba(14, 15, 17, 0.94);
+
+	// Semantic tokens (light defaults + prefers-color-scheme fallback for older browsers)
+	--color-bg: var(--bg-light);
+	--color-surface: var(--surface-light);
+	--color-text: var(--text-light);
+	--color-heading: var(--heading-light);
+	--color-link: var(--link-light);
+	--color-accent: var(--accent-light);
+	--color-border: var(--border-light);
+	--color-blockquote-text: var(--blockquote-text-light);
+	--color-blockquote-border: var(--blockquote-border-light);
+	--color-menu-icon: var(--menu-icon-light);
+	--color-menu-mobile-bg: var(--menu-mobile-bg-light);
+	--color-overlay-bg: var(--overlay-bg-light);
+	--color-social-bg: var(--social-bg-light);
+	--color-button-light-border: var(--button-light-border-light);
+	--color-button-light-text: var(--button-light-text-light);
+	--color-fluidbox-overlay: var(--fluidbox-overlay-light);
+
+	accent-color: var(--color-accent);
+}
+
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-        color: #ddd;
-    }
+	:root {
+		--color-bg: var(--bg-dark);
+		--color-surface: var(--surface-dark);
+		--color-text: var(--text-dark);
+		--color-heading: var(--heading-dark);
+		--color-link: var(--link-dark);
+		--color-accent: var(--accent-dark);
+		--color-border: var(--border-dark);
+		--color-blockquote-text: var(--blockquote-text-dark);
+		--color-blockquote-border: var(--blockquote-border-dark);
+		--color-menu-icon: var(--menu-icon-dark);
+		--color-menu-mobile-bg: var(--menu-mobile-bg-dark);
+		--color-overlay-bg: var(--overlay-bg-dark);
+		--color-social-bg: var(--social-bg-dark);
+		--color-button-light-border: var(--button-light-border-dark);
+		--color-button-light-text: var(--button-light-text-dark);
+		--color-fluidbox-overlay: var(--fluidbox-overlay-dark);
+	}
+}
 
-    .header__title {
-        color: rgb(199, 199, 199);
-    }
+@supports (color: light-dark(white, black)) {
+	:root {
+		--color-bg: light-dark(var(--bg-light), var(--bg-dark));
+		--color-surface: light-dark(var(--surface-light), var(--surface-dark));
+		--color-text: light-dark(var(--text-light), var(--text-dark));
+		--color-heading: light-dark(var(--heading-light), var(--heading-dark));
+		--color-link: light-dark(var(--link-light), var(--link-dark));
+		--color-accent: light-dark(var(--accent-light), var(--accent-dark));
+		--color-border: light-dark(var(--border-light), var(--border-dark));
+		--color-blockquote-text: light-dark(var(--blockquote-text-light), var(--blockquote-text-dark));
+		--color-blockquote-border: light-dark(var(--blockquote-border-light), var(--blockquote-border-dark));
+		--color-menu-icon: light-dark(var(--menu-icon-light), var(--menu-icon-dark));
+		--color-menu-mobile-bg: light-dark(var(--menu-mobile-bg-light), var(--menu-mobile-bg-dark));
+		--color-overlay-bg: light-dark(var(--overlay-bg-light), var(--overlay-bg-dark));
+		--color-social-bg: light-dark(var(--social-bg-light), var(--social-bg-dark));
+		--color-button-light-border: light-dark(var(--button-light-border-light), var(--button-light-border-dark));
+		--color-button-light-text: light-dark(var(--button-light-text-light), var(--button-light-text-dark));
+		--color-fluidbox-overlay: light-dark(var(--fluidbox-overlay-light), var(--fluidbox-overlay-dark));
+	}
+}
 
+// - - - - - - - - - - Token-Driven Component Styles
 
-    .menu__list__item__link {
-        color: #ddd;
-    }
+body {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+}
 
-    .menu__list__item__link.active-link {
-        color: #ddd;
-        border-color: rgb(230, 137, 103);
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--color-heading);
+}
 
-    .menu__list__item__link:hover {
-        color: #F2784B;
-    }
+a {
+	color: var(--color-link);
 
-    .menu__list__item__link:hover {
-        color: #F2784B;
-    }
+	&:hover {
+		color: var(--color-accent);
+	}
+}
 
-    a:hover {
-        color: #F2784B;
-    }
+.header__title {
+	color: var(--color-heading);
+}
 
-    .menu__toggle__icon span,
-    .menu__toggle__icon span:before,
-    .menu__toggle__icon span:after {
-        background: rgb(243, 219, 200);
-    }
+.menu__list__item__link {
+	color: var(--color-heading);
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: #eee;
-    }
+	&.active-link {
+		color: var(--color-heading);
+		border-color: var(--color-accent);
+	}
 
-    .portfolio-item__content {
-        background: rgba(242, 120, 75, 0.6);
-    }
+	&:hover {
+		color: var(--color-accent);
+	}
+}
 
-    .socials__item__link {
-        background: rgb(112, 119, 119);
-    }
+.menu__toggle__icon span,
+.menu__toggle__icon span:before,
+.menu__toggle__icon span:after {
+	background: var(--color-menu-icon);
+}
 
-    .button--light {
-        border-color: rgb(99, 109, 122);
-        color: rgb(154, 168, 189);
-    }
-
-    .highlight {
-        background: #222;
-    }
-
-    .single p a {
-        font-weight: 600;
-        border-bottom: 2px solid #F2784B;
-    }
-
-    a {
-        text-decoration: none;
-        color: rgb(147, 161, 180);
-    }
-
-    blockquote {
-        color: rgba(186, 207, 224, 0.7);
-        border-left: 2px solid rgb(173, 127, 110);
-    }
-
-    .menu__wrap {
-        background: rgba(114, 54, 33, 0.95);
-    }
-
-    .fluidbox__overlay {
-        background-color: rgba(0, 0, 0, 0.9);
-    }
+.menu__wrap {
+	background: var(--color-menu-mobile-bg);
 }
 
 @media only screen and (min-width: 1024px) {
-    .menu__wrap {
-        background: transparent;
-    }
+	.menu__wrap {
+		background: transparent;
+	}
+}
+
+.portfolio-item__content,
+.blog-post__content {
+	background: var(--color-overlay-bg);
+}
+
+.socials__item__link {
+	background: var(--color-social-bg);
+}
+
+.button--light {
+	border-color: var(--color-button-light-border);
+	color: var(--color-button-light-text);
+}
+
+.highlight,
+pre {
+	background: var(--color-surface);
+}
+
+hr {
+	background: var(--color-border);
+}
+
+.single p a {
+	font-weight: 600;
+	border-bottom: 2px solid var(--color-accent);
+}
+
+blockquote {
+	color: var(--color-blockquote-text);
+	border-left: 2px solid var(--color-blockquote-border);
+}
+
+.fluidbox__overlay {
+	background-color: var(--color-fluidbox-overlay);
 }
