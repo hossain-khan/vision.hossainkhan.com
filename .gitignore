@@ -11,3 +11,9 @@ _site/
 justify-cli
 .DS_Store
 *.cache
+
+### Node & Playwright test artifacts
+node_modules/
+test-results/
+playwright-report/
+blob-report/
