@@ -67,7 +67,7 @@
 </head>
 
 
-<body class="loading{% if site.data.settings.advanced_settings.ajax_loading == true %} ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
+<body class="{% if site.data.settings.advanced_settings.ajax_loading == true %}ajax-loading{% endif %}" data-site-url="{{ site.url }}" data-page-url="{{ page.url | replace: 'index.html', '' }}">
 
 
 	{% include header.html %}
@@ -95,7 +95,7 @@
 	<!-- Javascript Assets -->
 	<script src="/js/jquery-3.2.1.min.js"></script>
 	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
-	<script src="{{ '/js/duet-min.js' | relative_url }}"></script>
+	<script src="{{ '/js/duet.js' | relative_url }}"></script>
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->

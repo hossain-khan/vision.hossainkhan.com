@@ -27,7 +27,7 @@ featured_image: /images/about-hk/DSC_20180607_04859-hk-on-the-balcony-1200x800.j
 			<a class="blog-post__link" href="{{ post.url | relative_url }}">
 
 				<div class="blog-post__image">
-					<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+					<img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}"{% if forloop.index <= 2 %} fetchpriority="high"{% else %} loading="lazy" decoding="async"{% endif %}>
 				</div>
 
 				<div class="blog-post__content">
