@@ -112,6 +112,26 @@ test.describe('Responsive layout & navigation', () => {
     await expect(page.locator('.blog-post__title').first()).toBeVisible();
     await expect(page.locator('.blog-post__subtitle').first()).toBeVisible();
   });
+
+  test('Uses native navigation with Cross-Document View Transitions instead of ajax_loading (#194)', async ({ page }) => {
+    await page.goto('/', { waitUntil: 'load' });
+    await expect(page.locator('body')).not.toHaveClass(/ajax-loading/);
+    await expect(page.locator('.page-loader')).toHaveCount(0);
+
+    // Clicking nav link performs real browser navigation and highlights active link
+    await Promise.all([
+      page.waitForURL('**/blog/'),
+      page.locator('.menu__list__item__link', { hasText: 'Blog' }).click(),
+    ]);
+    await expect(page.locator('.menu__list__item__link.active-link')).toHaveText('Blog');
+
+    // Compiled stylesheet opts into Cross-Document View Transitions with reduced-motion guard
+    const cssRes = await page.request.get('/css/style.css');
+    const css = await cssRes.text();
+    expect(css).toContain('prefers-reduced-motion: no-preference');
+    expect(css).toContain('@view-transition');
+    expect(css).toMatch(/navigation\s*:\s*auto/);
+  });
 });
 
 test.describe('Color schemes & gallery interaction', () => {
