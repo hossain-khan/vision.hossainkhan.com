@@ -9,21 +9,34 @@
 }
 
 .blog-wrap {
-	
+	column-count: 1;
+	column-gap: $grid-spacing;
+
+	@include mq(tabletp) {
+		column-count: 2;
+	}
+
+	@include mq(desktop) {
+		column-count: 3;
+	}
 }
 
 .blog-post {
 	position: relative;
-	padding: $grid-spacing/2;
-	float: left;
+	display: inline-block;
 	width: 100%;
+	margin-bottom: $grid-spacing;
+	break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+}
 
-	@include mq(tabletp) {
-		width: 50%;
-	}
-
-	@include mq(desktop) {
-		width: 33.3333%;
+@media (prefers-reduced-motion: no-preference) {
+	@supports ((animation-timeline: view()) and (animation-range: entry)) {
+		.blog-post {
+			animation: card-reveal linear both;
+			animation-timeline: view();
+			animation-range: entry 0% entry 28%;
+		}
 	}
 }
 

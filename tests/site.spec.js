@@ -17,12 +17,8 @@ function collectRuntimeErrors(page) {
   page.on('console', (msg) => {
     if (msg.type() === 'error') {
       const text = msg.text();
-      // Ignore third-party network errors (e.g. GA/Fonts/FontAwesome if offline)
-      // and legacy jQuery 3.2.1 / history.js deprecated `unload` listener warning (tracked in #194/#197).
-      if (
-        !/googletagmanager|google-analytics|fonts\.googleapis|fontawesome/i.test(text) &&
-        !/Permissions policy violation: unload/i.test(text)
-      ) {
+      // Ignore third-party network errors (e.g. GA/Fonts if offline)
+      if (!/googletagmanager|google-analytics|fonts\.googleapis/i.test(text)) {
         consoleErrors.push(text);
       }
     }
@@ -44,7 +40,7 @@ test.describe('Core routes & runtime health', () => {
 
       // Verify above-the-fold / eager images decode cleanly
       const brokenImages = await page.evaluate(() => {
-        return Array.from(document.querySelectorAll('img'))
+        return Array.from(document.querySelectorAll('img[src]'))
           .filter((img) => img.complete && img.naturalWidth === 0)
           .map((img) => img.getAttribute('src'));
       });
@@ -163,12 +159,52 @@ test.describe('Color schemes & gallery interaction', () => {
     });
   }
 
-  test('Project gallery initializes and exposes zoomable items', async ({ page }) => {
+  test('Project gallery initializes and opens native <dialog> lightbox with keyboard nav (#197)', async ({ page }) => {
     await page.goto('/project/japan-cherry-blossom', { waitUntil: 'load' });
+    // Zero jQuery loaded
+    expect(await page.evaluate(() => typeof window.jQuery)).toBe('undefined');
+
     const gallery = page.locator('.gallery').first();
     await expect(gallery).toHaveClass(/gallery--on/);
-    const count = await gallery.locator('img').count();
-    expect(count).toBeGreaterThan(0);
+    const triggers = gallery.locator('button.lightbox-trigger');
+    const count = await triggers.count();
+    expect(count).toBeGreaterThan(1);
+
+    // Click first gallery photo -> opens native modal <dialog closedby="any">
+    await triggers.first().click();
+    const dialog = page.locator('dialog#photo-lightbox');
+    await expect(dialog).toHaveAttribute('closedby', 'any');
+    await expect(dialog).toHaveJSProperty('open', true);
+    await expect(dialog.locator('.lightbox__counter')).toHaveText(`1 / ${count}`);
+
+    // ArrowRight advances slide, Escape closes modal
+    await page.keyboard.press('ArrowRight');
+    await expect(dialog.locator('.lightbox__counter')).toHaveText(`2 / ${count}`);
+    await page.keyboard.press('Escape');
+    await expect(dialog).toHaveJSProperty('open', false);
+  });
+
+  test('Project page renders EXIF pills, Prev/Next nav, and hero photo lightbox (#197)', async ({ page }) => {
+    await page.goto('/project/crimson-carpet', { waitUntil: 'load' });
+    expect(await page.locator('.exif-pill').count()).toBeGreaterThanOrEqual(3);
+    await expect(page.locator('nav.project-nav a.project-nav__link')).toHaveCount(1);
+
+    // Clicking hero photo opens native <dialog> lightbox
+    await page.locator('.single .image-wrap button.lightbox-trigger').first().click();
+    const dialog = page.locator('dialog#photo-lightbox');
+    await expect(dialog).toHaveJSProperty('open', true);
+    await dialog.locator('.lightbox__close').click();
+    await expect(dialog).toHaveJSProperty('open', false);
+  });
+
+  test('Single-column gallery renders native CSS scroll-snap carousel (#197)', async ({ page }) => {
+    await page.goto('/blog/beacon-of-hope', { waitUntil: 'load' });
+    const carousel = page.locator('.gallery--carousel').first();
+    await expect(carousel).toHaveAttribute('aria-roledescription', 'carousel');
+    const snap = await carousel.locator('.carousel-track').evaluate(
+      (el) => getComputedStyle(el).scrollSnapType
+    );
+    expect(snap).toContain('mandatory');
   });
 });
 
