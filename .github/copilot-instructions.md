@@ -1,9 +1,9 @@
 # Copilot Instructions for vision.hossainkhan.com
 
 ## Overview
-Jekyll 3.10.0 photography portfolio (~1.2GB, 446 files). Uses licensed Duet theme. Site: https://vision.hossainkhan.com/
+Jekyll 3.10.0 photography portfolio using the licensed Duet theme. Site: https://vision.hossainkhan.com/
 
-**Tech Stack:** Ruby 3.2+, Jekyll, Liquid, SCSS, JavaScript (jQuery 3.2.1), JSON with schema validation
+**Tech Stack:** Ruby 3.2+, Jekyll 3.10.0, Liquid, SCSS (modern CSS `color-scheme`, `light-dark()`, View Transitions), JavaScript (jQuery 3.2.1), Node.js 22+ (Playwright/axe-core tests & `cwebp` WebP script), JSON with schema validation
 
 **Critical:** Never commit `_site/` directory (build artifact already in .gitignore)
 
@@ -62,9 +62,9 @@ ajv validate -s photos-schema.json -d photos.json
 - `_posts/` - Blog posts (format: YYYY-MM-DD-title.md)
 - `_projects/` - Project pages (format: YYYY-MM-DD-title.md)
 - `_sass/` - SCSS partials (_basic.scss, _darkmode.scss, _mixins.scss, _plugins.scss, _reset.scss)
-- `css/` - Main stylesheets (style.scss - 7252 lines, style-dark.scss)
-- `js/` - Scripts (duet.js, jquery-3.2.1.min.js, plugins/)
-- `images/` - Static images (~1GB, 31 subdirectories)
+- `css/` - Main stylesheets (`style.scss`, `style-dark.scss`)
+- `js/` - Scripts (`duet.js`, `jquery-3.2.1.min.js`, `plugins/`)
+- `images/` - Static images (`front-page/`, `YYYY-MM/`, and generated `webp/` derivatives)
 - `_site/` - **BUILD ARTIFACT - DO NOT COMMIT**
 
 **Jekyll Collections:**
@@ -121,13 +121,14 @@ If you run `gh` commands within the agent sandbox environment, you might encount
 ## Development Workflow
 
 1. Set environment: `export GEM_HOME="$HOME/.gem" && export PATH="$HOME/.gem/bin:$PATH"`
-2. Install dependencies: `bundle install`
-3. Make changes to markdown/HTML/SCSS files
-4. Test locally: `bundle exec jekyll serve` → verify at http://127.0.0.1:4000/
-5. Build: `bundle exec jekyll build`
-6. If photos.json changed: `ajv validate -s photos-schema.json -d photos.json`
-7. Verify no build artifacts: `git status`
-8. Commit and push
+2. Install dependencies: `bundle install` (and `npm ci` for Playwright tests)
+3. Make changes to markdown/HTML/SCSS/JS files
+4. If new featured images were added: `npm run optimize:images`
+5. Test locally: `bundle exec jekyll serve` → verify at http://127.0.0.1:4000/
+6. Build & run regression tests: `bundle exec jekyll build && npm test`
+7. If `photos.json` changed: `ajv validate -s photos-schema.json -d photos.json`
+8. Verify no build artifacts (`_site/`, `node_modules/`): `git status`
+9. Commit and push
 
 **Naming conventions:**
 - Blog posts: `_posts/YYYY-MM-DD-title.md`
