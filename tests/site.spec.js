@@ -217,6 +217,35 @@ test.describe('Performance & image priority (#191)', () => {
 });
 
 test.describe('Accessibility baseline', () => {
+  test('Ships Google Fonts v2 display=swap, inline SVG icons, semantic nav button, <main>, and canonical (#195)', async ({ page }) => {
+    await page.goto('/', { waitUntil: 'load' });
+
+    // No external Font Awesome JS bundles
+    await expect(page.locator('script[src*="fontawesome"]')).toHaveCount(0);
+
+    // Inline SVGs render inside social links with accessible labels
+    const socialSvgs = page.locator('.socials__item__link svg');
+    expect(await socialSvgs.count()).toBeGreaterThanOrEqual(5);
+
+    // Google Fonts v2 with display=swap
+    await expect(page.locator('link[href*="fonts.googleapis.com/css2"][href*="display=swap"]')).toHaveCount(1);
+
+    // Semantic landmarks, skip link, and canonical SEO link
+    await expect(page.locator('main#main-content')).toHaveCount(1);
+    await expect(page.locator('a.skip-link[href="#main-content"]')).toHaveCount(1);
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /https:\/\/vision\.hossainkhan\.com\//);
+    await expect(page.locator('meta[property="og:url"]')).toHaveCount(1);
+
+    // Mobile menu toggle is a semantic <button> with aria-expanded
+    await page.setViewportSize({ width: 390, height: 844 });
+    const toggle = page.locator('button.js-menu-toggle');
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+    await toggle.click();
+    await expect(toggle).toHaveAttribute('aria-expanded', 'true');
+    await page.keyboard.press('Escape');
+    await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+  });
+
   test('Homepage has no critical accessibility violations', async ({ page }) => {
     await page.goto('/', { waitUntil: 'load' });
     const results = await new AxeBuilder({ page }).analyze();

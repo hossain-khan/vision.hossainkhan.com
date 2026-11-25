@@ -1,16 +1,26 @@
 <ul class="socials">
 	{% for url in site.data.settings.social_settings %}
 	{% if url[1] != '' and url[0] contains '_url' %}
+	{% assign icon_key = url[0] | remove: '_url' %}
+	{% assign icon_label = icon_key | replace: '-', ' ' | capitalize %}
 	<li class="socials__item">
-		{% assign icon_style = 'fab' %}
-		{% assign icon_key = url[0] | remove: '_url' %}
-		{% assign style_key = icon_key | append: '_icon_style' %}
-		<!-- Check if custom style is defined -->
-		{% if site.data.settings.social_settings[style_key] %}
-			{% assign icon_style = site.data.settings.social_settings[style_key] %}
-		{% endif %}
-		<a href="{{ url[1] }}" target="_blank" rel="noopener noreferrer" class="socials__item__link" title="{{ url[0] | remove: '_url' | replace: '-', ' ' | capitalize }}">
-			<i class="{{ icon_style }} fa-{{ url[0] | replace: 'facebook', 'facebook-f' | remove: '_url' }}" aria-hidden="true"></i>
+		<a href="{{ url[1] }}" target="_blank" rel="noopener noreferrer" class="socials__item__link" title="{{ icon_label }}" aria-label="{{ icon_label }}">
+			{% case icon_key %}
+			{% when 'facebook' %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/></svg>
+			{% when 'instagram' %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+			{% when 'google-play' %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.4c-.3.3-.6.8-.6 1.5v16.2c0 .7.3 1.2.6 1.5l.1.1 9.1-9.1v-.2L3.7 2.3l-.1.1zm12.2 12.4-3-3v-.2l3-3 .1.1 3.6 2c1 .6 1 1.5 0 2.1l-3.6 2h-.1zm-3.1-2.9L4.8 19.8c.4.4 1.1.4 1.9 0l8.7-4.9-2.7-3zm0-.2 2.7-2.7L6.7 4.1c-.8-.4-1.5-.4-1.9 0l7.9 7.6z"/></svg>
+			{% when 'couch' %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 11v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H6v-2a2 2 0 0 0-4 0z"/><path d="M4 18v2"/><path d="M20 18v2"/></svg>
+			{% when 'pen-nib' %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+			{% when 'connectdevelop' %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+			{% else %}
+			<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+			{% endcase %}
 		</a>
 	</li>
 	{% endif %}
